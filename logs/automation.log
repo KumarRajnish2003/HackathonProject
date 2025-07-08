@@ -1,0 +1,112 @@
+2025-07-08 10:50:39 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-08 10:50:43 INFO  TS_UsedCar:22 -
+			starting to test popular car models
+2025-07-08 10:50:44 INFO  TS_UsedCar:31 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-08 10:50:44 INFO  TS_UsedCar:42 -
+			Navigating back to home page
+2025-07-08 10:51:56 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 10:51:57 INFO  TS_Login:32 -
+			started the login test
+2025-07-08 10:51:59 INFO  TS_Login:38 -
+			taking the screenshot of invalid credential
+2025-07-08 10:51:59 INFO  TS_Login:45 -
+			switching back to main window
+2025-07-08 10:55:16 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-08 10:55:21 INFO  TS_UsedCar:23 -
+			starting to test popular car models
+2025-07-08 10:55:22 INFO  TS_UsedCar:29 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-08 10:55:22 INFO  TS_UsedCar:40 -
+			Navigating back to home page
+2025-07-08 11:03:41 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 11:03:43 INFO  TS_Login:32 -
+			started the login test
+2025-07-08 11:03:46 INFO  TS_Login:38 -
+			taking the screenshot of invalid credential
+2025-07-08 11:03:46 INFO  TS_Login:45 -
+			switching back to main window
+2025-07-08 11:06:15 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 11:06:16 INFO  TS_Login:32 -
+			started the login test
+2025-07-08 11:06:19 INFO  TS_Login:39 -
+			taking the screenshot of invalid credential
+2025-07-08 11:06:23 INFO  TS_Login:48 -
+			switching back to main window
+2025-07-08 11:08:27 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 11:08:28 INFO  TS_Login:32 -
+			started the login test
+2025-07-08 11:08:30 INFO  TS_Login:39 -
+			taking the screenshot of invalid credential
+2025-07-08 11:08:33 INFO  TS_Login:48 -
+			switching back to main window
+2025-07-08 11:09:08 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 11:09:09 INFO  TS_Login:32 -
+			started the login test
+2025-07-08 11:09:11 INFO  TS_Login:39 -
+			taking the screenshot of invalid credential
+2025-07-08 11:09:14 INFO  TS_Login:48 -
+			switching back to main window
+2025-07-08 11:11:49 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-08 11:11:53 INFO  TS_UsedCar:23 -
+			starting to test popular car models
+2025-07-08 11:11:54 INFO  TS_UsedCar:29 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-08 11:11:54 INFO  TS_UsedCar:41 -
+			Navigating back to home page
+2025-07-08 11:13:37 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-08 11:13:40 INFO  TS_UsedCar:23 -
+			starting to test popular car models
+2025-07-08 11:13:42 INFO  TS_UsedCar:29 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-08 11:13:46 INFO  TS_UsedCar:42 -
+			Navigating back to home page
+2025-07-08 12:28:19 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 12:28:20 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-08 12:28:40 INFO  TS_Login:59 -
+			switching back to main window
+2025-07-08 12:33:57 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 12:33:57 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-08 12:34:20 INFO  TS_Login:61 -
+			switching back to main window
+2025-07-08 12:39:39 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 12:39:40 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-08 12:39:55 INFO  TS_Login:62 -
+			switching back to main window
+2025-07-08 12:45:18 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-08 12:45:19 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-08 12:45:39 INFO  TS_Login:61 -
+			switching back to main window
+2025-07-08 12:55:15 INFO  TS_Login:24 -
+			opening the login popup window
+2025-07-08 12:55:16 INFO  TS_Login:47 -
+			started the login test with valid google account and invalid password
+2025-07-08 12:55:38 INFO  TS_Login:64 -
+			switching back to main window
+2025-07-08 13:00:31 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-08 13:00:31 INFO  TS_Login:46 -
+			started the login test with valid google account and invalid password
+2025-07-08 13:00:54 INFO  TS_Login:56 -
+			password textfeild is blocked
+2025-07-08 13:00:58 INFO  TS_Login:61 -
+			taking the screenshot of invalid google account
+2025-07-08 13:00:58 INFO  TS_Login:68 -
+			switching back to main window

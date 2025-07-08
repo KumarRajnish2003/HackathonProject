@@ -2,6 +2,9 @@ package testBase;
 
 import java.util.Set;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +18,25 @@ import java.time.Duration;
 public class BaseClass {
 
 	public WebDriver driver;
+	public Logger logger;
+
+	@BeforeClass
+	public void setup() {
+
+		logger = LogManager.getLogger(this.getClass());
+
+		driver = new ChromeDriver();
+		driver.get("https://www.zigwheels.com/");
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+
+	}
+
+	@AfterClass
+	public void tearDown() {
+		driver.quit();
+	}
 
 	public static void SwitchWindow(WebDriver driver) {
 		String mainWindowHandle = driver.getWindowHandle();
@@ -34,22 +56,5 @@ public class BaseClass {
 		File target = new File(dest);
 		src.renameTo(target);
 	}
-	
-	
 
-	@BeforeClass
-	public void setup() {
-
-		driver = new ChromeDriver();
-		driver.get("https://www.zigwheels.com/");
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().window().maximize();
-
-	}
-
-	@AfterClass
-	public void tearDown() {
-		driver.quit();
-	}
 }

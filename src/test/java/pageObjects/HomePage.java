@@ -8,12 +8,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
 
+    public Actions action;
 	public HomePage(WebDriver driver) {
 		super(driver);
+		action = new Actions(driver);
 	}
 
 	JavascriptExecutor js = (JavascriptExecutor) driver;
-	Actions action = new Actions(driver);
 
 	@FindBy(id = "forum_login_title_lg")
 	WebElement LoginAndMore;
@@ -24,10 +25,10 @@ public class HomePage extends BasePage {
 	@FindBy(linkText = "Used Cars")
 	WebElement usedCar;
 
-	@FindBy(xpath = "//*[@id=\"bike-tabs\"]/li[3]")
+	@FindBy(xpath = "//*[@class='upcoming-bike-tab']")
 	WebElement upcomingBikes;
 
-	@FindBy(xpath = "//*[@id=\"zw-cmnSilder\"]/div[2]/a")
+	@FindBy(linkText = "Upcoming Bikes")
 	WebElement allUpcomingBikes;
 
 	public void ClickLoginAndMore() {
@@ -35,7 +36,6 @@ public class HomePage extends BasePage {
 	}
 	
 	public void hoverMore() {
-		Actions action=new Actions(driver);
 		action.moveToElement(More);
 	}
 
@@ -48,12 +48,12 @@ public class HomePage extends BasePage {
 	public void clickonUpcomingBike() {
 
 		js.executeScript("arguments[0].scrollIntoView(true);", upcomingBikes);
-		upcomingBikes.click();
+		js.executeScript("arguments[0].click()", upcomingBikes);
 	}
 
 	public void clickonAllUpcomingBike() {
 		js.executeScript("arguments[0].scrollIntoView(true);", allUpcomingBikes);
-		allUpcomingBikes.click();
+		js.executeScript("arguments[0].click()", allUpcomingBikes);
 	}
 
 }

@@ -1,112 +1,719 @@
-2025-07-08 10:50:39 INFO  TS_UsedCar:15 -
-			Navigating to used car page
-2025-07-08 10:50:43 INFO  TS_UsedCar:22 -
-			starting to test popular car models
-2025-07-08 10:50:44 INFO  TS_UsedCar:31 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-08 10:50:44 INFO  TS_UsedCar:42 -
-			Navigating back to home page
-2025-07-08 10:51:56 INFO  TS_Login:22 -
+2025-07-09 13:09:08 INFO  TS_Login:23 -
 			opening the login popup window
-2025-07-08 10:51:57 INFO  TS_Login:32 -
-			started the login test
-2025-07-08 10:51:59 INFO  TS_Login:38 -
-			taking the screenshot of invalid credential
-2025-07-08 10:51:59 INFO  TS_Login:45 -
-			switching back to main window
-2025-07-08 10:55:16 INFO  TS_UsedCar:15 -
-			Navigating to used car page
-2025-07-08 10:55:21 INFO  TS_UsedCar:23 -
-			starting to test popular car models
-2025-07-08 10:55:22 INFO  TS_UsedCar:29 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-08 10:55:22 INFO  TS_UsedCar:40 -
-			Navigating back to home page
-2025-07-08 11:03:41 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 11:03:43 INFO  TS_Login:32 -
-			started the login test
-2025-07-08 11:03:46 INFO  TS_Login:38 -
-			taking the screenshot of invalid credential
-2025-07-08 11:03:46 INFO  TS_Login:45 -
-			switching back to main window
-2025-07-08 11:06:15 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 11:06:16 INFO  TS_Login:32 -
-			started the login test
-2025-07-08 11:06:19 INFO  TS_Login:39 -
-			taking the screenshot of invalid credential
-2025-07-08 11:06:23 INFO  TS_Login:48 -
-			switching back to main window
-2025-07-08 11:08:27 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 11:08:28 INFO  TS_Login:32 -
-			started the login test
-2025-07-08 11:08:30 INFO  TS_Login:39 -
-			taking the screenshot of invalid credential
-2025-07-08 11:08:33 INFO  TS_Login:48 -
-			switching back to main window
-2025-07-08 11:09:08 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 11:09:09 INFO  TS_Login:32 -
-			started the login test
-2025-07-08 11:09:11 INFO  TS_Login:39 -
-			taking the screenshot of invalid credential
-2025-07-08 11:09:14 INFO  TS_Login:48 -
-			switching back to main window
-2025-07-08 11:11:49 INFO  TS_UsedCar:15 -
-			Navigating to used car page
-2025-07-08 11:11:53 INFO  TS_UsedCar:23 -
-			starting to test popular car models
-2025-07-08 11:11:54 INFO  TS_UsedCar:29 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-08 11:11:54 INFO  TS_UsedCar:41 -
-			Navigating back to home page
-2025-07-08 11:13:37 INFO  TS_UsedCar:15 -
-			Navigating to used car page
-2025-07-08 11:13:40 INFO  TS_UsedCar:23 -
-			starting to test popular car models
-2025-07-08 11:13:42 INFO  TS_UsedCar:29 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-08 11:13:46 INFO  TS_UsedCar:42 -
-			Navigating back to home page
-2025-07-08 12:28:19 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 12:28:20 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-08 12:28:40 INFO  TS_Login:59 -
-			switching back to main window
-2025-07-08 12:33:57 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 12:33:57 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-08 12:34:20 INFO  TS_Login:61 -
-			switching back to main window
-2025-07-08 12:39:39 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 12:39:40 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-08 12:39:55 INFO  TS_Login:62 -
-			switching back to main window
-2025-07-08 12:45:18 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-08 12:45:19 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-08 12:45:39 INFO  TS_Login:61 -
-			switching back to main window
-2025-07-08 12:55:15 INFO  TS_Login:24 -
-			opening the login popup window
-2025-07-08 12:55:16 INFO  TS_Login:47 -
-			started the login test with valid google account and invalid password
-2025-07-08 12:55:38 INFO  TS_Login:64 -
-			switching back to main window
-2025-07-08 13:00:31 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-08 13:00:31 INFO  TS_Login:46 -
-			started the login test with valid google account and invalid password
-2025-07-08 13:00:54 INFO  TS_Login:56 -
-			password textfeild is blocked
-2025-07-08 13:00:58 INFO  TS_Login:61 -
+2025-07-09 13:09:10 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 13:09:12 INFO  TS_Login:39 -
 			taking the screenshot of invalid google account
-2025-07-08 13:00:58 INFO  TS_Login:68 -
+2025-07-09 13:09:12 INFO  TS_Login:67 -
 			switching back to main window
+2025-07-09 13:09:12 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 13:09:13 INFO  TS_Login:46 -
+			started the login test with valid google account and invalid password
+2025-07-09 13:09:34 INFO  TS_Login:56 -
+			password textfeild is blocked
+2025-07-09 13:09:34 INFO  TS_Login:60 -
+			taking the screenshot of invalid google account
+2025-07-09 13:09:34 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 14:49:23 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:49:24 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 14:49:27 INFO  TS_Login:38 -
+			taking the screenshot of invalid google account
+2025-07-09 14:49:27 INFO  TS_Login:40 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709024927
+2025-07-09 14:49:27 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:49:28 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:49:28 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-09 14:49:49 INFO  TS_Login:55 -
+			password textfeild is blocked
+2025-07-09 14:49:49 INFO  TS_Login:59 -
+			taking the screenshot of invalid google account
+2025-07-09 14:49:49 INFO  TS_Login:61 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709024949
+2025-07-09 14:49:49 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:49:59 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-09 14:50:03 INFO  TS_UsedCar:23 -
+			starting to test popular car models
+2025-07-09 14:50:09 ERROR TS_UsedCar:35 -
+			Test failed : org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6fb5325c2529001edc566d01a1e0b72, sendKeysToElement [id, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60384/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6fb5325c2529001edc566d01a1e0b72)] -> xpath: //*[@id="gs_input5"]]
+Session ID: c6fb5325c2529001edc566d01a1e0b72
+2025-07-09 14:50:09 INFO  TS_UsedCar:44 -
+			Navigating back to home page
+2025-07-09 14:51:43 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:51:44 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 14:51:46 INFO  TS_Login:38 -
+			taking the screenshot of invalid google account
+2025-07-09 14:51:46 INFO  TS_Login:40 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025146
+2025-07-09 14:51:46 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:51:46 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:51:46 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-09 14:52:08 INFO  TS_Login:55 -
+			password textfeild is blocked
+2025-07-09 14:52:08 INFO  TS_Login:59 -
+			taking the screenshot of invalid google account
+2025-07-09 14:52:08 INFO  TS_Login:61 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025208
+2025-07-09 14:52:08 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:52:57 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:52:58 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 14:53:00 INFO  TS_Login:38 -
+			taking the screenshot of invalid google account
+2025-07-09 14:53:00 INFO  TS_Login:40 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025300
+2025-07-09 14:53:00 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:53:00 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:53:01 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-09 14:53:22 INFO  TS_Login:55 -
+			password textfeild is blocked
+2025-07-09 14:53:22 INFO  TS_Login:59 -
+			taking the screenshot of invalid google account
+2025-07-09 14:53:22 INFO  TS_Login:61 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025322
+2025-07-09 14:53:22 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:53:40 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:53:41 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 14:53:43 INFO  TS_Login:38 -
+			taking the screenshot of invalid google account
+2025-07-09 14:53:43 INFO  TS_Login:40 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025343
+2025-07-09 14:53:43 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:53:43 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:53:44 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-09 14:54:05 INFO  TS_Login:55 -
+			password textfeild is blocked
+2025-07-09 14:54:05 INFO  TS_Login:59 -
+			taking the screenshot of invalid google account
+2025-07-09 14:54:05 INFO  TS_Login:61 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025405
+2025-07-09 14:54:05 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:54:15 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-09 14:54:19 INFO  TS_UsedCar:23 -
+			starting to test popular car models
+2025-07-09 14:54:20 INFO  TS_UsedCar:29 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-09 14:54:24 INFO  TS_UsedCar:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709025424
+2025-07-09 14:54:24 INFO  TS_UsedCar:44 -
+			Navigating back to home page
+2025-07-09 14:59:02 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 14:59:03 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 14:59:29 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 14:59:34 INFO  TS_UsedCar:15 -
+			Navigating to used car page
+2025-07-09 14:59:35 INFO  TS_UsedCar:23 -
+			starting to test popular car models
+2025-07-09 14:59:35 ERROR TS_UsedCar:35 -
+			Test failed : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68b1cbb3d32f36d5a3762e6b0bc445d1, findElement {value=//*[@id="gs_input5"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62347/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68b1cbb3d32f36d5a3762e6b0bc445d1
+2025-07-09 14:59:35 INFO  TS_UsedCar:44 -
+			Navigating back to home page
+2025-07-09 15:00:33 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:00:33 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:00:36 INFO  TS_Login:38 -
+			taking the screenshot of invalid google account
+2025-07-09 15:00:36 INFO  TS_Login:40 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709030036
+2025-07-09 15:00:36 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 15:00:36 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:00:36 INFO  TS_Login:45 -
+			started the login test with valid google account and invalid password
+2025-07-09 15:00:58 INFO  TS_Login:55 -
+			password textfeild is blocked
+2025-07-09 15:00:58 INFO  TS_Login:59 -
+			taking the screenshot of invalid google account
+2025-07-09 15:00:58 INFO  TS_Login:61 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709030058
+2025-07-09 15:00:58 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-09 15:10:18 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:10:19 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:10:39 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:10:53 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:10:53 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:11:00 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:11:00 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031100
+2025-07-09 15:11:00 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:14:18 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:14:19 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:14:21 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:14:21 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031421
+2025-07-09 15:14:21 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:17:06 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:17:06 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:17:09 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:17:09 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031709
+2025-07-09 15:17:09 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:20:35 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:20:35 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:20:50 INFO  TS_Login:68 -
+			switching back to main window
+2025-07-09 15:21:05 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:21:05 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:21:08 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:21:09 INFO  TS_Login:42 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032108
+2025-07-09 15:21:09 INFO  TS_Login:68 -
+			switching back to main window
+2025-07-09 15:22:40 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:22:41 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:22:44 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:22:44 INFO  TS_Login:42 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032244.png
+2025-07-09 15:22:44 INFO  TS_Login:68 -
+			switching back to main window
+2025-07-09 15:24:19 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:24:19 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:24:23 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:24:23 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032423.png
+2025-07-09 15:24:23 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:29:03 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:29:03 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:29:27 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:30:40 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:30:41 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:30:44 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:30:44 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
+2025-07-09 15:30:44 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:33:34 INFO  TS_Login:22 -
+			opening the login popup window
+2025-07-09 15:33:35 INFO  TS_Login:32 -
+			started the login test with invalid google account
+2025-07-09 15:33:39 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 15:33:39 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
+2025-07-09 15:33:39 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 15:40:27 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:40:28 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:40:40 INFO  TS_Login:69 -
+			switching back to main window
+2025-07-09 15:41:22 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:41:23 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:41:35 INFO  TS_Login:69 -
+			switching back to main window
+2025-07-09 15:41:52 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:41:53 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:42:05 INFO  TS_Login:69 -
+			switching back to main window
+2025-07-09 15:42:40 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:42:41 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:42:43 INFO  TS_Login:41 -
+			taking the screenshot of invalid google account
+2025-07-09 15:42:43 INFO  TS_Login:43 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
+2025-07-09 15:42:43 INFO  TS_Login:69 -
+			switching back to main window
+2025-07-09 15:44:02 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:44:03 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:44:05 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:44:06 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:44:18 INFO  TS_Login:69 -
+			switching back to main window
+2025-07-09 15:44:20 INFO  TS_Login:69 -
+			switching back to main window
+2025-07-09 15:46:33 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:46:34 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:46:54 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 15:47:45 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:47:46 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:48:03 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 15:48:32 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:48:33 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:48:49 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 15:50:17 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:50:17 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:50:30 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 15:53:57 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:53:58 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:54:20 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 15:55:57 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:55:58 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:56:11 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 15:56:58 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:56:59 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:57:11 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 15:59:44 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 15:59:44 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 15:59:47 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:00:27 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:00:27 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:00:30 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:00:30 INFO  TS_Login:45 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:00:30 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:01:34 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:01:34 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:01:41 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:01:41 INFO  TS_Login:45 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:01:41 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:02:10 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:02:10 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:02:17 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:02:17 INFO  TS_Login:45 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:02:17 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:03:07 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:03:08 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:03:18 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:03:21 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:13:04 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:13:04 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:13:07 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:13:58 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:13:59 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:14:14 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:16:28 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:16:28 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:16:52 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:17:05 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:17:05 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:17:18 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:20:38 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:20:38 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:20:41 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:20:41 INFO  TS_Login:45 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:20:41 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:21:41 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:21:41 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:21:54 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:21:54 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:21:54 INFO  TS_Login:50 -
+			started the login test with valid google account and invalid password
+2025-07-09 16:22:11 INFO  TS_Login:60 -
+			password textfeild is blocked
+2025-07-09 16:22:11 INFO  TS_Login:64 -
+			taking the screenshot of invalid google account
+2025-07-09 16:22:11 INFO  TS_Login:71 -
+			switching back to main window
+2025-07-09 16:26:40 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:26:41 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:26:43 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:26:43 INFO  TS_Login:46 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:26:43 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:27:41 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:27:41 INFO  TS_Login:51 -
+			started the login test with valid google account and invalid password
+2025-07-09 16:27:55 INFO  TS_Login:61 -
+			password textfeild is blocked
+2025-07-09 16:27:55 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-09 16:27:55 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:28:10 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:28:11 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:28:13 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:28:13 INFO  TS_Login:46 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:28:13 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:29:16 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:29:16 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:29:29 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:29:45 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:29:45 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:29:48 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:29:48 INFO  TS_Login:46 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:29:48 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:30:58 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:30:59 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:31:01 INFO  TS_Login:43 -
+			taking the screenshot of invalid google account
+2025-07-09 16:31:02 INFO  TS_Login:46 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
+2025-07-09 16:31:02 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:32:42 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:32:42 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:32:54 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:33:30 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:33:30 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:33:43 INFO  TS_Login:73 -
+			switching back to main window
+2025-07-09 16:35:48 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:35:48 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:36:01 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:37:05 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:37:05 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:37:17 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:37:38 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:37:39 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:37:52 INFO  TS_Login:72 -
+			switching back to main window
+2025-07-09 16:40:45 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:40:46 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:40:48 INFO  TS_Login:41 -
+			taking the screenshot of invalid google account
+2025-07-09 16:40:48 INFO  TS_Login:44 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709044048.png
+2025-07-09 16:40:48 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 16:40:49 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:40:49 INFO  TS_Login:49 -
+			started the login test with valid google account and invalid password
+2025-07-09 16:41:10 INFO  TS_Login:59 -
+			password textfeild is blocked
+2025-07-09 16:41:10 INFO  TS_Login:63 -
+			taking the screenshot of invalid google account
+2025-07-09 16:41:10 INFO  TS_Login:65 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709044110.png
+2025-07-09 16:41:10 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 16:49:27 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:49:27 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:49:30 INFO  TS_Login:41 -
+			taking the screenshot of invalid google account
+2025-07-09 16:49:30 INFO  TS_Login:44 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709044930.png
+2025-07-09 16:49:31 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 16:49:31 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:49:31 INFO  TS_Login:49 -
+			started the login test with valid google account and invalid password
+2025-07-09 16:49:31 INFO  TS_Login:70 -
+			switching back to main window
+2025-07-09 16:49:46 INFO  TS_UsedCar:16 -
+			Navigating to used car page
+2025-07-09 16:55:35 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:55:35 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 16:55:38 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 16:55:39 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709045538.png
+2025-07-09 16:55:39 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 16:55:39 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 16:55:44 INFO  TS_UsedCar:16 -
+			Navigating to used car page
+2025-07-09 17:01:13 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 17:01:14 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 17:01:16 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 17:01:17 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709050116.png
+2025-07-09 17:01:17 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 17:01:22 INFO  TS_UsedCar:16 -
+			Navigating to used car page
+2025-07-09 17:05:28 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 17:05:29 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 17:05:32 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 17:05:32 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709050532.png
+2025-07-09 17:05:32 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 17:05:32 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 17:05:32 INFO  TS_Login:46 -
+			started the login test with valid google account and invalid password
+2025-07-09 17:05:53 INFO  TS_Login:56 -
+			password textfeild is blocked
+2025-07-09 17:05:53 INFO  TS_Login:60 -
+			taking the screenshot of invalid google account
+2025-07-09 17:05:53 INFO  TS_Login:62 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709050553.png
+2025-07-09 17:05:53 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 17:08:58 INFO  TS_UsedCar:16 -
+			Navigating to used car page
+2025-07-09 17:12:29 INFO  TS_UsedCar:16 -
+			Navigating to used car page
+2025-07-09 17:12:33 INFO  TS_UsedCar:25 -
+			starting to test popular car models
+2025-07-09 17:12:34 INFO  TS_UsedCar:31 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-09 17:12:38 INFO  TS_UsedCar:34 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709051238.png
+2025-07-09 17:12:38 INFO  TS_UsedCar:46 -
+			Navigating back to home page
+2025-07-09 17:13:30 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 17:13:31 INFO  TS_Login:33 -
+			started the login test with invalid google account
+2025-07-09 17:13:33 INFO  TS_Login:39 -
+			taking the screenshot of invalid google account
+2025-07-09 17:13:33 INFO  TS_Login:41 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709051333.png
+2025-07-09 17:13:33 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 17:13:34 INFO  TS_Login:23 -
+			opening the login popup window
+2025-07-09 17:13:34 INFO  TS_Login:46 -
+			started the login test with valid google account and invalid password
+2025-07-09 17:13:55 INFO  TS_Login:56 -
+			password textfeild is blocked
+2025-07-09 17:13:55 INFO  TS_Login:60 -
+			taking the screenshot of invalid google account
+2025-07-09 17:13:55 INFO  TS_Login:62 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709051355.png
+2025-07-09 17:13:55 INFO  TS_Login:67 -
+			switching back to main window
+2025-07-09 17:14:05 INFO  TS_UsedCar:16 -
+			Navigating to used car page
+2025-07-09 17:14:08 INFO  TS_UsedCar:25 -
+			starting to test popular car models
+2025-07-09 17:14:09 INFO  TS_UsedCar:31 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-09 17:14:13 INFO  TS_UsedCar:34 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709051413.png
+2025-07-09 17:14:13 INFO  TS_UsedCar:46 -
+			Navigating back to home page
+2025-07-09 17:24:41 INFO  TS_Login:18 -
+			opening the login popup window
+2025-07-09 17:24:41 INFO  TS_Login:25 -
+			started the login test with invalid google account
+2025-07-09 17:24:44 INFO  TS_Login:31 -
+			taking the screenshot of invalid google account
+2025-07-09 17:24:44 INFO  TS_Login:33 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709052444.png
+2025-07-09 17:24:44 INFO  TS_Login:59 -
+			switching back to main window
+2025-07-09 17:24:44 INFO  TS_Login:18 -
+			opening the login popup window
+2025-07-09 17:24:45 INFO  TS_Login:38 -
+			started the login test with valid google account and invalid password
+2025-07-09 17:25:06 INFO  TS_Login:48 -
+			password textfeild is blocked
+2025-07-09 17:25:06 INFO  TS_Login:52 -
+			taking the screenshot of invalid google account
+2025-07-09 17:25:06 INFO  TS_Login:54 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709052506.png
+2025-07-09 17:25:06 INFO  TS_Login:59 -
+			switching back to main window
+2025-07-09 17:25:16 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-09 17:25:20 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-09 17:25:21 INFO  TS_UsedCar:34 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-09 17:25:25 INFO  TS_UsedCar:37 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709052525.png
+2025-07-09 17:25:25 INFO  TS_UsedCar:49 -
+			Navigating back to home page
+2025-07-09 17:32:02 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-09 17:32:06 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-09 17:32:07 INFO  TS_UsedCar:34 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-09 17:32:11 INFO  TS_UsedCar:37 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053211.png
+2025-07-09 17:32:11 INFO  TS_UsedCar:49 -
+			closing userCarPage
+2025-07-09 17:33:24 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-09 17:33:27 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-09 17:33:28 INFO  TS_UsedCar:34 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-09 17:33:33 INFO  TS_UsedCar:37 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053332.png
+2025-07-09 17:33:33 INFO  TS_UsedCar:49 -
+			closing userCarPage

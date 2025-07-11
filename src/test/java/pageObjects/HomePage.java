@@ -33,8 +33,13 @@ public class HomePage extends BasePage {
 	public void ClickLoginAndMore() {
 		LoginAndMore.click();
 	}
+	
+	public void hoverMore() {
+		Actions action=new Actions(driver);
+		action.moveToElement(More);
+	}
 
-	public void clickUsedCars(WebDriver driver) {
+	public void clickUsedCars() {
 
 		action.moveToElement(More).perform();
 		usedCar.click();

@@ -1,5 +1,6 @@
 package testBase;
 
+import java.util.Date;
 import java.util.Set;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,11 +14,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 
 public class BaseClass {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Logger logger;
 
 	@BeforeClass
@@ -38,7 +40,7 @@ public class BaseClass {
 		driver.quit();
 	}
 
-	public static void SwitchWindow(WebDriver driver) {
+	public static void SwitchWindow() {
 		String mainWindowHandle = driver.getWindowHandle();
 		Set<String> allWindowHandles = driver.getWindowHandles();
 
@@ -51,10 +53,13 @@ public class BaseClass {
 
 	}
 
-	public static void takeScreenShot(WebDriver driver, String dest) {
+	public static String takeScreenShot(String tname) {
+		String timeStamp=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File target = new File(dest);
+    	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
+		File target = new File(targetFilepath);
 		src.renameTo(target);
+		return targetFilepath;
 	}
 
 }

@@ -26,7 +26,7 @@ public class TS_Login extends BaseClass {
 		auth = new GoogleAuthenticationPage(driver);
 		auth.clickOnGoogleLogin();
 		BaseClass.SwitchWindow();
-		auth.sendEmailorPhone("xxxfh@gmail.com");
+		auth.sendEmailorPhone("xyz@gmail.com");
 		auth.clickOnNext();
 		logger.info("taking the screenshot of invalid google account");
 		String InvalidScreenshotpath = BaseClass.takeScreenShot("LoginWithInvalidEmail");

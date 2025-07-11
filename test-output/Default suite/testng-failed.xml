@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TS_UsedCar">
+      <class name="testCases.TS_Login">
         <methods>
-          <include name="Test_PopularCarModels"/>
+          <include name="Test_Login_With_valid_Google_Account"/>
+          <include name="closeLoginPopUp"/>
           <include name="tearDown"/>
-          <include name="navigateToHomePage"/>
+          <include name="openLoginPopUp"/>
           <include name="setup"/>
-          <include name="navigateToUsedCarPage"/>
         </methods>
-      </class> <!-- testCases.TS_UsedCar -->
+      </class> <!-- testCases.TS_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -717,3 +717,17 @@ Session ID: 68b1cbb3d32f36d5a3762e6b0bc445d1
 			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053332.png
 2025-07-09 17:33:33 INFO  TS_UsedCar:49 -
 			closing userCarPage
+2025-07-11 11:12:58 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-11 11:12:58 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-11 11:12:59 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-11 11:12:59 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-11 11:13:00 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-11 11:13:00 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-11 11:13:00 INFO  TS_UpcomingHondaBike:49 -
+			Navigating back to homepage

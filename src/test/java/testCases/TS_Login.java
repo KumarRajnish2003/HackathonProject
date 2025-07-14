@@ -1,6 +1,8 @@
 package testCases;
 
 
+import java.util.Set;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pageObjects.GoogleAuthenticationPage;
@@ -11,9 +13,8 @@ public class TS_Login extends BaseClass {
 
 	GoogleAuthenticationPage auth;
 	HomePage home;
-
 	@BeforeMethod
-	public void openLoginPopUp() {
+	public void openLoginPopUp() throws InterruptedException {
 
 		logger.info("opening the login popup window");
 		home = new HomePage(driver);
@@ -34,7 +35,7 @@ public class TS_Login extends BaseClass {
 	}
 
 	@Test
-	public void Test_Login_With_valid_Google_Account() {
+	public void Test_Login_With_valid_Google_Account() throws InterruptedException {
 		logger.info("started the login test with valid google account and invalid password");
 		auth = new GoogleAuthenticationPage(driver);
 		auth.clickOnGoogleLogin();
@@ -49,7 +50,7 @@ public class TS_Login extends BaseClass {
 			Assert.assertTrue(true);
 		}
 
-		logger.info("taking the screenshot of invalid google account");
+		logger.info("taking the screenshot of valid google account");
 		String validScreenshotpath = BaseClass.takeScreenShot("LoginWithvalidEmail");
 		logger.info(validScreenshotpath);
 	}
@@ -57,9 +58,8 @@ public class TS_Login extends BaseClass {
 	@AfterMethod
 	public void closeLoginPopUp() {
 		logger.info("switching back to main window");
-		BaseClass.SwitchWindow();
+		driver.switchTo().window(mainWindowHandle);
 		auth.closePopUp();
-		
 	}
 
 }

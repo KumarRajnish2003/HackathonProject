@@ -31,9 +31,11 @@ public class TS_UsedCar extends BaseClass {
 			ucp.selectCity("Chennai");
 			ucp.enterCity();
 			List<String> carList = ucp.selectPopularCars();
-			logger.info("popular car models : " + carList);
+			logger.info("Popular car models : " + carList);
+			System.out.println(carList);
 			Thread.sleep(4000);
-			String usedcarpagePath = BaseClass.takeScreenShot("usedcarpage");
+//			String usedcarpagePath = BaseClass.takeScreenShot("usedcarpage");
+			String usedcarpagePath = BaseClass.takeSpecificScreenShot("usedcarpage",ucp.getUsedCarImageContainer());
 			logger.info(usedcarpagePath);
 
 		} catch (Exception e) {

@@ -10,8 +10,8 @@
   	<parameter name="os" value="Windows" />
   	<parameter name="browser"  value="chrome"/> 
     <classes>
-      <class name="testCases.TS_Login"/>
-      <class name="testCases.TS_UpcomingHondaBike"/>
+      <class name="testCases.TS_Login"/> 
+      <class name="testCases.TS_UpcomingHondaBike"/> 
       <class name="testCases.TS_UsedCar"/>
     </classes>
   </test>
@@ -20,7 +20,7 @@
   	<parameter name="os" value="Windows" />
   	<parameter name="browser"  value="edge"/> 
     <classes>
-      <class name="testCases.TS_Login"/>
+      <class name="testCases.TS_Login"/> 
       <class name="testCases.TS_UpcomingHondaBike"/>
       <class name="testCases.TS_UsedCar"/>
     </classes>

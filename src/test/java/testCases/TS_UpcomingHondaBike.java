@@ -40,6 +40,7 @@ public class TS_UpcomingHondaBike extends BaseClass {
 		logger.info("Upcomming Honda Bikes under 4lac are");
 		for (int i = 0; i < bike.size(); i++) {
 			logger.info("[ " + bike.get(i) + " , " + price.get(i) + " , " + expLaunch.get(i) + " ]");
+			System.out.println("[ " + bike.get(i) + " , " + price.get(i) + " , " + expLaunch.get(i) + " ]");
 		}
 
 	}

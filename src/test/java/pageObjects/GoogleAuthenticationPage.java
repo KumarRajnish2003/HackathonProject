@@ -56,6 +56,7 @@ public class GoogleAuthenticationPage extends BasePage {
 
 	public void sendPassword(String pass) {
 		try {
+			Thread.sleep(2000);
 			password.sendKeys(pass);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

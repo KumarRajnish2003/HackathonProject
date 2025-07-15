@@ -43,12 +43,19 @@ public class UsedCarPage extends BasePage {
 	@FindBy(xpath = "//*[@id=\"mmvLi_13_207\"]/label")
 	WebElement ToyotaInnova;
 
+	@FindBy(xpath = "//*[@id=\"mainPage\"]")
+	WebElement UsedCarImages;
+	
 	public void selectCity(String cityinfo) {
 		cityinput.sendKeys(cityinfo);
 	}
 
 	public void enterCity() {
 		city.click();
+	}
+	
+	public WebElement getUsedCarImageContainer() {
+		return UsedCarImages;
 	}
 
 	public List<String> selectPopularCars() {

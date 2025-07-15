@@ -12,6 +12,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -25,6 +26,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.text.SimpleDateFormat;
@@ -116,6 +118,14 @@ public class BaseClass {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 //    	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
     	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+".png";
+    	File target = new File(targetFilepath);
+		src.renameTo(target);
+		return targetFilepath;
+	}
+	
+	public static String takeSpecificScreenShot(String tname, WebElement ele) {
+		File src = ele.getScreenshotAs(OutputType.FILE);
+		String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+".png";
     	File target = new File(targetFilepath);
 		src.renameTo(target);
 		return targetFilepath;

@@ -716,4 +716,313 @@ Session ID: 68b1cbb3d32f36d5a3762e6b0bc445d1
 2025-07-09 17:33:33 INFO  TS_UsedCar:37 -
 			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053332.png
 2025-07-09 17:33:33 INFO  TS_UsedCar:49 -
-			closing userCarPage
+			closing userCarPage2025-07-15 09:39:36 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 09:39:38 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 09:39:38 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 09:39:41 INFO  TS_Login:63 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 09:39:43 INFO  TS_Login:19 -
+			opening the login popup window
+2025-07-15 09:39:45 INFO  TS_Login:26 -
+			started the login test with invalid google account
+2025-07-15 09:39:49 INFO  TS_Login:32 -
+			taking the screenshot of invalid google account
+2025-07-15 09:39:50 INFO  TS_Login:34 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-15 09:39:50 INFO  TS_Login:60 -
+			switching back to main window
+2025-07-15 09:39:50 INFO  TS_Login:19 -
+			opening the login popup window
+2025-07-15 09:39:50 INFO  TS_Login:39 -
+			started the login test with valid google account and invalid password
+2025-07-15 09:40:05 INFO  TS_Login:49 -
+			password textfeild is blocked
+2025-07-15 09:40:05 INFO  TS_Login:53 -
+			taking the screenshot of valid google account
+2025-07-15 09:40:05 INFO  TS_Login:55 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
+2025-07-15 09:40:05 INFO  TS_Login:60 -
+			switching back to main window
+2025-07-15 09:40:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 09:40:08 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 09:40:10 INFO  TS_UpcomingHondaBike:63 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 09:40:16 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-15 09:40:16 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-15 09:40:20 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:49 -
+			Navigating back to homepage
+2025-07-15 09:40:29 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 09:40:29 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 09:40:31 INFO  TS_UsedCar:63 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 09:40:33 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 09:40:37 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 09:40:38 INFO  TS_UsedCar:34 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 09:40:42 INFO  TS_UsedCar:37 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 09:40:42 INFO  TS_UsedCar:49 -
+			closing usedCarPage
+2025-07-15 09:40:48 INFO  WebDriverManager:1220 -
+			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+2025-07-15 09:40:48 INFO  WebDriverManager:1282 -
+			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+2025-07-15 09:40:50 INFO  TS_Login:74 -
+			Edge browser initialized with notifications allowed.
+2025-07-15 09:40:52 INFO  TS_Login:19 -
+			opening the login popup window
+2025-07-15 09:40:52 INFO  TS_Login:26 -
+			started the login test with invalid google account
+2025-07-15 09:40:57 INFO  TS_Login:32 -
+			taking the screenshot of invalid google account
+2025-07-15 09:40:57 INFO  TS_Login:34 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-15 09:40:57 INFO  TS_Login:60 -
+			switching back to main window
+2025-07-15 09:40:57 INFO  TS_Login:19 -
+			opening the login popup window
+2025-07-15 09:40:57 INFO  TS_Login:39 -
+			started the login test with valid google account and invalid password
+2025-07-15 09:41:12 INFO  TS_Login:49 -
+			password textfeild is blocked
+2025-07-15 09:41:12 INFO  TS_Login:53 -
+			taking the screenshot of valid google account
+2025-07-15 09:41:12 INFO  TS_Login:55 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
+2025-07-15 09:41:12 INFO  TS_Login:60 -
+			switching back to main window
+2025-07-15 09:41:15 INFO  WebDriverManager:1220 -
+			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+2025-07-15 09:41:15 INFO  WebDriverManager:1282 -
+			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+2025-07-15 09:41:18 INFO  TS_UpcomingHondaBike:74 -
+			Edge browser initialized with notifications allowed.
+2025-07-15 09:41:22 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-15 09:41:22 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-15 09:41:24 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:49 -
+			Navigating back to homepage
+2025-07-15 09:41:30 INFO  WebDriverManager:1220 -
+			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+2025-07-15 09:41:30 INFO  WebDriverManager:1282 -
+			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+2025-07-15 09:41:32 INFO  TS_UsedCar:74 -
+			Edge browser initialized with notifications allowed.
+2025-07-15 09:41:37 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 09:41:43 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 09:41:44 INFO  TS_UsedCar:34 -
+			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 09:41:48 INFO  TS_UsedCar:37 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 09:41:48 INFO  TS_UsedCar:49 -
+			closing usedCarPage
+2025-07-15 10:09:31 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 10:09:32 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 10:09:32 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 10:09:34 INFO  TS_UpcomingHondaBike:63 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 10:09:40 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-15 10:09:40 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-15 10:09:52 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-15 10:10:21 INFO  WebDriverManager:1220 -
+			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+2025-07-15 10:10:21 INFO  WebDriverManager:1282 -
+			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+2025-07-15 10:10:24 INFO  TS_UpcomingHondaBike:74 -
+			Edge browser initialized with notifications allowed.
+2025-07-15 10:10:35 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-15 10:10:35 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-15 10:10:45 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-15 11:13:38 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 11:13:39 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 11:13:39 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 11:13:41 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 11:13:45 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 11:13:49 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 11:13:50 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 11:13:54 INFO  TS_UsedCar:38 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 11:13:54 INFO  TS_UsedCar:50 -
+			closing usedCarPage
+2025-07-15 11:13:59 INFO  WebDriverManager:1220 -
+			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+2025-07-15 11:13:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+2025-07-15 11:14:00 INFO  TS_UsedCar:76 -
+			Edge browser initialized with notifications allowed.
+2025-07-15 11:14:04 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 11:14:08 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 11:14:08 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 11:14:13 INFO  TS_UsedCar:38 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 11:14:13 INFO  TS_UsedCar:50 -
+			closing usedCarPage
+2025-07-15 11:26:04 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 11:26:04 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 11:26:04 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 11:26:06 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 11:26:12 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 11:26:34 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 11:26:35 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 11:26:39 INFO  TS_UsedCar:39 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 11:26:39 INFO  TS_UsedCar:51 -
+			closing usedCarPage
+2025-07-15 11:26:44 INFO  WebDriverManager:1220 -
+			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+2025-07-15 11:26:44 INFO  WebDriverManager:1282 -
+			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+2025-07-15 11:26:45 INFO  TS_UsedCar:76 -
+			Edge browser initialized with notifications allowed.
+2025-07-15 11:27:04 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 11:27:13 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 11:27:14 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 11:27:18 INFO  TS_UsedCar:39 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 11:27:18 INFO  TS_UsedCar:51 -
+			closing usedCarPage
+2025-07-15 11:31:18 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 11:31:19 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 11:31:19 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 11:31:20 INFO  TS_UsedCar:66 -
+			Chrome browser initialized with notifications allowed.
+2025-07-15 11:31:22 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-15 11:31:26 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-15 11:31:26 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-15 11:31:31 INFO  TS_UsedCar:39 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-15 11:31:31 INFO  TS_UsedCar:51 -
+			closing usedCarPage
+2025-07-15 12:07:57 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 12:07:58 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 12:07:58 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 12:09:01 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 12:09:01 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 12:09:01 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 12:10:09 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 12:10:09 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 12:10:09 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 12:31:53 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 12:31:53 INFO  TS_UsedCar:63 -
+			config.properties loaded successfully.
+2025-07-15 12:31:54 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 12:31:54 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-15 12:35:02 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-15 12:35:03 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-15 12:35:03 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe

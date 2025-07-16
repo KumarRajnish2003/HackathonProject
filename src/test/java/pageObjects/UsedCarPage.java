@@ -18,33 +18,12 @@ public class UsedCarPage extends BasePage {
 
 	@FindBy(xpath = "//*[@id=\"ui-id-5\"]/li/a")
 	WebElement city;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_22_317\"]/label")
-	WebElement Maruti800;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_22_338\"]/label")
-	WebElement MarutiSwift;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_10_146\"]/label")
-	WebElement HyundaiI10;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_10_156\"]/label")
-	WebElement HyundaiSantroXing;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_8_125\"]/label")
-	WebElement HondaCity;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_21_314\"]/label")
-	WebElement MahindraXUV500;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_13_205\"]/label")
-	WebElement ToyotaFortuner;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_13_207\"]/label")
-	WebElement ToyotaInnova;
-
-	@FindBy(xpath = "//*[@id=\"mainPage\"]")
-	WebElement UsedCarImages;
+	
+	@FindBy(xpath = "//div[@class='gsc_thin_scroll']/ul")
+	WebElement popularCarList;
+	
+	@FindBy(xpath="//div[@class='gsc_thin_scroll']/ul/li/label")
+	List<WebElement> popularCars;
 	
 	public void selectCity(String cityinfo) {
 		cityinput.sendKeys(cityinfo);
@@ -54,24 +33,23 @@ public class UsedCarPage extends BasePage {
 		city.click();
 	}
 	
-	public WebElement getUsedCarImageContainer() {
-		return UsedCarImages;
+	public WebElement getPopularCarList() {
+		return popularCarList;
 	}
 
 	public List<String> selectPopularCars() {
-
-		List<String> PopularcarList = new ArrayList<String>();
-
-		PopularcarList.add(Maruti800.getText());
-		PopularcarList.add(MarutiSwift.getText());
-		PopularcarList.add(HyundaiI10.getText());
-		PopularcarList.add(HyundaiSantroXing.getText());
-		PopularcarList.add(HondaCity.getText());
-		PopularcarList.add(ToyotaInnova.getText());
-		PopularcarList.add(ToyotaFortuner.getText());
-		PopularcarList.add(MahindraXUV500.getText());
-
-		return PopularcarList;
+		List<String> popularCarList = new ArrayList<>();
+		if (popularCars.isEmpty()) {
+            System.out.println("No label elements found within the specified div.");
+        } else {
+            for (WebElement car : popularCars) {
+                String text = car.getText().trim(); // .trim() to remove leading/trailing whitespace
+                if (!text.isEmpty()) { // Only add non-empty text
+                    popularCarList.add(text);
+                }
+            }
+        }
+		return popularCarList;
 
 	}
 

@@ -86,7 +86,7 @@ public class BaseClass {
              driver = new FirefoxDriver(firefoxOptions);
              logger.info("Firefox browser initialized with notifications allowed.");
              break;
-		default : logger.error("Unable to get browser");return;
+		default : logger.fatal("Unable to get browser");return;
 		}
 		
 		String HomePageUrl = props.getProperty("HomePageUrl");
@@ -116,16 +116,16 @@ public class BaseClass {
 	public static String takeScreenShot(String tname) {
 		String timeStamp=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//    	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
-    	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+".png";
+    	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
     	File target = new File(targetFilepath);
 		src.renameTo(target);
 		return targetFilepath;
 	}
 	
 	public static String takeSpecificScreenShot(String tname, WebElement ele) {
+		String timeStamp=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		File src = ele.getScreenshotAs(OutputType.FILE);
-		String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+".png";
+		String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
     	File target = new File(targetFilepath);
 		src.renameTo(target);
 		return targetFilepath;

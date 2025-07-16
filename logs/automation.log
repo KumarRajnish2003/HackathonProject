@@ -1,1028 +1,293 @@
-2025-07-09 13:09:08 INFO  TS_Login:23 -
+2025-07-16 10:17:39 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-16 10:17:41 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:17:41 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:17:43 INFO  TS_Login:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:17:44 INFO  TS_Login:19 -
 			opening the login popup window
-2025-07-09 13:09:10 INFO  TS_Login:33 -
+2025-07-16 10:17:45 INFO  TS_Login:26 -
 			started the login test with invalid google account
-2025-07-09 13:09:12 INFO  TS_Login:39 -
+2025-07-16 10:17:48 INFO  TS_Login:32 -
 			taking the screenshot of invalid google account
-2025-07-09 13:09:12 INFO  TS_Login:67 -
+2025-07-16 10:17:48 INFO  TS_Login:34 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-16 10:17:48 INFO  TS_Login:60 -
 			switching back to main window
-2025-07-09 13:09:12 INFO  TS_Login:23 -
+2025-07-16 10:17:48 INFO  TS_Login:19 -
 			opening the login popup window
-2025-07-09 13:09:13 INFO  TS_Login:46 -
+2025-07-16 10:17:49 INFO  TS_Login:39 -
 			started the login test with valid google account and invalid password
-2025-07-09 13:09:34 INFO  TS_Login:56 -
+2025-07-16 10:18:04 INFO  TS_Login:49 -
 			password textfeild is blocked
-2025-07-09 13:09:34 INFO  TS_Login:60 -
-			taking the screenshot of invalid google account
-2025-07-09 13:09:34 INFO  TS_Login:67 -
+2025-07-16 10:18:04 INFO  TS_Login:53 -
+			taking the screenshot of valid google account
+2025-07-16 10:18:04 INFO  TS_Login:55 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
+2025-07-16 10:18:04 INFO  TS_Login:60 -
 			switching back to main window
-2025-07-09 14:49:23 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:49:24 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:49:27 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:49:27 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709024927
-2025-07-09 14:49:27 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:49:28 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:49:28 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:49:49 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:49:49 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:49:49 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709024949
-2025-07-09 14:49:49 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:49:59 INFO  TS_UsedCar:15 -
+2025-07-16 10:18:07 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:18:07 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:18:08 INFO  TS_UpcomingHondaBike:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:18:10 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-16 10:18:10 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-16 10:18:19 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:18:19 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:18:21 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:18:22 INFO  TS_UsedCar:19 -
 			Navigating to used car page
-2025-07-09 14:50:03 INFO  TS_UsedCar:23 -
+2025-07-16 10:18:23 INFO  TS_UsedCar:28 -
 			starting to test popular car models
-2025-07-09 14:50:09 ERROR TS_UsedCar:35 -
-			Test failed : org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+2025-07-16 10:18:23 ERROR TS_UsedCar:42 -
+			Test failed : org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@id="gs_input5"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c6fb5325c2529001edc566d01a1e0b72, sendKeysToElement [id, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60384/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c6fb5325c2529001edc566d01a1e0b72)] -> xpath: //*[@id="gs_input5"]]
-Session ID: c6fb5325c2529001edc566d01a1e0b72
-2025-07-09 14:50:09 INFO  TS_UsedCar:44 -
-			Navigating back to home page
-2025-07-09 14:51:43 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:51:44 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:51:46 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:51:46 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025146
-2025-07-09 14:51:46 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:51:46 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:51:46 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:52:08 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:52:08 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:52:08 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025208
-2025-07-09 14:52:08 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:52:57 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:52:58 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:53:00 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:53:00 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025300
-2025-07-09 14:53:00 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:53:00 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:53:01 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:53:22 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:53:22 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:53:22 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025322
-2025-07-09 14:53:22 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:53:40 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:53:41 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:53:43 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:53:43 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025343
-2025-07-09 14:53:43 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:53:43 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:53:44 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:54:05 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:54:05 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:54:05 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025405
-2025-07-09 14:54:05 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:54:15 INFO  TS_UsedCar:15 -
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: RemoteWebDriver
+2025-07-16 10:18:23 INFO  TS_UsedCar:51 -
+			closing usedCarPage
+2025-07-16 10:18:43 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-16 10:18:43 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:18:43 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:18:45 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:19:30 INFO  TS_UsedCar:19 -
 			Navigating to used car page
-2025-07-09 14:54:19 INFO  TS_UsedCar:23 -
+2025-07-16 10:20:02 INFO  TS_UsedCar:28 -
 			starting to test popular car models
-2025-07-09 14:54:20 INFO  TS_UsedCar:29 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 14:54:24 INFO  TS_UsedCar:32 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709025424
-2025-07-09 14:54:24 INFO  TS_UsedCar:44 -
-			Navigating back to home page
-2025-07-09 14:59:02 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:59:03 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:59:29 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:59:34 INFO  TS_UsedCar:15 -
+2025-07-16 10:20:07 INFO  TS_UsedCar:34 -
+			Popular car models : []
+2025-07-16 10:20:12 INFO  TS_UsedCar:39 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-16 10:20:12 INFO  TS_UsedCar:51 -
+			closing usedCarPage
+2025-07-16 10:24:09 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-16 10:24:10 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:24:10 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:24:11 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:24:21 INFO  TS_UsedCar:19 -
 			Navigating to used car page
-2025-07-09 14:59:35 INFO  TS_UsedCar:23 -
+2025-07-16 10:24:52 INFO  TS_UsedCar:28 -
 			starting to test popular car models
-2025-07-09 14:59:35 ERROR TS_UsedCar:35 -
-			Test failed : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+2025-07-16 10:24:53 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-16 10:24:57 INFO  TS_UsedCar:39 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-16 10:24:57 INFO  TS_UsedCar:51 -
+			closing usedCarPage
+2025-07-16 10:26:44 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-16 10:26:44 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:26:44 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:26:46 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:26:48 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-16 10:26:51 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-16 10:26:52 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-16 10:26:52 INFO  TS_UsedCar:40 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-16 10:26:52 INFO  TS_UsedCar:52 -
+			closing usedCarPage
+2025-07-16 10:28:49 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-16 10:28:50 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:28:50 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:28:52 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:28:53 INFO  TS_UsedCar:19 -
+			Navigating to used car page
+2025-07-16 10:29:04 INFO  TS_UsedCar:28 -
+			starting to test popular car models
+2025-07-16 10:29:04 INFO  TS_UsedCar:34 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-16 10:29:05 INFO  TS_UsedCar:40 -
+			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-16 10:29:05 INFO  TS_UsedCar:52 -
+			closing usedCarPage
+2025-07-16 10:55:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406731\git\repository\HackathonProject\master.xml
+
+2025-07-16 10:55:05 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-16 10:55:05 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:55:07 INFO  TS_UsedCar:65 -
+			Chrome browser initialized with notifications allowed.
+2025-07-16 10:55:09 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-16 10:55:09 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-16 10:55:09 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-16 10:55:12 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-16 10:55:12 INFO  TS_UsedCar:56 -
+			Starting Test_PopularCarModels test...
+2025-07-16 10:55:12 INFO  TS_UsedCar:60 -
+			Attempting to select city: Chennai
+2025-07-16 10:55:12 INFO  TS_UsedCar:62 -
+			City 'Chennai' selected.
+2025-07-16 10:55:12 INFO  TS_UsedCar:64 -
+			Attempting to enter city (confirm selection).
+2025-07-16 10:55:12 INFO  TS_UsedCar:66 -
+			City entered/confirmed.
+2025-07-16 10:55:12 INFO  TS_UsedCar:68 -
+			Retrieving list of popular car models.
+2025-07-16 10:55:12 INFO  TS_UsedCar:70 -
+			Popular car models retrieved successfully. Count: 8
+2025-07-16 10:55:12 INFO  TS_UsedCar:74 -
+			Assertion passed: Popular car models list is not empty.
+2025-07-16 10:55:12 INFO  TS_UsedCar:77 -
+			Attempting to take screenshot of used car image container.
+2025-07-16 10:55:42 ERROR TS_UsedCar:91 -
+			TEST FAILED - Timeout waiting for element: timeout: Timed out receiving message from renderer: 10.000
   (Session info: chrome=137.0.7151.69)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68b1cbb3d32f36d5a3762e6b0bc445d1, findElement {value=//*[@id="gs_input5"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62347/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68b1cbb3d32f36d5a3762e6b0bc445d1
-2025-07-09 14:59:35 INFO  TS_UsedCar:44 -
-			Navigating back to home page
-2025-07-09 15:00:33 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:00:33 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:00:36 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 15:00:36 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709030036
-2025-07-09 15:00:36 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 15:00:36 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:00:36 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 15:00:58 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 15:00:58 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 15:00:58 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709030058
-2025-07-09 15:00:58 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 15:10:18 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:10:19 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:10:39 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:10:53 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:10:53 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:11:00 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:11:00 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031100
-2025-07-09 15:11:00 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:14:18 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:14:19 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:14:21 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:14:21 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031421
-2025-07-09 15:14:21 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:17:06 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:17:06 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:17:09 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:17:09 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031709
-2025-07-09 15:17:09 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:20:35 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:20:35 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:20:50 INFO  TS_Login:68 -
-			switching back to main window
-2025-07-09 15:21:05 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:21:05 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:21:08 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:21:09 INFO  TS_Login:42 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032108
-2025-07-09 15:21:09 INFO  TS_Login:68 -
-			switching back to main window
-2025-07-09 15:22:40 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:22:41 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:22:44 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:22:44 INFO  TS_Login:42 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032244.png
-2025-07-09 15:22:44 INFO  TS_Login:68 -
-			switching back to main window
-2025-07-09 15:24:19 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:24:19 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:24:23 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:24:23 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032423.png
-2025-07-09 15:24:23 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:29:03 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:29:03 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:29:27 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:30:40 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:30:41 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:30:44 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:30:44 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
-2025-07-09 15:30:44 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:33:34 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:33:35 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:33:39 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:33:39 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
-2025-07-09 15:33:39 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:40:27 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:40:28 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:40:40 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:41:22 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:41:23 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:41:35 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:41:52 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:41:53 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:42:05 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:42:40 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:42:41 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:42:43 INFO  TS_Login:41 -
-			taking the screenshot of invalid google account
-2025-07-09 15:42:43 INFO  TS_Login:43 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
-2025-07-09 15:42:43 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:44:02 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:44:03 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:44:05 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:44:06 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:44:18 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:44:20 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:46:33 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:46:34 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:46:54 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:47:45 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:47:46 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:48:03 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:48:32 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:48:33 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:48:49 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:50:17 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:50:17 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:50:30 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:53:57 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:53:58 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:54:20 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 15:55:57 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:55:58 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:56:11 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 15:56:58 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:56:59 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:57:11 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 15:59:44 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:59:44 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:59:47 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:00:27 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:00:27 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:00:30 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:00:30 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:00:30 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:01:34 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:01:34 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:01:41 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:01:41 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:01:41 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:02:10 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:02:10 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:02:17 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:02:17 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:02:17 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:03:07 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:03:08 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:03:18 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:03:21 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:13:04 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:13:04 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:13:07 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:13:58 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:13:59 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:14:14 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:16:28 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:16:28 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:16:52 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:17:05 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:17:05 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:17:18 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:20:38 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:20:38 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:20:41 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:20:41 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:20:41 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:21:41 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:21:41 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:21:54 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:21:54 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:21:54 INFO  TS_Login:50 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:22:11 INFO  TS_Login:60 -
-			password textfeild is blocked
-2025-07-09 16:22:11 INFO  TS_Login:64 -
-			taking the screenshot of invalid google account
-2025-07-09 16:22:11 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:26:40 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:26:41 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:26:43 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:26:43 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:26:43 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:27:41 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:27:41 INFO  TS_Login:51 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:27:55 INFO  TS_Login:61 -
-			password textfeild is blocked
-2025-07-09 16:27:55 INFO  TS_Login:65 -
-			taking the screenshot of invalid google account
-2025-07-09 16:27:55 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:28:10 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:28:11 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:28:13 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:28:13 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:28:13 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:29:16 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:29:16 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:29:29 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:29:45 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:29:45 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:29:48 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:29:48 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:29:48 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:30:58 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:30:59 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:31:01 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:31:02 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:31:02 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:32:42 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:32:42 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:32:54 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:33:30 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:33:30 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:33:43 INFO  TS_Login:73 -
-			switching back to main window
-2025-07-09 16:35:48 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:35:48 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:36:01 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:37:05 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:37:05 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:37:17 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:37:38 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:37:39 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:37:52 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:40:45 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:40:46 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:40:48 INFO  TS_Login:41 -
-			taking the screenshot of invalid google account
-2025-07-09 16:40:48 INFO  TS_Login:44 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709044048.png
-2025-07-09 16:40:48 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:40:49 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:40:49 INFO  TS_Login:49 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:41:10 INFO  TS_Login:59 -
-			password textfeild is blocked
-2025-07-09 16:41:10 INFO  TS_Login:63 -
-			taking the screenshot of invalid google account
-2025-07-09 16:41:10 INFO  TS_Login:65 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709044110.png
-2025-07-09 16:41:10 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:49:27 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:49:27 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:49:30 INFO  TS_Login:41 -
-			taking the screenshot of invalid google account
-2025-07-09 16:49:30 INFO  TS_Login:44 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709044930.png
-2025-07-09 16:49:31 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:49:31 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:49:31 INFO  TS_Login:49 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:49:31 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:49:46 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 16:55:35 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:55:35 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:55:38 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 16:55:39 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709045538.png
-2025-07-09 16:55:39 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 16:55:39 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:55:44 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:01:13 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:01:14 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 17:01:16 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 17:01:17 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709050116.png
-2025-07-09 17:01:17 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:01:22 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:05:28 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:05:29 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 17:05:32 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 17:05:32 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709050532.png
-2025-07-09 17:05:32 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:05:32 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:05:32 INFO  TS_Login:46 -
-			started the login test with valid google account and invalid password
-2025-07-09 17:05:53 INFO  TS_Login:56 -
-			password textfeild is blocked
-2025-07-09 17:05:53 INFO  TS_Login:60 -
-			taking the screenshot of invalid google account
-2025-07-09 17:05:53 INFO  TS_Login:62 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709050553.png
-2025-07-09 17:05:53 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:08:58 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:12:29 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:12:33 INFO  TS_UsedCar:25 -
-			starting to test popular car models
-2025-07-09 17:12:34 INFO  TS_UsedCar:31 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:12:38 INFO  TS_UsedCar:34 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709051238.png
-2025-07-09 17:12:38 INFO  TS_UsedCar:46 -
-			Navigating back to home page
-2025-07-09 17:13:30 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:13:31 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 17:13:33 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 17:13:33 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709051333.png
-2025-07-09 17:13:33 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:13:34 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:13:34 INFO  TS_Login:46 -
-			started the login test with valid google account and invalid password
-2025-07-09 17:13:55 INFO  TS_Login:56 -
-			password textfeild is blocked
-2025-07-09 17:13:55 INFO  TS_Login:60 -
-			taking the screenshot of invalid google account
-2025-07-09 17:13:55 INFO  TS_Login:62 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709051355.png
-2025-07-09 17:13:55 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:14:05 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:14:08 INFO  TS_UsedCar:25 -
-			starting to test popular car models
-2025-07-09 17:14:09 INFO  TS_UsedCar:31 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:14:13 INFO  TS_UsedCar:34 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709051413.png
-2025-07-09 17:14:13 INFO  TS_UsedCar:46 -
-			Navigating back to home page
-2025-07-09 17:24:41 INFO  TS_Login:18 -
-			opening the login popup window
-2025-07-09 17:24:41 INFO  TS_Login:25 -
-			started the login test with invalid google account
-2025-07-09 17:24:44 INFO  TS_Login:31 -
-			taking the screenshot of invalid google account
-2025-07-09 17:24:44 INFO  TS_Login:33 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709052444.png
-2025-07-09 17:24:44 INFO  TS_Login:59 -
-			switching back to main window
-2025-07-09 17:24:44 INFO  TS_Login:18 -
-			opening the login popup window
-2025-07-09 17:24:45 INFO  TS_Login:38 -
-			started the login test with valid google account and invalid password
-2025-07-09 17:25:06 INFO  TS_Login:48 -
-			password textfeild is blocked
-2025-07-09 17:25:06 INFO  TS_Login:52 -
-			taking the screenshot of invalid google account
-2025-07-09 17:25:06 INFO  TS_Login:54 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709052506.png
-2025-07-09 17:25:06 INFO  TS_Login:59 -
-			switching back to main window
-2025-07-09 17:25:16 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-09 17:25:20 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-09 17:25:21 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:25:25 INFO  TS_UsedCar:37 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709052525.png
-2025-07-09 17:25:25 INFO  TS_UsedCar:49 -
-			Navigating back to home page
-2025-07-09 17:32:02 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-09 17:32:06 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-09 17:32:07 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:32:11 INFO  TS_UsedCar:37 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053211.png
-2025-07-09 17:32:11 INFO  TS_UsedCar:49 -
-			closing userCarPage
-2025-07-09 17:33:24 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-09 17:33:27 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-09 17:33:28 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:33:33 INFO  TS_UsedCar:37 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053332.png
-2025-07-09 17:33:33 INFO  TS_UsedCar:49 -
-			closing userCarPage2025-07-15 09:39:36 INFO  Utils:112 -
+Command: [70ef2f67e281e9eeb3b11419ac960bb2, elementScreenshot {id=f.69738D69EE5D642F6B40D96A204F6234.d.803FFF3D9A56CE38B4BAB906B0EB4BCF.e.234}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406731\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60613/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (70ef2f67e281e9eeb3b11419ac960bb2)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: 70ef2f67e281e9eeb3b11419ac960bb2
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70ef2f67e281e9eeb3b11419ac960bb2, elementScreenshot {id=f.69738D69EE5D642F6B40D96A204F6234.d.803FFF3D9A56CE38B4BAB906B0EB4BCF.e.234}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406731\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60613/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (70ef2f67e281e9eeb3b11419ac960bb2)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: 70ef2f67e281e9eeb3b11419ac960bb2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getScreenshotAs(RemoteWebElement.java:360)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.getScreenshotAs(Unknown Source)
+	at testBase.BaseClass.takeSpecificScreenShot(BaseClass.java:127)
+	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2025-07-16 10:55:43 INFO  TS_UsedCar:110 -
+			Execution for current test method finished.
+2025-07-16 10:58:30 INFO  Utils:112 -
 			[TestNG] Running:
   C:\Users\2406731\git\repository\HackathonProject\master.xml
 
-2025-07-15 09:39:38 INFO  WebDriverManager:1220 -
+2025-07-16 10:58:31 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 09:39:38 INFO  WebDriverManager:1282 -
+2025-07-16 10:58:31 INFO  WebDriverManager:1282 -
 			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 09:39:41 INFO  TS_Login:63 -
+2025-07-16 10:58:32 INFO  TS_UsedCar:65 -
 			Chrome browser initialized with notifications allowed.
-2025-07-15 09:39:43 INFO  TS_Login:19 -
-			opening the login popup window
-2025-07-15 09:39:45 INFO  TS_Login:26 -
-			started the login test with invalid google account
-2025-07-15 09:39:49 INFO  TS_Login:32 -
-			taking the screenshot of invalid google account
-2025-07-15 09:39:50 INFO  TS_Login:34 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
-2025-07-15 09:39:50 INFO  TS_Login:60 -
-			switching back to main window
-2025-07-15 09:39:50 INFO  TS_Login:19 -
-			opening the login popup window
-2025-07-15 09:39:50 INFO  TS_Login:39 -
-			started the login test with valid google account and invalid password
-2025-07-15 09:40:05 INFO  TS_Login:49 -
-			password textfeild is blocked
-2025-07-15 09:40:05 INFO  TS_Login:53 -
-			taking the screenshot of valid google account
-2025-07-15 09:40:05 INFO  TS_Login:55 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
-2025-07-15 09:40:05 INFO  TS_Login:60 -
-			switching back to main window
-2025-07-15 09:40:08 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 09:40:08 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 09:40:10 INFO  TS_UpcomingHondaBike:63 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 09:40:16 INFO  TS_UpcomingHondaBike:23 -
-			Clicking on Upcoming Bikes
-2025-07-15 09:40:16 INFO  TS_UpcomingHondaBike:26 -
-			Clicking on all upcoming bikes
-2025-07-15 09:40:20 INFO  TS_UpcomingHondaBike:28 -
-			Clicking on Honda in upcoming bikes page
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:35 -
-			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:40 -
-			Upcomming Honda Bikes under 4lac are
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:42 -
-			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:49 -
-			Navigating back to homepage
-2025-07-15 09:40:29 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 09:40:29 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 09:40:31 INFO  TS_UsedCar:63 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 09:40:33 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 09:40:37 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 09:40:38 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 09:40:42 INFO  TS_UsedCar:37 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 09:40:42 INFO  TS_UsedCar:49 -
-			closing usedCarPage
-2025-07-15 09:40:48 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 09:40:48 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 09:40:50 INFO  TS_Login:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 09:40:52 INFO  TS_Login:19 -
-			opening the login popup window
-2025-07-15 09:40:52 INFO  TS_Login:26 -
-			started the login test with invalid google account
-2025-07-15 09:40:57 INFO  TS_Login:32 -
-			taking the screenshot of invalid google account
-2025-07-15 09:40:57 INFO  TS_Login:34 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
-2025-07-15 09:40:57 INFO  TS_Login:60 -
-			switching back to main window
-2025-07-15 09:40:57 INFO  TS_Login:19 -
-			opening the login popup window
-2025-07-15 09:40:57 INFO  TS_Login:39 -
-			started the login test with valid google account and invalid password
-2025-07-15 09:41:12 INFO  TS_Login:49 -
-			password textfeild is blocked
-2025-07-15 09:41:12 INFO  TS_Login:53 -
-			taking the screenshot of valid google account
-2025-07-15 09:41:12 INFO  TS_Login:55 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
-2025-07-15 09:41:12 INFO  TS_Login:60 -
-			switching back to main window
-2025-07-15 09:41:15 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 09:41:15 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 09:41:18 INFO  TS_UpcomingHondaBike:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 09:41:22 INFO  TS_UpcomingHondaBike:23 -
-			Clicking on Upcoming Bikes
-2025-07-15 09:41:22 INFO  TS_UpcomingHondaBike:26 -
-			Clicking on all upcoming bikes
-2025-07-15 09:41:24 INFO  TS_UpcomingHondaBike:28 -
-			Clicking on Honda in upcoming bikes page
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:35 -
-			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:40 -
-			Upcomming Honda Bikes under 4lac are
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:42 -
-			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:49 -
-			Navigating back to homepage
-2025-07-15 09:41:30 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 09:41:30 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 09:41:32 INFO  TS_UsedCar:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 09:41:37 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 09:41:43 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 09:41:44 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 09:41:48 INFO  TS_UsedCar:37 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 09:41:48 INFO  TS_UsedCar:49 -
-			closing usedCarPage
-2025-07-15 10:09:31 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 10:09:32 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 10:09:32 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 10:09:34 INFO  TS_UpcomingHondaBike:63 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 10:09:40 INFO  TS_UpcomingHondaBike:23 -
-			Clicking on Upcoming Bikes
-2025-07-15 10:09:40 INFO  TS_UpcomingHondaBike:26 -
-			Clicking on all upcoming bikes
-2025-07-15 10:09:52 INFO  TS_UpcomingHondaBike:28 -
-			Clicking on Honda in upcoming bikes page
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:35 -
-			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:40 -
-			Upcomming Honda Bikes under 4lac are
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:42 -
-			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:50 -
-			Navigating back to homepage
-2025-07-15 10:10:21 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 10:10:21 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 10:10:24 INFO  TS_UpcomingHondaBike:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 10:10:35 INFO  TS_UpcomingHondaBike:23 -
-			Clicking on Upcoming Bikes
-2025-07-15 10:10:35 INFO  TS_UpcomingHondaBike:26 -
-			Clicking on all upcoming bikes
-2025-07-15 10:10:45 INFO  TS_UpcomingHondaBike:28 -
-			Clicking on Honda in upcoming bikes page
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:35 -
-			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:40 -
-			Upcomming Honda Bikes under 4lac are
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:42 -
-			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:50 -
-			Navigating back to homepage
-2025-07-15 11:13:38 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 11:13:39 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 11:13:39 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 11:13:41 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 11:13:45 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:13:49 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:13:50 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:13:54 INFO  TS_UsedCar:38 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:13:54 INFO  TS_UsedCar:50 -
-			closing usedCarPage
-2025-07-15 11:13:59 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 11:13:59 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 11:14:00 INFO  TS_UsedCar:76 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 11:14:04 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:14:08 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:14:08 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:14:13 INFO  TS_UsedCar:38 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:14:13 INFO  TS_UsedCar:50 -
-			closing usedCarPage
-2025-07-15 11:26:04 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 11:26:04 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 11:26:04 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 11:26:06 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 11:26:12 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:26:34 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:26:35 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:26:39 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:26:39 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-15 11:26:44 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 11:26:44 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 11:26:45 INFO  TS_UsedCar:76 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 11:27:04 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:27:13 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:27:14 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:27:18 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:27:18 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-15 11:31:18 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 11:31:19 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 11:31:19 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 11:31:20 INFO  TS_UsedCar:66 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 11:31:22 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:31:26 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:31:26 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:31:31 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:31:31 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-15 12:07:57 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 12:07:58 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:07:58 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:09:01 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 12:09:01 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:09:01 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:10:09 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 12:10:09 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:10:09 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:31:53 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 12:31:53 INFO  TS_UsedCar:63 -
-			config.properties loaded successfully.
-2025-07-15 12:31:54 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:31:54 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:35:02 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 12:35:03 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:35:03 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-16 10:58:42 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-16 10:58:42 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-16 10:58:42 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-16 10:58:47 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-16 10:58:47 INFO  TS_UsedCar:56 -
+			Starting Test_PopularCarModels test...
+2025-07-16 10:58:47 INFO  TS_UsedCar:60 -
+			Attempting to select city: Chennai
+2025-07-16 10:58:47 INFO  TS_UsedCar:62 -
+			City 'Chennai' selected.
+2025-07-16 10:58:47 INFO  TS_UsedCar:64 -
+			Attempting to enter city (confirm selection).
+2025-07-16 10:58:47 INFO  TS_UsedCar:66 -
+			City entered/confirmed.
+2025-07-16 10:58:47 INFO  TS_UsedCar:68 -
+			Retrieving list of popular car models.
+2025-07-16 10:58:47 INFO  TS_UsedCar:70 -
+			Popular car models retrieved successfully. Count: 8
+2025-07-16 10:58:47 INFO  TS_UsedCar:74 -
+			Assertion passed: Popular car models list is not empty.
+2025-07-16 10:58:47 INFO  TS_UsedCar:77 -
+			Attempting to take screenshot of used car image container.
+2025-07-16 10:59:00 INFO  TS_UsedCar:81 -
+			Screenshot taken and saved at: C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
+2025-07-16 10:59:00 INFO  TS_UsedCar:86 -
+			Test_PopularCarModels completed successfully.
+2025-07-16 10:59:00 INFO  TS_UsedCar:111 -
+			Execution for current test method finished.

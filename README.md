@@ -136,44 +136,43 @@ Run Individual Tests: You can also right-click on individual test classes (.java
 
 The project follows a well-organized structure to enhance maintainability and scalability:
 
-ZigWhells/
-├── src
-│   ├── test
-│       ├── java
-│       │   ├── pageObjects/                # Page Object Model classes representing different web pages.
-│       │   │   ├── BasePage.java             # Base class for all page objects, containing common elements and methods.
-│       │   │   ├── GoogleAuthenticationPage.java
-│       │   │   ├── HomePage.java
-│       │   │   ├── HondaUpcomingBikePage.java
-│       │   │   ├── UpcomingBikePage.java
-│       │   │   └── UsedCarPage.java
-│       │   ├── testBase/                   # Base classes for test setup and common test functionalities.
-│       │   │   └── BaseClass.java            # Provides methods for WebDriver initialization, test setup, and teardown.
-│       │   ├── testCases/                  # Contains the actual test scripts.
-│       │   │   ├── TS_Login.java             # Test suite/case for login functionality.
-│       │   │   ├── TS_UpcomingHondaBike.java # Test suite/case for upcoming Honda bike features.
-│       │   │   └── TS_UsedCar.java           # Test suite/case for used car functionalities.
-│       │   └── utilities/                  # Helper classes for various common tasks.
-│       │       └── ExtentReportManager.java  # Manages Extent Reports for detailed test reporting.
+ZigWhells/  
+├── src  
+│   ├── test  
+│       ├── java   
+│       │   ├── pageObjects/                    
+│       │   │   ├── BasePage.java              
+│       │   │   ├── GoogleAuthenticationPage.java  
+│       │   │   ├── HomePage.java  
+│       │   │   ├── HondaUpcomingBikePage.java  
+│       │   │   ├── UpcomingBikePage.java  
+│       │   │   └── UsedCarPage.java  
+│       │   ├── testBase/                
+│       │   │   └── BaseClass.java            
+│       │   ├── testCases/                  
+│       │   │   ├── TS_Login.java             
+│       │   │   ├── TS_UpcomingHondaBike.java 
+│       │   │   └── TS_UsedCar.java          
+│       │   └── utilities/                 
+│       │       └── ExtentReportManager.java  
 │       ├── resources
-│       │   ├── config.properties             # Configuration file for various settings (e.g., browser, URLs, test data paths).
-│       │   └── log4j2.xml                    # Log4j2 configuration for logging.
+│       │   ├── config.properties             
+│       │   └── log4j2.xml                    
 │
-├── JRE System Library [jdk-24]             # Java Runtime Environment libraries.
-├── Maven Dependencies                      # Project dependencies managed by Maven.
-├── logs/                                   # Contains application and test execution logs.
+├── JRE System Library [jdk-24]             
+├── Maven Dependencies                      
+├── logs/                                  
 │   └── automation.log
-├── reports/                                # Stores test execution reports (e.g., Extent Reports, TestNG HTML reports).
+├── reports/                                
 │   └── Test-Report-2025.07.16.14.49.29.html
-├── screenshots/                            # Stores screenshots captured during test execution (e.g., on failure).
+├── screenshots/                           
 │   └── ...
-├── pom.xml                                 # Maven Project Object Model file.
+├── pom.xml                                 
 ├── target 
 ├── test-output
 ├── master.xml  
 ├── pom.xml 
-└── README.md                               # This README file.
-
+└── README.md                               
 
 
 ### Configuration

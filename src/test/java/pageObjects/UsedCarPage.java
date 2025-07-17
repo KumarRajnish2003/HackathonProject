@@ -28,7 +28,7 @@ public class UsedCarPage extends BasePage {
 	public void selectCity(String cityinfo) {
 		cityinput.sendKeys(cityinfo);
 	}
-
+	
 	public void enterCity() {
 		city.click();
 	}

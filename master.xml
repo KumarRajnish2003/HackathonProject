@@ -26,7 +26,7 @@
     </classes>
   </test>
   
-  <!-- <test thread-count="5" name="firefoxTest">
+ <!-- <test thread-count="5" name="firefoxTest">
   	<parameter name="os" value="Windows" />
   	<parameter name="browser"  value="firefox"/> 
     <classes>

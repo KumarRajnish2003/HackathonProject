@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T16:03:15 IST" name="Suite" finished-at="2025-07-17T16:10:11 IST" duration-ms="415926">
+  <suite started-at="2025-07-17T17:40:40 IST" name="Suite" finished-at="2025-07-17T17:48:13 IST" duration-ms="453289">
     <groups>
     </groups>
-    <test started-at="2025-07-17T16:03:15 IST" name="ChromeTest" finished-at="2025-07-17T16:06:22 IST" duration-ms="187047">
+    <test started-at="2025-07-17T17:40:40 IST" name="ChromeTest" finished-at="2025-07-17T17:44:42 IST" duration-ms="241826">
       <class name="testCases.TS_UsedCar">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@5d8bafa9]" started-at="2025-07-17T16:04:32 IST" name="setup" finished-at="2025-07-17T16:05:18 IST" duration-ms="46591" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@2dca0d64]" started-at="2025-07-17T17:42:43 IST" name="setup" finished-at="2025-07-17T17:43:35 IST" duration-ms="51905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,25 +23,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@5d8bafa9]" started-at="2025-07-17T16:05:18 IST" name="navigateToUsedCarPage" finished-at="2025-07-17T16:06:04 IST" duration-ms="45809" status="PASS">
+        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@2dca0d64]" started-at="2025-07-17T17:43:35 IST" name="navigateToUsedCarPage" finished-at="2025-07-17T17:44:22 IST" duration-ms="46496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToUsedCarPage -->
-        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@5d8bafa9]" started-at="2025-07-17T16:06:04 IST" name="Test_PopularCarModels" finished-at="2025-07-17T16:06:17 IST" duration-ms="13080" status="PASS">
+        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@2dca0d64]" started-at="2025-07-17T17:44:22 IST" name="Test_PopularCarModels" finished-at="2025-07-17T17:44:36 IST" duration-ms="13945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_PopularCarModels -->
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@5d8bafa9]" started-at="2025-07-17T16:06:17 IST" name="navigateToHomePage" finished-at="2025-07-17T16:06:18 IST" duration-ms="812" status="PASS">
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@2dca0d64]" started-at="2025-07-17T17:44:36 IST" name="navigateToHomePage" finished-at="2025-07-17T17:44:37 IST" duration-ms="1489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@5d8bafa9]" started-at="2025-07-17T16:06:18 IST" name="tearDown" finished-at="2025-07-17T16:06:22 IST" duration-ms="3967" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@2dca0d64]" started-at="2025-07-17T17:44:37 IST" name="tearDown" finished-at="2025-07-17T17:44:42 IST" duration-ms="4626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_UsedCar -->
       <class name="testCases.TS_UpcomingHondaBike">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UpcomingHondaBike@584f54e6]" started-at="2025-07-17T16:04:23 IST" name="setup" finished-at="2025-07-17T16:04:26 IST" duration-ms="3081" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UpcomingHondaBike@576f63f6]" started-at="2025-07-17T17:41:41 IST" name="setup" finished-at="2025-07-17T17:42:33 IST" duration-ms="52570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,25 +57,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToUpcomingHondaBikes()[pri:0, instance:testCases.TS_UpcomingHondaBike@584f54e6]" started-at="2025-07-17T16:04:26 IST" name="goToUpcomingHondaBikes" finished-at="2025-07-17T16:04:27 IST" duration-ms="1750" status="PASS">
+        <test-method is-config="true" signature="goToUpcomingHondaBikes()[pri:0, instance:testCases.TS_UpcomingHondaBike@576f63f6]" started-at="2025-07-17T17:42:33 IST" name="goToUpcomingHondaBikes" finished-at="2025-07-17T17:42:37 IST" duration-ms="3463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToUpcomingHondaBikes -->
-        <test-method signature="get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@584f54e6]" started-at="2025-07-17T16:04:27 IST" name="get_Honda_Upcoming_Bikes_Under_4lac" finished-at="2025-07-17T16:04:29 IST" duration-ms="1284" status="PASS">
+        <test-method signature="get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@576f63f6]" started-at="2025-07-17T17:42:37 IST" name="get_Honda_Upcoming_Bikes_Under_4lac" finished-at="2025-07-17T17:42:39 IST" duration-ms="1720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_Honda_Upcoming_Bikes_Under_4lac -->
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UpcomingHondaBike@584f54e6]" started-at="2025-07-17T16:04:29 IST" name="navigateToHomePage" finished-at="2025-07-17T16:04:30 IST" duration-ms="893" status="PASS">
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UpcomingHondaBike@576f63f6]" started-at="2025-07-17T17:42:39 IST" name="navigateToHomePage" finished-at="2025-07-17T17:42:39 IST" duration-ms="809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UpcomingHondaBike@584f54e6]" started-at="2025-07-17T16:04:30 IST" name="tearDown" finished-at="2025-07-17T16:04:32 IST" duration-ms="2080" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UpcomingHondaBike@576f63f6]" started-at="2025-07-17T17:42:39 IST" name="tearDown" finished-at="2025-07-17T17:42:43 IST" duration-ms="3991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_UpcomingHondaBike -->
       <class name="testCases.TS_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:03:15 IST" name="setup" finished-at="2025-07-17T16:03:27 IST" duration-ms="12180" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:40:41 IST" name="setup" finished-at="2025-07-17T17:40:59 IST" duration-ms="18114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,39 +91,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:03:27 IST" name="openLoginPopUp" finished-at="2025-07-17T16:03:28 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:40:59 IST" name="openLoginPopUp" finished-at="2025-07-17T17:41:01 IST" duration-ms="2444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPopUp -->
-        <test-method signature="Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:03:28 IST" name="Test_Login_With_Invalid_Google_Account" finished-at="2025-07-17T16:03:36 IST" duration-ms="8569" status="PASS">
+        <test-method signature="Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:41:01 IST" name="Test_Login_With_Invalid_Google_Account" finished-at="2025-07-17T17:41:11 IST" duration-ms="9342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_With_Invalid_Google_Account -->
-        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:03:36 IST" name="closeLoginPopUp" finished-at="2025-07-17T16:03:36 IST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:41:11 IST" name="closeLoginPopUp" finished-at="2025-07-17T17:41:11 IST" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoginPopUp -->
-        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:03:36 IST" name="openLoginPopUp" finished-at="2025-07-17T16:03:37 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:41:11 IST" name="openLoginPopUp" finished-at="2025-07-17T17:41:12 IST" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPopUp -->
-        <test-method signature="Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:03:37 IST" name="Test_Login_With_valid_Google_Account" finished-at="2025-07-17T16:04:19 IST" duration-ms="42074" status="PASS">
+        <test-method signature="Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:41:12 IST" name="Test_Login_With_valid_Google_Account" finished-at="2025-07-17T17:41:36 IST" duration-ms="24228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_With_valid_Google_Account -->
-        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:04:19 IST" name="closeLoginPopUp" finished-at="2025-07-17T16:04:19 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:41:36 IST" name="closeLoginPopUp" finished-at="2025-07-17T17:41:37 IST" duration-ms="750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoginPopUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_Login@436bc36]" started-at="2025-07-17T16:04:19 IST" name="tearDown" finished-at="2025-07-17T16:04:23 IST" duration-ms="3551" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_Login@604c5de8]" started-at="2025-07-17T17:41:37 IST" name="tearDown" finished-at="2025-07-17T17:41:41 IST" duration-ms="4205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_Login -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-07-17T16:06:23 IST" name="EdgeTest" finished-at="2025-07-17T16:10:11 IST" duration-ms="228082">
+    <test started-at="2025-07-17T17:44:44 IST" name="EdgeTest" finished-at="2025-07-17T17:48:13 IST" duration-ms="209832">
       <class name="testCases.TS_UsedCar">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@c5dc4a2]" started-at="2025-07-17T16:09:02 IST" name="setup" finished-at="2025-07-17T16:09:51 IST" duration-ms="49147" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@52066604]" started-at="2025-07-17T17:46:37 IST" name="setup" finished-at="2025-07-17T17:46:50 IST" duration-ms="12231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,25 +139,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@c5dc4a2]" started-at="2025-07-17T16:09:51 IST" name="navigateToUsedCarPage" finished-at="2025-07-17T16:09:53 IST" duration-ms="1987" status="PASS">
+        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@52066604]" started-at="2025-07-17T17:46:50 IST" name="navigateToUsedCarPage" finished-at="2025-07-17T17:47:54 IST" duration-ms="64215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToUsedCarPage -->
-        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@c5dc4a2]" started-at="2025-07-17T16:09:53 IST" name="Test_PopularCarModels" finished-at="2025-07-17T16:10:06 IST" duration-ms="13115" status="PASS">
+        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@52066604]" started-at="2025-07-17T17:47:54 IST" name="Test_PopularCarModels" finished-at="2025-07-17T17:48:08 IST" duration-ms="13832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_PopularCarModels -->
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@c5dc4a2]" started-at="2025-07-17T16:10:06 IST" name="navigateToHomePage" finished-at="2025-07-17T16:10:07 IST" duration-ms="905" status="PASS">
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@52066604]" started-at="2025-07-17T17:48:08 IST" name="navigateToHomePage" finished-at="2025-07-17T17:48:09 IST" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@c5dc4a2]" started-at="2025-07-17T16:10:07 IST" name="tearDown" finished-at="2025-07-17T16:10:11 IST" duration-ms="4069" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@52066604]" started-at="2025-07-17T17:48:09 IST" name="tearDown" finished-at="2025-07-17T17:48:13 IST" duration-ms="4533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_UsedCar -->
       <class name="testCases.TS_UpcomingHondaBike">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UpcomingHondaBike@10ded6a9]" started-at="2025-07-17T16:08:04 IST" name="setup" finished-at="2025-07-17T16:08:52 IST" duration-ms="47818" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UpcomingHondaBike@4a194c39]" started-at="2025-07-17T17:46:13 IST" name="setup" finished-at="2025-07-17T17:46:28 IST" duration-ms="15453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,25 +173,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToUpcomingHondaBikes()[pri:0, instance:testCases.TS_UpcomingHondaBike@10ded6a9]" started-at="2025-07-17T16:08:52 IST" name="goToUpcomingHondaBikes" finished-at="2025-07-17T16:08:55 IST" duration-ms="3042" status="PASS">
+        <test-method is-config="true" signature="goToUpcomingHondaBikes()[pri:0, instance:testCases.TS_UpcomingHondaBike@4a194c39]" started-at="2025-07-17T17:46:28 IST" name="goToUpcomingHondaBikes" finished-at="2025-07-17T17:46:31 IST" duration-ms="2961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToUpcomingHondaBikes -->
-        <test-method signature="get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@10ded6a9]" started-at="2025-07-17T16:08:55 IST" name="get_Honda_Upcoming_Bikes_Under_4lac" finished-at="2025-07-17T16:08:57 IST" duration-ms="1539" status="PASS">
+        <test-method signature="get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@4a194c39]" started-at="2025-07-17T17:46:31 IST" name="get_Honda_Upcoming_Bikes_Under_4lac" finished-at="2025-07-17T17:46:33 IST" duration-ms="1515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_Honda_Upcoming_Bikes_Under_4lac -->
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UpcomingHondaBike@10ded6a9]" started-at="2025-07-17T16:08:57 IST" name="navigateToHomePage" finished-at="2025-07-17T16:08:57 IST" duration-ms="726" status="PASS">
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UpcomingHondaBike@4a194c39]" started-at="2025-07-17T17:46:33 IST" name="navigateToHomePage" finished-at="2025-07-17T17:46:34 IST" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UpcomingHondaBike@10ded6a9]" started-at="2025-07-17T16:08:57 IST" name="tearDown" finished-at="2025-07-17T16:09:02 IST" duration-ms="4236" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UpcomingHondaBike@4a194c39]" started-at="2025-07-17T17:46:34 IST" name="tearDown" finished-at="2025-07-17T17:46:37 IST" duration-ms="3699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_UpcomingHondaBike -->
       <class name="testCases.TS_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:06:23 IST" name="setup" finished-at="2025-07-17T16:07:10 IST" duration-ms="47735" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:44:44 IST" name="setup" finished-at="2025-07-17T17:45:35 IST" duration-ms="51665" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,31 +207,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:07:10 IST" name="openLoginPopUp" finished-at="2025-07-17T16:07:11 IST" duration-ms="562" status="PASS">
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:45:35 IST" name="openLoginPopUp" finished-at="2025-07-17T17:45:36 IST" duration-ms="1128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPopUp -->
-        <test-method signature="Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:07:11 IST" name="Test_Login_With_Invalid_Google_Account" finished-at="2025-07-17T16:07:19 IST" duration-ms="7559" status="PASS">
+        <test-method signature="Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:45:36 IST" name="Test_Login_With_Invalid_Google_Account" finished-at="2025-07-17T17:45:45 IST" duration-ms="8669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_With_Invalid_Google_Account -->
-        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:07:19 IST" name="closeLoginPopUp" finished-at="2025-07-17T16:07:19 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:45:45 IST" name="closeLoginPopUp" finished-at="2025-07-17T17:45:46 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoginPopUp -->
-        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:07:19 IST" name="openLoginPopUp" finished-at="2025-07-17T16:07:19 IST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:45:46 IST" name="openLoginPopUp" finished-at="2025-07-17T17:45:46 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPopUp -->
-        <test-method signature="Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:07:19 IST" name="Test_Login_With_valid_Google_Account" finished-at="2025-07-17T16:08:00 IST" duration-ms="41399" status="PASS">
+        <test-method signature="Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:45:46 IST" name="Test_Login_With_valid_Google_Account" finished-at="2025-07-17T17:46:08 IST" duration-ms="22600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_With_valid_Google_Account -->
-        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:08:00 IST" name="closeLoginPopUp" finished-at="2025-07-17T16:08:01 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:46:08 IST" name="closeLoginPopUp" finished-at="2025-07-17T17:46:09 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoginPopUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_Login@17a1e4ca]" started-at="2025-07-17T16:08:01 IST" name="tearDown" finished-at="2025-07-17T16:08:04 IST" duration-ms="3679" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_Login@c5dc4a2]" started-at="2025-07-17T17:46:09 IST" name="tearDown" finished-at="2025-07-17T17:46:13 IST" duration-ms="3865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

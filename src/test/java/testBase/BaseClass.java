@@ -3,6 +3,10 @@ package testBase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,10 +24,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -44,7 +49,7 @@ public class BaseClass {
 	
 	@Parameters({"browser","os"})
 	@BeforeClass
-	public void setup(@Optional("Chrome") String browser, String os) {
+	public void setup(@Optional("Chrome") String browser, String os) throws MalformedURLException, URISyntaxException {
 
 		logger = LogManager.getLogger(this.getClass());
 		try {
@@ -56,6 +61,7 @@ public class BaseClass {
 			Assert.assertTrue(false, "Failed to load config.properties");
 		}
 		
+		if(props.getProperty("execution_env").equals("local")) {
 		switch(browser.toLowerCase()) {
 		case "chrome": //driver = new ChromeDriver(); break;
 				WebDriverManager.chromedriver().setup(); // Setup ChromeDriver
@@ -93,6 +99,62 @@ public class BaseClass {
              break;
 		default : logger.error("Unable to get browser");
 				return;
+		}
+	}
+		
+		if(props.getProperty("execution_env").equals("remote")) {
+			
+			DesiredCapabilities cap= new DesiredCapabilities();
+			switch(browser.toLowerCase()) {
+			case "chrome": //driver = new ChromeDriver(); break;
+				   cap.setBrowserName("chrome");
+				
+					WebDriverManager.chromedriver().setup(); // Setup ChromeDriver
+		            ChromeOptions chromeOptions = new ChromeOptions();
+		            // Create a HashMap to store preferences for Chrome
+		            Map<String, Object> chromePrefs = new HashMap<>();
+		            // Set the preference to allow notifications (1 = allow, 2 = block, 0 = ask)
+		            chromePrefs.put("profile.default_content_setting_values.notifications", 1);
+		            chromeOptions.setExperimentalOption("prefs", chromePrefs);
+		            //driver = new ChromeDriver(chromeOptions);
+		            logger.info("Chrome browser initialized with notifications allowed.");
+		            cap.setCapability(ChromeOptions.CAPABILITY,chromeOptions);
+		            break;
+			 case "edge":
+//	             WebDriverManager.edgedriver().setup(); // Setup EdgeDriver
+//	             EdgeOptions edgeOptions = new EdgeOptions();
+//	             // Create a HashMap to store preferences for Edge
+//	             Map<String, Object> edgePrefs = new HashMap<>();
+//	             // Set the preference to allow notifications (1 = allow, 2 = block, 0 = ask)
+//	             edgePrefs.put("profile.default_content_setting_values.notifications", 1);
+//	             edgeOptions.setExperimentalOption("prefs", edgePrefs);
+//	             driver = new EdgeDriver(edgeOptions);
+//				 	driver = new EdgeDriver();
+				 cap.setBrowserName("MicrosoftEdge");
+	             logger.info("Edge browser initialized with notifications allowed.");
+	             break;
+
+	         case "firefox":
+	        	 cap.setBrowserName("firefox");
+	             WebDriverManager.firefoxdriver().setup(); // Setup FirefoxDriver
+	             FirefoxOptions firefoxOptions = new FirefoxOptions();
+	             FirefoxProfile firefoxProfile = new FirefoxProfile();
+	             // Set the preference to allow web notifications for Firefox
+	             firefoxProfile.setPreference("dom.webnotifications.enabled", true);
+	             firefoxOptions.setProfile(firefoxProfile);
+	             //driver = new FirefoxDriver(firefoxOptions);
+	             cap.setCapability(FirefoxOptions.FIREFOX_OPTIONS,firefoxOptions);
+	             logger.info("Firefox browser initialized with notifications allowed.");
+	             break;
+			default : logger.error("Unable to get browser");
+					return;
+			}
+			
+			String url="http://10.229.52.170:4444";
+			URI uri=new URI(url);
+			URL seleniumHubUrl=uri.toURL();
+			driver=new RemoteWebDriver(seleniumHubUrl,cap);
+			
 		}
 		
 		String HomePageUrl = props.getProperty("HomePageUrl");

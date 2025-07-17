@@ -151,28 +151,28 @@ ZigWhells/
 │       │   │   └── BaseClass.java            
 │       │   ├── testCases/                  
 │       │   │   ├── TS_Login.java             
-│       │   │   ├── TS_UpcomingHondaBike.java 
-│       │   │   └── TS_UsedCar.java          
+│       │   │   ├── TS_UpcomingHondaBike.java   
+│       │   │   └── TS_UsedCar.java            
 │       │   └── utilities/                 
 │       │       └── ExtentReportManager.java  
-│       ├── resources
+│       ├── resources  
 │       │   ├── config.properties             
 │       │   └── log4j2.xml                    
 │
 ├── JRE System Library [jdk-24]             
 ├── Maven Dependencies                      
 ├── logs/                                  
-│   └── automation.log
-├── reports/                                
-│   └── Test-Report-2025.07.16.14.49.29.html
-├── screenshots/                           
-│   └── ...
-├── pom.xml                                 
-├── target 
-├── test-output
-├── master.xml  
-├── pom.xml 
-└── README.md                               
+│   └── automation.log  
+├── reports/                                  
+│   └── Test-Report-2025.07.16.14.49.29.html  
+├── screenshots/                             
+│   └── ...  
+├── pom.xml                                   
+├── target   
+├── test-output  
+├── master.xml    
+├── pom.xml   
+└── README.md                                 
 
 
 ### Configuration

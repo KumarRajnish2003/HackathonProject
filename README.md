@@ -21,7 +21,6 @@
 - [Reporting](#reporting)
 - [Data-Driven Testing](#data-driven-testing)
 - [Page Object Model (POM)](#page-object-model-pom)
-- [Best Practices](#best-practices)
 
 ## Introduction
 
@@ -226,19 +225,3 @@ Elements: These page classes contain WebElements representing the UI components 
 Methods: Page classes encapsulate the interactions (methods) with those elements (e.g., enterUsername(), clickLoginButton(), getErrorMessage()).
 
 Benefits: This separation of UI elements and test logic drastically reduces code duplication, improves readability, and makes tests highly resilient to changes in the application's UI. If a locator changes, only the page object needs to be updated, not every test case that uses that element.
-
-
-### Best Practices
-
-Meaningful Naming Conventions: Adhere to clear and descriptive naming for test classes, methods, variables, and Page Objects.
-
-Modular Design: Maintain a highly modular framework structure for maximum reusability of components and easier maintenance.
-
-Code Comments: Include concise and clear comments for complex logic or non-obvious sections of code.
-
-Dependency Management: Regularly update Selenium WebDriver, browser drivers, and other third-party dependencies to their latest stable versions.
-
-Version Control: Utilize Git for efficient version control and collaborative development.
-
-CI/CD Integration: Integrate the framework with Continuous Integration/Continuous Deployment (CI/CD) pipelines (e.g., Jenkins, GitHub Actions) to automate test execution upon every code commit.
-

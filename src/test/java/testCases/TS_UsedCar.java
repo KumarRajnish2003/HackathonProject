@@ -1,5 +1,6 @@
 package testCases;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.testng.Assert;
@@ -15,7 +16,7 @@ public class TS_UsedCar extends BaseClass {
 	UsedCarPage ucp;
 
 	@BeforeMethod
-	public void navigateToUsedCarPage() {
+	public void navigateToUsedCarPage() throws IOException {
 		logger.info("Navigating to used car page");
 		home = new HomePage(driver);
 		home.hoverMore();
@@ -28,14 +29,16 @@ public class TS_UsedCar extends BaseClass {
 		logger.info("starting to test popular car models");
 		try {
 			ucp = new UsedCarPage(driver);
-			ucp.selectCity("Chennai");
+			
+			List<String> data=getData();
+			ucp.selectCity(data.get(3));
 			ucp.enterCity();
 			List<String> carList = ucp.selectPopularCars();
-			logger.info("Popular car models : " + carList);
+			logger.info("Popular Usedcar models in "+data.get(3)+" are: " + carList);
+			System.out.println("The popular used car models in "+data.get(3)+" are:");
 			System.out.println(carList);
-			Thread.sleep(4000);
-//			String usedcarpagePath = BaseClass.takeScreenShot("usedcarpage");
-			String usedcarpagePath = BaseClass.takeSpecificScreenShot("usedcarpage",ucp.getUsedCarImageContainer());
+			Thread.sleep(2000);
+			String usedcarpagePath = BaseClass.takeSpecificScreenShot("popularmodels",ucp.getUsedCarImageContainer());
 			logger.info(usedcarpagePath);
 
 		} catch (Exception e) {
@@ -48,6 +51,8 @@ public class TS_UsedCar extends BaseClass {
 
 	@AfterMethod
 	public void navigateToHomePage() {
+		String HomePageUrl = props.getProperty("HomePageUrl");
+		driver.navigate().to(HomePageUrl);
 		logger.info("closing usedCarPage");
 	}
 

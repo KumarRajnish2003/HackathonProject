@@ -3,15 +3,19 @@ package pageObjects;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class UsedCarPage extends BasePage {
 
 	public UsedCarPage(WebDriver driver) {
 		super(driver);
 	}
+	
 
 	@FindBy(xpath = "//*[@id=\"gs_input5\"]")
 	WebElement cityinput;
@@ -19,31 +23,11 @@ public class UsedCarPage extends BasePage {
 	@FindBy(xpath = "//*[@id=\"ui-id-5\"]/li/a")
 	WebElement city;
 
-	@FindBy(xpath = "//*[@id=\"mmvLi_22_317\"]/label")
-	WebElement Maruti800;
+	@FindBy(xpath = "//div[@class='gsc_thin_scroll']/ul/li/label")
+	List <WebElement> popularmod;
 
-	@FindBy(xpath = "//*[@id=\"mmvLi_22_338\"]/label")
-	WebElement MarutiSwift;
 
-	@FindBy(xpath = "//*[@id=\"mmvLi_10_146\"]/label")
-	WebElement HyundaiI10;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_10_156\"]/label")
-	WebElement HyundaiSantroXing;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_8_125\"]/label")
-	WebElement HondaCity;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_21_314\"]/label")
-	WebElement MahindraXUV500;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_13_205\"]/label")
-	WebElement ToyotaFortuner;
-
-	@FindBy(xpath = "//*[@id=\"mmvLi_13_207\"]/label")
-	WebElement ToyotaInnova;
-
-	@FindBy(xpath = "//*[@id=\"mainPage\"]")
+	@FindBy(xpath = "//div[@class='gsc_thin_scroll']/ul")
 	WebElement UsedCarImages;
 	
 	public void selectCity(String cityinfo) {
@@ -51,25 +35,23 @@ public class UsedCarPage extends BasePage {
 	}
 
 	public void enterCity() {
-		city.click();
+		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(city));
+		button.click();
+		
 	}
 	
 	public WebElement getUsedCarImageContainer() {
+		
 		return UsedCarImages;
 	}
 
 	public List<String> selectPopularCars() {
-
+		
+		
 		List<String> PopularcarList = new ArrayList<String>();
-
-		PopularcarList.add(Maruti800.getText());
-		PopularcarList.add(MarutiSwift.getText());
-		PopularcarList.add(HyundaiI10.getText());
-		PopularcarList.add(HyundaiSantroXing.getText());
-		PopularcarList.add(HondaCity.getText());
-		PopularcarList.add(ToyotaInnova.getText());
-		PopularcarList.add(ToyotaFortuner.getText());
-		PopularcarList.add(MahindraXUV500.getText());
+		for(WebElement web:popularmod) {
+			PopularcarList.add(web.getText());
+		}
 
 		return PopularcarList;
 

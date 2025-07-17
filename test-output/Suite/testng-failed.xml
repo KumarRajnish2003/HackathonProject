@@ -4,10 +4,19 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="ChromeTest(failed)">
+  <test thread-count="5" name="firefoxTest(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
+      <class name="testCases.TS_UpcomingHondaBike">
+        <methods>
+          <include name="navigateToHomePage"/>
+          <include name="get_Honda_Upcoming_Bikes_Under_4lac"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="goToUpcomingHondaBikes"/>
+        </methods>
+      </class> <!-- testCases.TS_UpcomingHondaBike -->
       <class name="testCases.TS_UsedCar">
         <methods>
           <include name="Test_PopularCarModels"/>
@@ -17,6 +26,16 @@
           <include name="navigateToUsedCarPage"/>
         </methods>
       </class> <!-- testCases.TS_UsedCar -->
+      <class name="testCases.TS_Login">
+        <methods>
+          <include name="Test_Login_With_valid_Google_Account"/>
+          <include name="tearDown"/>
+          <include name="closeLoginPopUp"/>
+          <include name="openLoginPopUp"/>
+          <include name="setup"/>
+          <include name="Test_Login_With_Invalid_Google_Account"/>
+        </methods>
+      </class> <!-- testCases.TS_Login -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- firefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

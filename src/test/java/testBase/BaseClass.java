@@ -1,14 +1,18 @@
 package testBase;
 
-import java.util.Date;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -25,12 +29,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.text.SimpleDateFormat;
-import java.time.Duration;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.ExcelUtils;
 
 public class BaseClass {
 
@@ -38,6 +39,9 @@ public class BaseClass {
 	public Logger logger;
 	public static Properties props;
 	public static String mainWindowHandle = null;
+	
+	
+	
 	@Parameters({"browser","os"})
 	@BeforeClass
 	public void setup(@Optional("Chrome") String browser, String os) {
@@ -65,14 +69,15 @@ public class BaseClass {
 	            logger.info("Chrome browser initialized with notifications allowed.");
 	            break;
 		 case "edge":
-             WebDriverManager.edgedriver().setup(); // Setup EdgeDriver
-             EdgeOptions edgeOptions = new EdgeOptions();
-             // Create a HashMap to store preferences for Edge
-             Map<String, Object> edgePrefs = new HashMap<>();
-             // Set the preference to allow notifications (1 = allow, 2 = block, 0 = ask)
-             edgePrefs.put("profile.default_content_setting_values.notifications", 1);
-             edgeOptions.setExperimentalOption("prefs", edgePrefs);
-             driver = new EdgeDriver(edgeOptions);
+//             WebDriverManager.edgedriver().setup(); // Setup EdgeDriver
+//             EdgeOptions edgeOptions = new EdgeOptions();
+//             // Create a HashMap to store preferences for Edge
+//             Map<String, Object> edgePrefs = new HashMap<>();
+//             // Set the preference to allow notifications (1 = allow, 2 = block, 0 = ask)
+//             edgePrefs.put("profile.default_content_setting_values.notifications", 1);
+//             edgeOptions.setExperimentalOption("prefs", edgePrefs);
+//             driver = new EdgeDriver(edgeOptions);
+			 	driver = new EdgeDriver();
              logger.info("Edge browser initialized with notifications allowed.");
              break;
 
@@ -86,14 +91,17 @@ public class BaseClass {
              driver = new FirefoxDriver(firefoxOptions);
              logger.info("Firefox browser initialized with notifications allowed.");
              break;
-		default : logger.error("Unable to get browser");return;
+		default : logger.error("Unable to get browser");
+				return;
 		}
 		
 		String HomePageUrl = props.getProperty("HomePageUrl");
 		driver.get(HomePageUrl);
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
+		
+		
 	}
 
 	@AfterClass
@@ -114,9 +122,7 @@ public class BaseClass {
 	}
 
 	public static String takeScreenShot(String tname) {
-		String timeStamp=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//    	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
     	String targetFilepath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+".png";
     	File target = new File(targetFilepath);
 		src.renameTo(target);
@@ -130,5 +136,15 @@ public class BaseClass {
 		src.renameTo(target);
 		return targetFilepath;
 	}
-
+	
+	ExcelUtils uty=new ExcelUtils();
+	
+	public List<String> getData() throws IOException {
+		String filepath=props.getProperty("filepath");
+		List<String> data=new ArrayList<>();
+		for(int i=0;i<uty.getCellCount(filepath, "Sheet1", 1);i++) {
+			data.add(uty.getCellData(filepath, "Sheet1", 1, i));
+		}
+		return data;
+	}
 }

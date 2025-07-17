@@ -15,16 +15,16 @@ public class GoogleAuthenticationPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//*[@id=\"myModal3-modal-content\"]/div[1]/div/div[3]/div[6]/div")
+	@FindBy(xpath = "//*[@id=\"myModal3-modal-content\"]/div[1]/div/div[3]/div[6]/div/span[2]")
 	WebElement googleLogin;
 
-	@FindBy(xpath="//*[@id=\"identifierId\"]")
+	@FindBy(xpath="//input[@type='email']")
 	WebElement EmailorPhone;
 
-	@FindBy(xpath = "//*[@id=\"identifierNext\"]/div/button/span")
+	@FindBy(xpath = "//*[@id=\"identifierNext\"]/div/button")
 	WebElement next;
 	
-	@FindBy(xpath = "//*[@id=\"report_submit_close_login\"]")
+	@FindBy(xpath = "//span[@id='report_submit_close_login']")
 	WebElement close;
 
 	@FindBy(xpath = "//*[@id=\"password\"]/div[1]/div/div[1]/input")
@@ -32,22 +32,17 @@ public class GoogleAuthenticationPage extends BasePage {
 	
 	@FindBy(xpath = "//*[@id=\"passwordNext\"]/div/button/span") 
 	WebElement next2;
+	
 
 	public void clickOnGoogleLogin() throws InterruptedException{
-		Thread.sleep(2000);
-		googleLogin.click();
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2)); // Wait up to 10 seconds
-
-        // Using ExpectedConditions.elementToBeClickable() with the WebElement itself
-//        wait.until(ExpectedConditions.elementToBeClickable(googleLogin));
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("arguments[0].click();", googleLogin);
-//        googleLogin.click();
+		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(googleLogin));
+		button.click();
 	}
 
 	public void sendEmailorPhone(String data) {
 		try {
-			EmailorPhone.sendKeys(data);
+			WebElement email = wait.until(ExpectedConditions.elementToBeClickable(EmailorPhone));
+			email.sendKeys(data);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -56,7 +51,7 @@ public class GoogleAuthenticationPage extends BasePage {
 
 	public void sendPassword(String pass) {
 		try {
-			Thread.sleep(2000);
+			
 			password.sendKeys(pass);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
@@ -73,7 +68,8 @@ public class GoogleAuthenticationPage extends BasePage {
 	}
 
 	public void closePopUp() {
-		close.click();
+		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(close));
+		button.click();
 	}
 
 }

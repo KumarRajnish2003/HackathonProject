@@ -1,1028 +1,2364 @@
-2025-07-09 13:09:08 INFO  TS_Login:23 -
+2025-07-17 00:03:32 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 00:03:34 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 00:03:34 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 00:03:37 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 00:04:06 INFO  TS_Login:21 -
 			opening the login popup window
-2025-07-09 13:09:10 INFO  TS_Login:33 -
+2025-07-17 00:04:06 INFO  TS_Login:28 -
 			started the login test with invalid google account
-2025-07-09 13:09:12 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 13:09:12 INFO  TS_Login:67 -
+2025-07-17 00:04:50 INFO  TS_Login:65 -
 			switching back to main window
-2025-07-09 13:09:12 INFO  TS_Login:23 -
+2025-07-17 00:04:50 INFO  TS_Login:21 -
 			opening the login popup window
-2025-07-09 13:09:13 INFO  TS_Login:46 -
-			started the login test with valid google account and invalid password
-2025-07-09 13:09:34 INFO  TS_Login:56 -
-			password textfeild is blocked
-2025-07-09 13:09:34 INFO  TS_Login:60 -
-			taking the screenshot of invalid google account
-2025-07-09 13:09:34 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 14:49:23 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:49:24 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:49:27 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:49:27 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709024927
-2025-07-09 14:49:27 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:49:28 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:49:28 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:49:49 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:49:49 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:49:49 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709024949
-2025-07-09 14:49:49 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:49:59 INFO  TS_UsedCar:15 -
+2025-07-17 10:26:11 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:26:12 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:26:12 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:26:14 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:27:00 INFO  TS_UsedCar:20 -
 			Navigating to used car page
-2025-07-09 14:50:03 INFO  TS_UsedCar:23 -
+2025-07-17 10:27:03 INFO  TS_UsedCar:29 -
 			starting to test popular car models
-2025-07-09 14:50:09 ERROR TS_UsedCar:35 -
-			Test failed : org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c6fb5325c2529001edc566d01a1e0b72, sendKeysToElement [id, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60384/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c6fb5325c2529001edc566d01a1e0b72)] -> xpath: //*[@id="gs_input5"]]
-Session ID: c6fb5325c2529001edc566d01a1e0b72
-2025-07-09 14:50:09 INFO  TS_UsedCar:44 -
-			Navigating back to home page
-2025-07-09 14:51:43 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:51:44 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:51:46 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:51:46 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025146
-2025-07-09 14:51:46 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:51:46 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:51:46 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:52:08 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:52:08 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:52:08 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025208
-2025-07-09 14:52:08 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:52:57 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:52:58 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:53:00 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:53:00 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025300
-2025-07-09 14:53:00 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:53:00 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:53:01 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:53:22 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:53:22 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:53:22 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025322
-2025-07-09 14:53:22 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:53:40 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:53:41 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:53:43 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 14:53:43 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709025343
-2025-07-09 14:53:43 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:53:43 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:53:44 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 14:54:05 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 14:54:05 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 14:54:05 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709025405
-2025-07-09 14:54:05 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:54:15 INFO  TS_UsedCar:15 -
+2025-07-17 10:27:03 ERROR TS_UsedCar:45 -
+			Test failed : java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "this.data" is null
+2025-07-17 10:27:04 INFO  TS_UsedCar:54 -
+			closing usedCarPage
+2025-07-17 10:27:58 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:27:59 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:27:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:28:00 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:28:10 INFO  TS_UsedCar:20 -
 			Navigating to used car page
-2025-07-09 14:54:19 INFO  TS_UsedCar:23 -
+2025-07-17 10:28:13 INFO  TS_UsedCar:29 -
 			starting to test popular car models
-2025-07-09 14:54:20 INFO  TS_UsedCar:29 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 14:54:24 INFO  TS_UsedCar:32 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709025424
-2025-07-09 14:54:24 INFO  TS_UsedCar:44 -
-			Navigating back to home page
-2025-07-09 14:59:02 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 14:59:03 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 14:59:29 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 14:59:34 INFO  TS_UsedCar:15 -
+2025-07-17 10:28:13 ERROR TS_UsedCar:45 -
+			Test failed : java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "this.data" is null
+2025-07-17 10:28:13 INFO  TS_UsedCar:54 -
+			closing usedCarPage
+2025-07-17 10:29:47 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:29:48 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:29:48 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:29:50 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:29:51 INFO  TS_UsedCar:20 -
 			Navigating to used car page
-2025-07-09 14:59:35 INFO  TS_UsedCar:23 -
+2025-07-17 10:29:56 INFO  TS_UsedCar:29 -
 			starting to test popular car models
-2025-07-09 14:59:35 ERROR TS_UsedCar:35 -
-			Test failed : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+2025-07-17 10:29:57 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 10:30:07 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 10:30:07 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:32:47 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:32:47 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:32:47 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:32:49 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:33:35 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:34:21 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:34:21 ERROR TS_UsedCar:46 -
+			Test failed : java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "this.data" is null
+2025-07-17 10:34:21 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:36:26 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:36:26 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:36:26 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:36:28 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:36:38 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:36:41 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:36:42 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 10:37:12 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
   (Session info: chrome=137.0.7151.69)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68b1cbb3d32f36d5a3762e6b0bc445d1, findElement {value=//*[@id="gs_input5"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62347/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68b1cbb3d32f36d5a3762e6b0bc445d1
-2025-07-09 14:59:35 INFO  TS_UsedCar:44 -
-			Navigating back to home page
-2025-07-09 15:00:33 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:00:33 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:00:36 INFO  TS_Login:38 -
-			taking the screenshot of invalid google account
-2025-07-09 15:00:36 INFO  TS_Login:40 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709030036
-2025-07-09 15:00:36 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 15:00:36 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:00:36 INFO  TS_Login:45 -
-			started the login test with valid google account and invalid password
-2025-07-09 15:00:58 INFO  TS_Login:55 -
-			password textfeild is blocked
-2025-07-09 15:00:58 INFO  TS_Login:59 -
-			taking the screenshot of invalid google account
-2025-07-09 15:00:58 INFO  TS_Login:61 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709030058
-2025-07-09 15:00:58 INFO  TS_Login:66 -
-			switching back to main window
-2025-07-09 15:10:18 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:10:19 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:10:39 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:10:53 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:10:53 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:11:00 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:11:00 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031100
-2025-07-09 15:11:00 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:14:18 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:14:19 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:14:21 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:14:21 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031421
-2025-07-09 15:14:21 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:17:06 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:17:06 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:17:09 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:17:09 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709031709
-2025-07-09 15:17:09 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:20:35 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:20:35 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:20:50 INFO  TS_Login:68 -
-			switching back to main window
-2025-07-09 15:21:05 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:21:05 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:21:08 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:21:09 INFO  TS_Login:42 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032108
-2025-07-09 15:21:09 INFO  TS_Login:68 -
-			switching back to main window
-2025-07-09 15:22:40 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:22:41 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:22:44 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:22:44 INFO  TS_Login:42 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032244.png
-2025-07-09 15:22:44 INFO  TS_Login:68 -
-			switching back to main window
-2025-07-09 15:24:19 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:24:19 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:24:23 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:24:23 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709032423.png
-2025-07-09 15:24:23 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:29:03 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:29:03 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:29:27 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:30:40 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:30:41 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:30:44 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:30:44 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
-2025-07-09 15:30:44 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:33:34 INFO  TS_Login:22 -
-			opening the login popup window
-2025-07-09 15:33:35 INFO  TS_Login:32 -
-			started the login test with invalid google account
-2025-07-09 15:33:39 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 15:33:39 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
-2025-07-09 15:33:39 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 15:40:27 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:40:28 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:40:40 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:41:22 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:41:23 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:41:35 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:41:52 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:41:53 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:42:05 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:42:40 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:42:41 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:42:43 INFO  TS_Login:41 -
-			taking the screenshot of invalid google account
-2025-07-09 15:42:43 INFO  TS_Login:43 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp.png
-2025-07-09 15:42:43 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:44:02 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:44:03 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:44:05 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:44:06 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:44:18 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:44:20 INFO  TS_Login:69 -
-			switching back to main window
-2025-07-09 15:46:33 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:46:34 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:46:54 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:47:45 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:47:46 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:48:03 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:48:32 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:48:33 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:48:49 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:50:17 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:50:17 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:50:30 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 15:53:57 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:53:58 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:54:20 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 15:55:57 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:55:58 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:56:11 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 15:56:58 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:56:59 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:57:11 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 15:59:44 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 15:59:44 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 15:59:47 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:00:27 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:00:27 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:00:30 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:00:30 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:00:30 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:01:34 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:01:34 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:01:41 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:01:41 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:01:41 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:02:10 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:02:10 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:02:17 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:02:17 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:02:17 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:03:07 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:03:08 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:03:18 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:03:21 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:13:04 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:13:04 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:13:07 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:13:58 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:13:59 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:14:14 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:16:28 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:16:28 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:16:52 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:17:05 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:17:05 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:17:18 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:20:38 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:20:38 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:20:41 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:20:41 INFO  TS_Login:45 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:20:41 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:21:41 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:21:41 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:21:54 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:21:54 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:21:54 INFO  TS_Login:50 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:22:11 INFO  TS_Login:60 -
-			password textfeild is blocked
-2025-07-09 16:22:11 INFO  TS_Login:64 -
-			taking the screenshot of invalid google account
-2025-07-09 16:22:11 INFO  TS_Login:71 -
-			switching back to main window
-2025-07-09 16:26:40 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:26:41 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:26:43 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:26:43 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:26:43 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:27:41 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:27:41 INFO  TS_Login:51 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:27:55 INFO  TS_Login:61 -
-			password textfeild is blocked
-2025-07-09 16:27:55 INFO  TS_Login:65 -
-			taking the screenshot of invalid google account
-2025-07-09 16:27:55 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:28:10 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:28:11 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:28:13 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:28:13 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:28:13 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:29:16 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:29:16 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:29:29 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:29:45 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:29:45 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:29:48 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:29:48 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:29:48 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:30:58 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:30:59 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:31:01 INFO  TS_Login:43 -
-			taking the screenshot of invalid google account
-2025-07-09 16:31:02 INFO  TS_Login:46 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\temp2.png
-2025-07-09 16:31:02 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:32:42 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:32:42 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:32:54 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:33:30 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:33:30 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:33:43 INFO  TS_Login:73 -
-			switching back to main window
-2025-07-09 16:35:48 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:35:48 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:36:01 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:37:05 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:37:05 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:37:17 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:37:38 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:37:39 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:37:52 INFO  TS_Login:72 -
-			switching back to main window
-2025-07-09 16:40:45 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:40:46 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:40:48 INFO  TS_Login:41 -
-			taking the screenshot of invalid google account
-2025-07-09 16:40:48 INFO  TS_Login:44 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709044048.png
-2025-07-09 16:40:48 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:40:49 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:40:49 INFO  TS_Login:49 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:41:10 INFO  TS_Login:59 -
-			password textfeild is blocked
-2025-07-09 16:41:10 INFO  TS_Login:63 -
-			taking the screenshot of invalid google account
-2025-07-09 16:41:10 INFO  TS_Login:65 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709044110.png
-2025-07-09 16:41:10 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:49:27 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:49:27 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:49:30 INFO  TS_Login:41 -
-			taking the screenshot of invalid google account
-2025-07-09 16:49:30 INFO  TS_Login:44 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709044930.png
-2025-07-09 16:49:31 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:49:31 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:49:31 INFO  TS_Login:49 -
-			started the login test with valid google account and invalid password
-2025-07-09 16:49:31 INFO  TS_Login:70 -
-			switching back to main window
-2025-07-09 16:49:46 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 16:55:35 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:55:35 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 16:55:38 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 16:55:39 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709045538.png
-2025-07-09 16:55:39 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 16:55:39 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 16:55:44 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:01:13 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:01:14 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 17:01:16 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 17:01:17 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709050116.png
-2025-07-09 17:01:17 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:01:22 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:05:28 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:05:29 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 17:05:32 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 17:05:32 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709050532.png
-2025-07-09 17:05:32 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:05:32 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:05:32 INFO  TS_Login:46 -
-			started the login test with valid google account and invalid password
-2025-07-09 17:05:53 INFO  TS_Login:56 -
-			password textfeild is blocked
-2025-07-09 17:05:53 INFO  TS_Login:60 -
-			taking the screenshot of invalid google account
-2025-07-09 17:05:53 INFO  TS_Login:62 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709050553.png
-2025-07-09 17:05:53 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:08:58 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:12:29 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:12:33 INFO  TS_UsedCar:25 -
-			starting to test popular car models
-2025-07-09 17:12:34 INFO  TS_UsedCar:31 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:12:38 INFO  TS_UsedCar:34 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709051238.png
-2025-07-09 17:12:38 INFO  TS_UsedCar:46 -
-			Navigating back to home page
-2025-07-09 17:13:30 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:13:31 INFO  TS_Login:33 -
-			started the login test with invalid google account
-2025-07-09 17:13:33 INFO  TS_Login:39 -
-			taking the screenshot of invalid google account
-2025-07-09 17:13:33 INFO  TS_Login:41 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709051333.png
-2025-07-09 17:13:33 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:13:34 INFO  TS_Login:23 -
-			opening the login popup window
-2025-07-09 17:13:34 INFO  TS_Login:46 -
-			started the login test with valid google account and invalid password
-2025-07-09 17:13:55 INFO  TS_Login:56 -
-			password textfeild is blocked
-2025-07-09 17:13:55 INFO  TS_Login:60 -
-			taking the screenshot of invalid google account
-2025-07-09 17:13:55 INFO  TS_Login:62 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709051355.png
-2025-07-09 17:13:55 INFO  TS_Login:67 -
-			switching back to main window
-2025-07-09 17:14:05 INFO  TS_UsedCar:16 -
-			Navigating to used car page
-2025-07-09 17:14:08 INFO  TS_UsedCar:25 -
-			starting to test popular car models
-2025-07-09 17:14:09 INFO  TS_UsedCar:31 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:14:13 INFO  TS_UsedCar:34 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709051413.png
-2025-07-09 17:14:13 INFO  TS_UsedCar:46 -
-			Navigating back to home page
-2025-07-09 17:24:41 INFO  TS_Login:18 -
-			opening the login popup window
-2025-07-09 17:24:41 INFO  TS_Login:25 -
-			started the login test with invalid google account
-2025-07-09 17:24:44 INFO  TS_Login:31 -
-			taking the screenshot of invalid google account
-2025-07-09 17:24:44 INFO  TS_Login:33 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250709052444.png
-2025-07-09 17:24:44 INFO  TS_Login:59 -
-			switching back to main window
-2025-07-09 17:24:44 INFO  TS_Login:18 -
-			opening the login popup window
-2025-07-09 17:24:45 INFO  TS_Login:38 -
-			started the login test with valid google account and invalid password
-2025-07-09 17:25:06 INFO  TS_Login:48 -
-			password textfeild is blocked
-2025-07-09 17:25:06 INFO  TS_Login:52 -
-			taking the screenshot of invalid google account
-2025-07-09 17:25:06 INFO  TS_Login:54 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250709052506.png
-2025-07-09 17:25:06 INFO  TS_Login:59 -
-			switching back to main window
-2025-07-09 17:25:16 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-09 17:25:20 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-09 17:25:21 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:25:25 INFO  TS_UsedCar:37 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709052525.png
-2025-07-09 17:25:25 INFO  TS_UsedCar:49 -
-			Navigating back to home page
-2025-07-09 17:32:02 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-09 17:32:06 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-09 17:32:07 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:32:11 INFO  TS_UsedCar:37 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053211.png
-2025-07-09 17:32:11 INFO  TS_UsedCar:49 -
-			closing userCarPage
-2025-07-09 17:33:24 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-09 17:33:27 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-09 17:33:28 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-09 17:33:33 INFO  TS_UsedCar:37 -
-			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250709053332.png
-2025-07-09 17:33:33 INFO  TS_UsedCar:49 -
-			closing userCarPage2025-07-15 09:39:36 INFO  Utils:112 -
+Command: [9ce5a30f1d8a1679dc218b096af90d42, elementScreenshot {id=f.320D9285D7733C63F12A48466726404B.d.36E1D7F02DD6E56D2A1DDA5D9B47DB43.e.241}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51442/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9ce5a30f1d8a1679dc218b096af90d42)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: 9ce5a30f1d8a1679dc218b096af90d42
+2025-07-17 10:37:13 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:38:22 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
 
-2025-07-15 09:39:38 INFO  WebDriverManager:1220 -
+2025-07-17 10:38:22 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 09:39:38 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 09:39:41 INFO  TS_Login:63 -
+2025-07-17 10:38:22 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:38:24 INFO  TS_UsedCar:69 -
 			Chrome browser initialized with notifications allowed.
-2025-07-15 09:39:43 INFO  TS_Login:19 -
+2025-07-17 10:38:27 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:38:59 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:39:19 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26c112f74c5db4c963998fc707533052, findElement {value=//*[@id="ui-id-5"]/li/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51765/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26c112f74c5db4c963998fc707533052
+2025-07-17 10:39:19 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:42:50 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:42:50 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:42:50 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:42:52 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:43:02 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:43:34 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:43:36 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 10:43:46 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 10:43:46 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:44:45 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:44:46 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:44:46 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:44:48 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:44:50 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:44:54 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:44:55 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 10:45:25 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [399b801594d605465f83c03b1e7a6cf3, elementScreenshot {id=f.D9779A338999E04737DA428B742F86E3.d.76B1DE3A30726140FA29294C510879CE.e.242}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52945}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52945/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (399b801594d605465f83c03b1e7a6cf3)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: 399b801594d605465f83c03b1e7a6cf3
+2025-07-17 10:45:25 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:47:16 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:47:17 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:47:17 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:47:18 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:48:03 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:48:15 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:48:36 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1635405a6249e55bdfd854acab5834a4, findElement {using=xpath, value=//*[@id="ui-id-5"]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53530/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1635405a6249e55bdfd854acab5834a4
+2025-07-17 10:48:36 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:51:33 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:51:34 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:51:34 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:51:36 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:52:21 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:52:23 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:52:24 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 10:52:35 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 10:52:35 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:53:12 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:53:12 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:53:12 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:53:14 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:53:59 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:54:02 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:54:04 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 10:54:34 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7ba278daeea1cb8a31ae7a57e9ea470, elementScreenshot {id=f.C47A0011CD5158B19F26D360BD66A98A.d.368F14439D81CD1202E809E51226EFD4.e.245}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65348/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f7ba278daeea1cb8a31ae7a57e9ea470)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: f7ba278daeea1cb8a31ae7a57e9ea470
+2025-07-17 10:54:34 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 10:56:28 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 10:56:28 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 10:56:28 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 10:56:30 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 10:56:31 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 10:56:34 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 10:56:55 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46a6b8d83e32246ef7018d8f2d5bd83c, findElement {value=//*[@id="ui-id-5"]/li/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49674/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46a6b8d83e32246ef7018d8f2d5bd83c
+2025-07-17 10:56:55 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:04:03 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:04:04 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:04:04 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:04:06 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:04:07 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:04:58 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:04:58 INFO  TS_UsedCar:37 -
+			Popular car models : [, , , , , , , ]
+2025-07-17 11:05:09 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:05:09 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:06:44 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:06:44 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:06:44 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:06:46 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:07:31 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:07:33 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:07:34 INFO  TS_UsedCar:37 -
+			Popular car models : [, , , , , , , ]
+2025-07-17 11:07:44 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:07:44 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:13:08 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:13:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:13:08 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:13:10 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:13:11 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:13:52 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:13:52 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.JavascriptException: javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6cb0a09149fb4a7d3d0acefa5081370, executeScript {args=[[{element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.227}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.228}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.229}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.230}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.231}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.232}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.233}, {element-6066-11e4-a52e-4f735466cecf=f.8DEB6817C143A67010D4627A156562A4.d.58A54ABFA4896C46B2BB201DBDA808F7.e.234}]], script=arguments[0].scrollIntoView(true)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51692/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6cb0a09149fb4a7d3d0acefa5081370
+2025-07-17 11:13:53 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:14:09 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:14:10 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:14:10 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:14:11 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:14:57 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:14:59 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:15:00 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.JavascriptException: javascript error: arguments[0].scrollIntoView is not a function
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d815d7f1d25e72604390bec9ca430649, executeScript {script=arguments[0].scrollIntoView(true), args=[[{element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.244}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.245}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.246}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.247}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.248}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.249}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.250}, {element-6066-11e4-a52e-4f735466cecf=f.F0DAE761FFE5F206DFCDB31BDE9921A5.d.ED151ECE16E1AB838D4FF0EC09A163B4.e.251}]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51975/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d815d7f1d25e72604390bec9ca430649
+2025-07-17 11:15:00 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:21:28 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:21:29 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:21:29 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:21:30 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:22:15 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:22:47 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:22:48 INFO  TS_UsedCar:37 -
+			Popular car models : [, , , , , , , ]
+2025-07-17 11:22:58 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:22:58 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:30:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:30:07 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:30:07 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:30:09 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:30:13 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:30:16 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:30:18 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:30:48 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e707733545bd36aba3772b5b3de72, elementScreenshot {id=f.4F5AA243E5A2AA7AC4EA07475B910B5C.d.3E3CF27D7C70958F38358B44013A11F2.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54510/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7e5e707733545bd36aba3772b5b3de72)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: 7e5e707733545bd36aba3772b5b3de72
+2025-07-17 11:30:48 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:32:47 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:32:47 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:32:47 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:32:49 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:32:51 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:33:32 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:33:33 INFO  TS_UsedCar:37 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:33:45 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:33:45 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:34:37 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:34:37 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:34:37 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:34:39 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:34:40 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:34:51 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:35:12 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a51b270517a9f22e76af0e1f45ebfce, findElement {value=//*[@id="ui-id-5"]/li/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55389/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a51b270517a9f22e76af0e1f45ebfce
+2025-07-17 11:35:12 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:37:21 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:37:21 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:37:21 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:37:23 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:37:25 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:38:11 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:38:32 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc0ed8dffe6cf3172be5cbd8fa72713e, findElement {using=xpath, value=//*[@id="ui-id-5"]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55837/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0ed8dffe6cf3172be5cbd8fa72713e
+2025-07-17 11:38:32 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 11:39:56 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:39:56 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:39:56 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:39:58 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:40:07 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:40:39 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:40:42 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:40:44 INFO  TS_UsedCar:44 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:40:44 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 11:42:08 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:42:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:42:08 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:42:10 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:42:55 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:43:06 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:43:09 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:43:12 INFO  TS_UsedCar:44 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:43:12 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 11:44:08 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:44:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:44:08 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:44:10 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:44:11 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:44:43 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:45:06 ERROR TS_UsedCar:47 -
+			Test failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afbefb76dcd4e9b2a17d9d631f9a107d, findElement {using=xpath, value=//*[@id="ui-id-5"]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57113/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afbefb76dcd4e9b2a17d9d631f9a107d
+2025-07-17 11:45:06 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 11:45:23 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:45:23 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:45:23 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:45:25 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:45:26 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:45:57 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:46:00 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:46:12 INFO  TS_UsedCar:44 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:46:12 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 11:47:56 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:47:56 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:47:56 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:47:58 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:48:43 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:49:33 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:49:36 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:49:48 INFO  TS_UsedCar:44 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:49:48 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 11:56:37 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:56:38 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:56:38 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:56:40 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:56:41 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:56:43 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:56:44 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:57:16 ERROR TS_UsedCar:47 -
+			Test failed : org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9fa1d4d2f2bd2cf2fbbe015df5e8625, elementScreenshot {id=f.60AD906619A8FCF4D2978C8E11CEBB32.d.8192920788F0F2F1D087126473D70D74.e.244}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58561}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58561/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b9fa1d4d2f2bd2cf2fbbe015df5e8625)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: b9fa1d4d2f2bd2cf2fbbe015df5e8625
+2025-07-17 11:57:17 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 11:57:48 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 11:57:48 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 11:57:48 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 11:57:50 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 11:58:35 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 11:59:06 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 11:59:08 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 11:59:20 INFO  TS_UsedCar:44 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 11:59:20 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 12:00:57 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:00:57 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:00:57 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:00:59 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:01:44 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 12:02:17 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 12:02:18 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 12:02:28 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 12:02:28 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 12:03:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:03:01 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:03:01 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:03:02 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:03:48 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 12:04:20 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 12:04:21 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 12:04:32 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 12:04:32 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 12:12:07 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:12:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:12:08 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:12:09 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:12:13 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 12:12:23 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 12:12:25 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 12:12:35 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 12:12:35 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 12:13:33 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:13:34 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:13:34 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:13:35 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:14:10 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 12:14:14 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 12:14:15 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 12:14:26 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 12:14:26 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 12:15:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:15:01 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:15:01 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:15:02 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:15:47 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 12:16:06 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 12:16:07 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 12:16:18 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 12:16:18 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 12:24:18 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:24:18 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:24:18 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:24:20 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:25:05 INFO  TS_Login:21 -
 			opening the login popup window
-2025-07-15 09:39:45 INFO  TS_Login:26 -
+2025-07-17 12:25:06 INFO  TS_Login:28 -
 			started the login test with invalid google account
-2025-07-15 09:39:49 INFO  TS_Login:32 -
+2025-07-17 12:25:08 INFO  TS_Login:35 -
 			taking the screenshot of invalid google account
-2025-07-15 09:39:50 INFO  TS_Login:34 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
-2025-07-15 09:39:50 INFO  TS_Login:60 -
+2025-07-17 12:25:12 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 12:25:12 INFO  TS_Login:65 -
 			switching back to main window
-2025-07-15 09:39:50 INFO  TS_Login:19 -
+2025-07-17 12:25:12 INFO  TS_Login:21 -
 			opening the login popup window
-2025-07-15 09:39:50 INFO  TS_Login:39 -
+2025-07-17 12:31:39 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:31:40 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:31:40 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:31:42 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:31:43 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 12:31:44 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 12:31:47 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 12:31:51 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 12:31:51 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-17 12:45:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:45:05 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 12:45:05 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:45:07 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 12:45:09 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 12:45:09 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 12:45:12 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 12:45:16 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 12:45:16 INFO  TS_Login:66 -
+			switching back to main window
+2025-07-17 12:45:16 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 12:45:16 INFO  TS_Login:43 -
 			started the login test with valid google account and invalid password
-2025-07-15 09:40:05 INFO  TS_Login:49 -
+2025-07-17 12:46:10 INFO  TS_Login:55 -
 			password textfeild is blocked
-2025-07-15 09:40:05 INFO  TS_Login:53 -
+2025-07-17 12:46:10 INFO  TS_Login:59 -
 			taking the screenshot of valid google account
-2025-07-15 09:40:05 INFO  TS_Login:55 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
-2025-07-15 09:40:05 INFO  TS_Login:60 -
+2025-07-17 12:46:10 INFO  TS_Login:61 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 12:46:10 INFO  TS_Login:66 -
 			switching back to main window
-2025-07-15 09:40:08 INFO  WebDriverManager:1220 -
+2025-07-17 12:49:14 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 12:49:14 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 09:40:08 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 09:40:10 INFO  TS_UpcomingHondaBike:63 -
+2025-07-17 12:49:14 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 12:49:16 INFO  TS_Login:69 -
 			Chrome browser initialized with notifications allowed.
-2025-07-15 09:40:16 INFO  TS_UpcomingHondaBike:23 -
-			Clicking on Upcoming Bikes
-2025-07-15 09:40:16 INFO  TS_UpcomingHondaBike:26 -
-			Clicking on all upcoming bikes
-2025-07-15 09:40:20 INFO  TS_UpcomingHondaBike:28 -
-			Clicking on Honda in upcoming bikes page
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:35 -
-			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:40 -
-			Upcomming Honda Bikes under 4lac are
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:42 -
-			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 09:40:21 INFO  TS_UpcomingHondaBike:49 -
-			Navigating back to homepage
-2025-07-15 09:40:29 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 09:40:29 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 09:40:31 INFO  TS_UsedCar:63 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 09:40:33 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 09:40:37 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 09:40:38 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 09:40:42 INFO  TS_UsedCar:37 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 09:40:42 INFO  TS_UsedCar:49 -
-			closing usedCarPage
-2025-07-15 09:40:48 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 09:40:48 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 09:40:50 INFO  TS_Login:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 09:40:52 INFO  TS_Login:19 -
+2025-07-17 12:49:17 INFO  TS_Login:21 -
 			opening the login popup window
-2025-07-15 09:40:52 INFO  TS_Login:26 -
+2025-07-17 12:49:17 INFO  TS_Login:28 -
 			started the login test with invalid google account
-2025-07-15 09:40:57 INFO  TS_Login:32 -
+2025-07-17 12:49:20 INFO  TS_Login:35 -
 			taking the screenshot of invalid google account
-2025-07-15 09:40:57 INFO  TS_Login:34 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
-2025-07-15 09:40:57 INFO  TS_Login:60 -
+2025-07-17 12:49:25 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 12:49:25 INFO  TS_Login:65 -
 			switching back to main window
-2025-07-15 09:40:57 INFO  TS_Login:19 -
+2025-07-17 12:49:25 INFO  TS_Login:21 -
 			opening the login popup window
-2025-07-15 09:40:57 INFO  TS_Login:39 -
+2025-07-17 12:49:25 INFO  TS_Login:43 -
 			started the login test with valid google account and invalid password
-2025-07-15 09:41:12 INFO  TS_Login:49 -
+2025-07-17 12:50:09 INFO  TS_Login:54 -
 			password textfeild is blocked
-2025-07-15 09:41:12 INFO  TS_Login:53 -
+2025-07-17 12:50:09 INFO  TS_Login:58 -
 			taking the screenshot of valid google account
-2025-07-15 09:41:12 INFO  TS_Login:55 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
-2025-07-15 09:41:12 INFO  TS_Login:60 -
+2025-07-17 12:50:09 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 12:50:09 INFO  TS_Login:65 -
 			switching back to main window
-2025-07-15 09:41:15 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 09:41:15 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 09:41:18 INFO  TS_UpcomingHondaBike:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 09:41:22 INFO  TS_UpcomingHondaBike:23 -
+2025-07-17 13:10:36 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 13:10:36 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 13:10:36 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 13:10:38 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 13:11:23 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 13:11:23 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 13:11:26 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 13:11:30 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 13:11:30 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 13:11:50 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 13:11:50 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 13:11:51 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 13:11:53 INFO  TS_UpcomingHondaBike:24 -
 			Clicking on Upcoming Bikes
-2025-07-15 09:41:22 INFO  TS_UpcomingHondaBike:26 -
+2025-07-17 13:11:53 INFO  TS_UpcomingHondaBike:27 -
 			Clicking on all upcoming bikes
-2025-07-15 09:41:24 INFO  TS_UpcomingHondaBike:28 -
+2025-07-17 13:11:54 INFO  TS_UpcomingHondaBike:29 -
 			Clicking on Honda in upcoming bikes page
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:35 -
+2025-07-17 13:11:55 INFO  TS_UpcomingHondaBike:36 -
 			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:40 -
+2025-07-17 13:11:55 INFO  TS_UpcomingHondaBike:42 -
 			Upcomming Honda Bikes under 4lac are
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:42 -
+2025-07-17 13:11:55 INFO  TS_UpcomingHondaBike:46 -
 			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 09:41:25 INFO  TS_UpcomingHondaBike:49 -
+2025-07-17 13:11:56 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 13:11:56 INFO  TS_UpcomingHondaBike:58 -
 			Navigating back to homepage
-2025-07-15 09:41:30 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 09:41:30 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 09:41:32 INFO  TS_UsedCar:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 09:41:37 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 09:41:43 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 09:41:44 INFO  TS_UsedCar:34 -
-			popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 09:41:48 INFO  TS_UsedCar:37 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 09:41:48 INFO  TS_UsedCar:49 -
-			closing usedCarPage
-2025-07-15 10:09:31 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 10:09:32 INFO  WebDriverManager:1220 -
+2025-07-17 13:11:59 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 10:09:32 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 10:09:34 INFO  TS_UpcomingHondaBike:63 -
+2025-07-17 13:11:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 13:12:01 INFO  TS_UsedCar:69 -
 			Chrome browser initialized with notifications allowed.
-2025-07-15 10:09:40 INFO  TS_UpcomingHondaBike:23 -
+2025-07-17 13:12:02 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 13:12:06 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 13:12:47 ERROR TS_UsedCar:46 -
+			Test failed : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+2025-07-17 13:12:47 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 13:15:03 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 13:15:03 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 13:15:03 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 13:15:05 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 13:15:14 INFO  TS_UpcomingHondaBike:24 -
 			Clicking on Upcoming Bikes
-2025-07-15 10:09:40 INFO  TS_UpcomingHondaBike:26 -
+2025-07-17 13:15:15 INFO  TS_UpcomingHondaBike:27 -
 			Clicking on all upcoming bikes
-2025-07-15 10:09:52 INFO  TS_UpcomingHondaBike:28 -
+2025-07-17 13:15:16 INFO  TS_UpcomingHondaBike:29 -
 			Clicking on Honda in upcoming bikes page
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:35 -
+2025-07-17 13:15:17 INFO  TS_UpcomingHondaBike:36 -
 			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:40 -
+2025-07-17 13:15:17 INFO  TS_UpcomingHondaBike:42 -
 			Upcomming Honda Bikes under 4lac are
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:42 -
+2025-07-17 13:15:17 INFO  TS_UpcomingHondaBike:46 -
 			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 10:09:53 INFO  TS_UpcomingHondaBike:50 -
+2025-07-17 13:15:18 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 13:15:18 INFO  TS_UpcomingHondaBike:58 -
 			Navigating back to homepage
-2025-07-15 10:10:21 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 10:10:21 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 10:10:24 INFO  TS_UpcomingHondaBike:74 -
-			Edge browser initialized with notifications allowed.
-2025-07-15 10:10:35 INFO  TS_UpcomingHondaBike:23 -
+2025-07-17 13:15:26 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 13:15:26 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 13:15:27 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 13:16:12 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 13:16:22 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 13:16:23 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 13:16:34 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 13:16:34 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 13:16:37 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 13:16:37 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 13:16:38 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 13:16:40 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 13:16:40 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 13:17:20 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:11:41 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:11:43 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:11:43 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:11:45 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:12:31 INFO  TS_UpcomingHondaBike:24 -
 			Clicking on Upcoming Bikes
-2025-07-15 10:10:35 INFO  TS_UpcomingHondaBike:26 -
+2025-07-17 14:12:31 INFO  TS_UpcomingHondaBike:27 -
 			Clicking on all upcoming bikes
-2025-07-15 10:10:45 INFO  TS_UpcomingHondaBike:28 -
+2025-07-17 14:12:32 INFO  TS_UpcomingHondaBike:29 -
 			Clicking on Honda in upcoming bikes page
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:35 -
+2025-07-17 14:12:32 INFO  TS_UpcomingHondaBike:36 -
 			Starting to test Honda upcoming bikes under 4lac
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:40 -
+2025-07-17 14:12:32 INFO  TS_UpcomingHondaBike:42 -
 			Upcomming Honda Bikes under 4lac are
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:42 -
+2025-07-17 14:12:32 INFO  TS_UpcomingHondaBike:46 -
 			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-15 10:10:47 INFO  TS_UpcomingHondaBike:50 -
+2025-07-17 14:12:34 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 14:12:34 INFO  TS_UpcomingHondaBike:58 -
 			Navigating back to homepage
-2025-07-15 11:13:38 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 11:13:39 INFO  WebDriverManager:1220 -
+2025-07-17 14:12:36 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 11:13:39 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 11:13:41 INFO  TS_UsedCar:65 -
+2025-07-17 14:12:36 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:12:38 INFO  TS_UsedCar:69 -
 			Chrome browser initialized with notifications allowed.
-2025-07-15 11:13:45 INFO  TS_UsedCar:19 -
+2025-07-17 14:13:24 INFO  TS_UsedCar:20 -
 			Navigating to used car page
-2025-07-15 11:13:49 INFO  TS_UsedCar:28 -
+2025-07-17 14:13:35 INFO  TS_UsedCar:29 -
 			starting to test popular car models
-2025-07-15 11:13:50 INFO  TS_UsedCar:34 -
+2025-07-17 14:13:36 INFO  TS_UsedCar:38 -
 			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:13:54 INFO  TS_UsedCar:38 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:13:54 INFO  TS_UsedCar:50 -
+2025-07-17 14:13:47 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 14:13:47 INFO  TS_UsedCar:55 -
 			closing usedCarPage
-2025-07-15 11:13:59 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 11:13:59 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 11:14:00 INFO  TS_UsedCar:76 -
+2025-07-17 14:13:50 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:13:50 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:13:52 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:14:37 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:14:37 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 14:14:40 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 14:14:44 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 14:14:44 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:14:44 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:14:44 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 14:14:44 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:15:59 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:16:00 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:16:00 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:16:01 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:16:11 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:16:11 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 14:16:14 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 14:16:18 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 14:16:18 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:16:18 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:16:18 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 14:17:02 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 14:17:02 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 14:17:02 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 14:17:02 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:19:20 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:19:20 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:19:21 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:19:22 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:20:07 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 14:20:07 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 14:20:09 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 14:20:09 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 14:20:09 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 14:20:09 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 14:20:11 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 14:20:11 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 14:20:18 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:20:18 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:20:20 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:21:05 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 14:21:37 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 14:21:38 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 14:21:48 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 14:21:48 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 14:21:52 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:21:52 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:21:53 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:22:39 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:22:39 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 14:22:42 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 14:22:46 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 14:22:46 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:27:39 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:27:39 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:27:39 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:27:41 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:28:16 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:28:16 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:28:18 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:28:22 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:28:23 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:28:24 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:28:25 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:28:26 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 14:28:29 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 14:28:36 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:28:48 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:28:49 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:28:49 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:28:50 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:29:35 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 14:29:36 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 14:29:36 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 14:29:37 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 14:29:37 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 14:29:37 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 14:29:38 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 14:29:38 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 14:29:45 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:29:45 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:29:46 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:29:47 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 14:29:57 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 14:29:59 INFO  TS_UsedCar:38 -
+			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 14:30:09 INFO  TS_UsedCar:43 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 14:30:09 INFO  TS_UsedCar:55 -
+			closing usedCarPage
+2025-07-17 14:30:13 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:30:13 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:30:14 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:30:59 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:30:59 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 14:31:19 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 14:47:34 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:47:35 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:47:35 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:47:37 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:48:22 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 14:48:53 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 14:48:55 INFO  TS_UsedCar:38 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 14:49:25 ERROR TS_UsedCar:46 -
+			Test failed : org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f789472f0247ac956ad3fec65972145, elementScreenshot {id=f.350F488021A75BE7589008C4E02D2531.d.8108943E7AAF41B4F7281AD072E878F0.e.245}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57079}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57079/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9f789472f0247ac956ad3fec65972145)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
+Session ID: 9f789472f0247ac956ad3fec65972145
+2025-07-17 14:49:26 INFO  TS_UsedCar:57 -
+			closing usedCarPage
+2025-07-17 14:51:26 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:51:27 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:51:27 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:51:28 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:51:29 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 14:51:40 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 14:51:41 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 14:51:53 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 14:51:54 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 14:52:39 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 14:52:40 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:52:40 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:52:41 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:53:26 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 14:53:27 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 14:53:28 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 14:53:29 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 14:53:29 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 14:53:29 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 14:53:30 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 14:53:30 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 14:53:36 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:53:36 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:53:37 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:53:47 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 14:53:57 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 14:53:59 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 14:54:11 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 14:54:12 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 14:54:16 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 14:54:16 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 14:54:17 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 14:54:26 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 14:54:27 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 14:54:29 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 14:54:33 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 14:54:33 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:04:57 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:04:59 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:04:59 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:04:59 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:04:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:04:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:04:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:05:04 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:05:04 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:05:04 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:05:15 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 15:05:15 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:05:16 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:05:16 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:05:27 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 15:06:00 ERROR TS_UsedCar:45 -
+			Test failed : org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3f845ef94462ebcc5692bfeae1219e9, sendKeysToElement [id, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406658\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d3f845ef94462ebcc5692bfeae1219e9)] -> xpath: //*[@id="gs_input5"]]
+Session ID: d3f845ef94462ebcc5692bfeae1219e9
+2025-07-17 15:07:06 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:07:06 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:07:07 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:07:09 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:07:12 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:07:14 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:07:18 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:07:22 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:07:22 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:07:32 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:07:32 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:07:35 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:07:39 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:07:40 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:07:42 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:07:43 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:07:43 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:07:43 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:07:44 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:07:44 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:07:48 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:07:48 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:07:51 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:07:55 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 15:08:37 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 15:08:39 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 15:08:51 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 15:08:53 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 15:09:42 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:09:43 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:09:43 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:09:46 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:09:57 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:09:57 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:10:39 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:13:21 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:13:23 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:13:23 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:13:26 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:13:30 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:13:31 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:13:36 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:13:41 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:13:42 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:19:51 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:19:52 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:19:52 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:19:55 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:20:05 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:20:05 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:20:09 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:20:15 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:20:15 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:23:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:23:07 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:23:07 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:23:10 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:23:15 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:23:16 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:23:21 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:23:26 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:23:26 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:23:26 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:23:27 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:24:10 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:24:10 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:24:11 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:24:11 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:24:52 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:24:53 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:24:53 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:24:56 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:25:00 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:25:01 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:25:06 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:25:11 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:25:11 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:25:11 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:25:12 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:25:55 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:25:55 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:25:55 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:25:55 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:25:59 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:25:59 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:26:01 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:26:05 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:26:06 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:26:09 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:26:10 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:26:10 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:26:10 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:26:11 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:26:11 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:27:01 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:27:02 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:27:02 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:27:05 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:27:08 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:27:10 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:27:14 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:27:19 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:27:19 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:27:20 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:27:20 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:28:03 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:28:03 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:28:03 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:28:03 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:28:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:28:08 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:28:10 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:28:21 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:28:23 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:28:25 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:28:25 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:28:25 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:28:25 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:28:27 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:28:27 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:28:32 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:28:32 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:28:34 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:28:36 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 15:29:08 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 15:29:10 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 15:29:22 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 15:29:23 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 15:30:08 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:30:10 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:30:10 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:30:13 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:30:17 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:30:18 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:30:23 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:30:28 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:30:28 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:30:28 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:30:29 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:31:12 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:31:12 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:31:13 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:31:13 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:31:17 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:31:17 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:31:19 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:32:05 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:32:05 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:32:07 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:32:08 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:32:08 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:32:08 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:32:10 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:32:10 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:32:16 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:32:16 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:32:18 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:33:03 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 15:33:09 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 15:33:11 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 15:33:23 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 15:33:24 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 15:33:32 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_138_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2025-07-17 15:33:32 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:32 INFO  WebDriverManager:1594 -
+			Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2025-07-17 15:33:32 WARN  WebDriverManager:1431 -
+			There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-07-17 15:33:32 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:32 INFO  WebDriverManager:1594 -
+			Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2025-07-17 15:33:32 ERROR WebDriverManager:1420 -
+			There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+	at testBase.BaseClass.setup(BaseClass.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+	... 33 more
+2025-07-17 15:33:34 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_138_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:34 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:34 INFO  WebDriverManager:1594 -
+			Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2025-07-17 15:33:34 WARN  WebDriverManager:1431 -
+			There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-07-17 15:33:34 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:34 INFO  WebDriverManager:1594 -
+			Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2025-07-17 15:33:34 ERROR WebDriverManager:1420 -
+			There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+	at testBase.BaseClass.setup(BaseClass.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+	... 33 more
+2025-07-17 15:33:34 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_138_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:34 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:34 INFO  WebDriverManager:1594 -
+			Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2025-07-17 15:33:34 WARN  WebDriverManager:1431 -
+			There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-07-17 15:33:34 WARN  VersionDetector:154 -
+			Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-07-17 15:33:34 INFO  WebDriverManager:1594 -
+			Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2025-07-17 15:33:34 ERROR WebDriverManager:1420 -
+			There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+	at testBase.BaseClass.setup(BaseClass.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+	... 33 more
+2025-07-17 15:35:32 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
+
+2025-07-17 15:35:37 INFO  TS_Login:81 -
 			Edge browser initialized with notifications allowed.
-2025-07-15 11:14:04 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:14:08 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:14:08 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:14:13 INFO  TS_UsedCar:38 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:14:13 INFO  TS_UsedCar:50 -
-			closing usedCarPage
-2025-07-15 11:26:04 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 11:26:04 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 11:26:04 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 11:26:06 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-15 11:26:12 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-15 11:26:34 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-15 11:26:35 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:26:39 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:26:39 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-15 11:26:44 INFO  WebDriverManager:1220 -
-			Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
-2025-07-15 11:26:44 INFO  WebDriverManager:1282 -
-			Exporting webdriver.edge.driver as C:\Users\2406731\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
-2025-07-15 11:26:45 INFO  TS_UsedCar:76 -
+2025-07-17 15:35:41 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:35:42 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:35:46 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:35:51 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:35:51 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:35:51 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:35:52 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:36:34 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:36:34 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:36:34 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:36:34 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:36:42 INFO  TS_UpcomingHondaBike:81 -
 			Edge browser initialized with notifications allowed.
-2025-07-15 11:27:04 INFO  TS_UsedCar:19 -
+2025-07-17 15:36:52 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:36:53 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:36:54 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:36:55 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:36:55 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:36:55 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:36:57 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:36:57 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:37:05 INFO  TS_UsedCar:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:37:15 INFO  TS_UsedCar:20 -
 			Navigating to used car page
-2025-07-15 11:27:13 INFO  TS_UsedCar:28 -
+2025-07-17 15:37:48 INFO  TS_UsedCar:29 -
 			starting to test popular car models
-2025-07-15 11:27:14 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:27:18 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:27:18 INFO  TS_UsedCar:51 -
+2025-07-17 15:37:49 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 15:38:02 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 15:38:03 INFO  TS_UsedCar:56 -
 			closing usedCarPage
-2025-07-15 11:31:18 INFO  Utils:112 -
+2025-07-17 15:43:33 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
 
-2025-07-15 11:31:19 INFO  WebDriverManager:1220 -
+2025-07-17 15:43:34 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 11:31:19 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 11:31:20 INFO  TS_UsedCar:66 -
+2025-07-17 15:43:34 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:43:37 INFO  TS_Login:69 -
 			Chrome browser initialized with notifications allowed.
-2025-07-15 11:31:22 INFO  TS_UsedCar:19 -
+2025-07-17 15:43:47 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:43:48 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:43:52 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:43:57 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:43:57 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:43:58 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:43:58 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:44:41 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:44:41 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:44:41 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:44:41 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:44:46 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:44:46 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:44:48 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:44:52 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:44:53 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:44:54 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:44:55 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:44:55 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:44:55 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:44:57 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:44:57 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:45:01 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 15:45:01 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 15:45:04 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 15:45:50 INFO  TS_UsedCar:20 -
 			Navigating to used car page
-2025-07-15 11:31:26 INFO  TS_UsedCar:28 -
+2025-07-17 15:45:53 INFO  TS_UsedCar:29 -
 			starting to test popular car models
-2025-07-15 11:31:26 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-15 11:31:31 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-15 11:31:31 INFO  TS_UsedCar:51 -
+2025-07-17 15:45:53 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 15:46:06 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 15:46:07 INFO  TS_UsedCar:56 -
 			closing usedCarPage
-2025-07-15 12:07:57 INFO  Utils:112 -
+2025-07-17 15:46:15 INFO  TS_Login:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:47:00 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:47:00 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:47:03 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:47:08 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:47:08 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:47:08 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:47:09 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:47:50 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:47:50 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:47:50 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:47:50 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:47:56 INFO  TS_UpcomingHondaBike:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:47:58 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:47:58 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:48:01 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:48:01 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:48:01 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:48:01 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:48:02 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:48:02 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:48:12 INFO  TS_UsedCar:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:48:57 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 15:49:28 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 15:49:29 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 15:49:41 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 15:49:42 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 15:55:26 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
 
-2025-07-15 12:07:58 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:07:58 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:09:01 INFO  Utils:112 -
+2025-07-17 15:55:29 INFO  TS_Login:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:56:15 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:56:15 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:56:18 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:56:23 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:56:23 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:56:23 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:56:23 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 15:57:05 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 15:57:05 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 15:57:05 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 15:57:05 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:57:10 INFO  TS_UpcomingHondaBike:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:57:13 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 15:57:13 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 15:57:13 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 15:57:14 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 15:57:14 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 15:57:14 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 15:57:15 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 15:57:15 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 15:57:20 INFO  TS_UsedCar:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:57:21 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 15:57:53 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 15:58:34 ERROR TS_UsedCar:45 -
+			Test failed : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+2025-07-17 15:58:35 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 15:58:58 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
 
-2025-07-15 12:09:01 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:09:01 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:10:09 INFO  Utils:112 -
+2025-07-17 15:59:00 INFO  TS_Login:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 15:59:11 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:59:11 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 15:59:13 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 15:59:19 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 15:59:19 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 15:59:19 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 15:59:19 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 16:00:00 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 16:00:00 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 16:00:00 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 16:00:00 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 16:00:06 INFO  TS_UpcomingHondaBike:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 16:00:16 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 16:00:16 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 16:00:17 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 16:00:18 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 16:00:18 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 16:00:18 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 16:00:19 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 16:00:19 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 16:00:25 INFO  TS_UsedCar:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 16:00:27 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 16:00:58 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 16:00:59 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 16:01:11 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 16:01:12 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 16:02:14 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
 
-2025-07-15 12:10:09 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:10:09 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:31:53 INFO  Utils:112 -
+2025-07-17 16:02:17 INFO  WebDriverManager:1594 -
+			Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2025-07-17 16:02:17 INFO  Downloader:128 -
+			Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-07-17 16:02:18 INFO  Downloader:189 -
+			Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
+2025-07-17 16:02:18 INFO  WebDriverManager:1282 -
+			Exporting webdriver.gecko.driver as C:\Users\2406658\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-07-17 16:02:21 INFO  WebDriverManager:1594 -
+			Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2025-07-17 16:02:21 INFO  WebDriverManager:1282 -
+			Exporting webdriver.gecko.driver as C:\Users\2406658\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-07-17 16:02:24 INFO  WebDriverManager:1594 -
+			Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2025-07-17 16:02:24 INFO  WebDriverManager:1282 -
+			Exporting webdriver.gecko.driver as C:\Users\2406658\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-07-17 16:03:15 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2406658\Final-Project\HackathonProject\master.xml
 
-2025-07-15 12:31:53 INFO  TS_UsedCar:63 -
-			config.properties loaded successfully.
-2025-07-15 12:31:54 INFO  WebDriverManager:1220 -
+2025-07-17 16:03:15 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:31:54 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-15 12:35:02 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-15 12:35:03 INFO  WebDriverManager:1220 -
+2025-07-17 16:03:15 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 16:03:17 INFO  TS_Login:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 16:03:27 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 16:03:28 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 16:03:31 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 16:03:36 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 16:03:36 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 16:03:36 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 16:03:37 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 16:04:19 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 16:04:19 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 16:04:19 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 16:04:19 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 16:04:23 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-15 12:35:03 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 16:04:23 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 16:04:24 INFO  TS_UpcomingHondaBike:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 16:04:26 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 16:04:26 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 16:04:27 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 16:04:27 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 16:04:27 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 16:04:27 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 16:04:29 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 16:04:29 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 16:04:32 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-17 16:04:32 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2406658\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-17 16:04:33 INFO  TS_UsedCar:69 -
+			Chrome browser initialized with notifications allowed.
+2025-07-17 16:05:18 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 16:06:04 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 16:06:05 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 16:06:17 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 16:06:18 INFO  TS_UsedCar:56 -
+			closing usedCarPage
+2025-07-17 16:06:25 INFO  TS_Login:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 16:07:10 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 16:07:11 INFO  TS_Login:28 -
+			started the login test with invalid google account
+2025-07-17 16:07:14 INFO  TS_Login:35 -
+			taking the screenshot of invalid google account
+2025-07-17 16:07:19 INFO  TS_Login:38 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithInvalidEmail_.png
+2025-07-17 16:07:19 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 16:07:19 INFO  TS_Login:21 -
+			opening the login popup window
+2025-07-17 16:07:19 INFO  TS_Login:43 -
+			started the login test with valid google account and invalid password
+2025-07-17 16:08:00 INFO  TS_Login:54 -
+			password textfeild is blocked
+2025-07-17 16:08:00 INFO  TS_Login:58 -
+			taking the screenshot of valid google account
+2025-07-17 16:08:00 INFO  TS_Login:60 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\LoginWithvalidEmailAndInvalidPassword_.png
+2025-07-17 16:08:00 INFO  TS_Login:65 -
+			switching back to main window
+2025-07-17 16:08:07 INFO  TS_UpcomingHondaBike:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 16:08:52 INFO  TS_UpcomingHondaBike:24 -
+			Clicking on Upcoming Bikes
+2025-07-17 16:08:52 INFO  TS_UpcomingHondaBike:27 -
+			Clicking on all upcoming bikes
+2025-07-17 16:08:54 INFO  TS_UpcomingHondaBike:29 -
+			Clicking on Honda in upcoming bikes page
+2025-07-17 16:08:55 INFO  TS_UpcomingHondaBike:36 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-17 16:08:55 INFO  TS_UpcomingHondaBike:42 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-17 16:08:55 INFO  TS_UpcomingHondaBike:46 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-17 16:08:57 INFO  TS_UpcomingHondaBike:52 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\Honda_upcoming_.png
+2025-07-17 16:08:57 INFO  TS_UpcomingHondaBike:58 -
+			Navigating back to homepage
+2025-07-17 16:09:05 INFO  TS_UsedCar:81 -
+			Edge browser initialized with notifications allowed.
+2025-07-17 16:09:51 INFO  TS_UsedCar:20 -
+			Navigating to used car page
+2025-07-17 16:09:53 INFO  TS_UsedCar:29 -
+			starting to test popular car models
+2025-07-17 16:09:53 INFO  TS_UsedCar:37 -
+			Popular Usedcar models in Chennai are: [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
+2025-07-17 16:10:06 INFO  TS_UsedCar:42 -
+			C:\Users\2406658\Final-Project\HackathonProject\screenshots\popularmodels_.png
+2025-07-17 16:10:07 INFO  TS_UsedCar:56 -
+			closing usedCarPage

@@ -75,14 +75,7 @@ public class BaseClass {
 	            logger.info("Chrome browser initialized with notifications allowed.");
 	            break;
 		 case "edge":
-//             WebDriverManager.edgedriver().setup(); // Setup EdgeDriver
-//             EdgeOptions edgeOptions = new EdgeOptions();
-//             // Create a HashMap to store preferences for Edge
-//             Map<String, Object> edgePrefs = new HashMap<>();
-//             // Set the preference to allow notifications (1 = allow, 2 = block, 0 = ask)
-//             edgePrefs.put("profile.default_content_setting_values.notifications", 1);
-//             edgeOptions.setExperimentalOption("prefs", edgePrefs);
-//             driver = new EdgeDriver(edgeOptions);
+
 			 	driver = new EdgeDriver();
              logger.info("Edge browser initialized with notifications allowed.");
              break;
@@ -121,15 +114,7 @@ public class BaseClass {
 		            cap.setCapability(ChromeOptions.CAPABILITY,chromeOptions);
 		            break;
 			 case "edge":
-//	             WebDriverManager.edgedriver().setup(); // Setup EdgeDriver
-//	             EdgeOptions edgeOptions = new EdgeOptions();
-//	             // Create a HashMap to store preferences for Edge
-//	             Map<String, Object> edgePrefs = new HashMap<>();
-//	             // Set the preference to allow notifications (1 = allow, 2 = block, 0 = ask)
-//	             edgePrefs.put("profile.default_content_setting_values.notifications", 1);
-//	             edgeOptions.setExperimentalOption("prefs", edgePrefs);
-//	             driver = new EdgeDriver(edgeOptions);
-//				 	driver = new EdgeDriver();
+
 				 cap.setBrowserName("MicrosoftEdge");
 	             logger.info("Edge browser initialized with notifications allowed.");
 	             break;
@@ -150,7 +135,7 @@ public class BaseClass {
 					return;
 			}
 			
-			String url="http://10.229.52.170:4444";
+			String url="http://10.187.189.4:4444";
 			URI uri=new URI(url);
 			URL seleniumHubUrl=uri.toURL();
 			driver=new RemoteWebDriver(seleniumHubUrl,cap);

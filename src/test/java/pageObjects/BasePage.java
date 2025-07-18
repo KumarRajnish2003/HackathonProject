@@ -1,8 +1,8 @@
 package pageObjects;
 
-import java.io.IOException;
+
 import java.time.Duration;
-import java.util.List;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

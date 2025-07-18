@@ -36,7 +36,7 @@ public class TS_UsedCar extends BaseClass {
 			List<String> carList = ucp.selectPopularCars();
 			logger.info("Popular Usedcar models in "+data.get(3)+" are: " + carList);
 			System.out.println("The popular used car models in "+data.get(3)+" are:");
-			System.out.println(carList);
+			System.out.println(carList+"\n");
 			Thread.sleep(2000);
 			String usedcarpagePath = BaseClass.takeSpecificScreenShot("popularmodels",ucp.getUsedCarImageContainer());
 			logger.info(usedcarpagePath);

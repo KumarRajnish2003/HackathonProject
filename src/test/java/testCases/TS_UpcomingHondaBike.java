@@ -40,11 +40,11 @@ public class TS_UpcomingHondaBike extends BaseClass {
 		List<String> expLaunch = HUbike.getExpLaunch();
 		
 		logger.info("Upcomming Honda Bikes under 4lac are");
-		System.out.println("Upcomming Honda Bikes under 4lac are:");
+		System.out.println("\n Upcomming Honda Bikes under 4lac are:");
 		
 		for (int i = 0; i < bike.size(); i++) {
-			logger.info("[ " + bike.get(i) + " , " + price.get(i) + " , " + expLaunch.get(i) + " ]");
-			System.out.println("[ " + bike.get(i) + " , " + price.get(i) + " , " + expLaunch.get(i) + " ]");
+			logger.info("[ " + bike.get(i) + " , " + price.get(i) + " , " + expLaunch.get(i) + " ] ");
+			System.out.println("[ " + bike.get(i) + " , " + price.get(i) + " , " + expLaunch.get(i) + " ] \n");
 		}
 		WebElement upcoming=HUbike.getUpcomingHondaBikeSS();
 		Thread.sleep(1000);

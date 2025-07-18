@@ -3,8 +3,7 @@ package pageObjects;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,7 +19,7 @@ public class UsedCarPage extends BasePage {
 	@FindBy(xpath = "//*[@id=\"gs_input5\"]")
 	WebElement cityinput;
 
-	@FindBy(xpath = "//*[@id=\"ui-id-5\"]/li/a")
+	@FindBy(xpath = "//*[@id='ui-id-5']/li[1]")
 	WebElement city;
 
 	@FindBy(xpath = "//div[@class='gsc_thin_scroll']/ul/li/label")

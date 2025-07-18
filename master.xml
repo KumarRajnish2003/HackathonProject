@@ -6,17 +6,17 @@
 		<listener class-name="utilities.ExtentReportManager" />
 	</listeners>
 
-	<test thread-count="5" name="ChromeTest">
+   <test thread-count="1" name="ChromeTest">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testCases.TS_Login" />
-			<class name="testCases.TS_UpcomingHondaBike" />
+		    <class name="testCases.TS_Login" />
+			<class name="testCases.TS_UpcomingHondaBike" /> 
 			<class name="testCases.TS_UsedCar" />
 		</classes>
-	</test> 
+	</test>   
 
- 	<!-- <test thread-count="5" name="EdgeTest">
+<!--    	  <test thread-count="1" name="EdgeTest">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="edge" />
 		<classes>
@@ -24,8 +24,8 @@
 			<class name="testCases.TS_UpcomingHondaBike" /> 
 			<class name="testCases.TS_UsedCar" />
 		</classes>
-	</test> -->
-
+	</test>   -->
+	
 	<!-- <test thread-count="5" name="firefoxTest"> <parameter name="os" value="Windows" 
 		/> <parameter name="browser" value="firefox"/> <classes> <class name="testCases.TS_Login"/> 
 		<class name="testCases.TS_UpcomingHondaBike"/> <class name="testCases.TS_UsedCar"/> 

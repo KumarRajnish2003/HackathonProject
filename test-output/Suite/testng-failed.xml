@@ -8,15 +8,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TS_Login">
+      <class name="testCases.TS_UsedCar">
         <methods>
           <include name="tearDown"/>
-          <include name="closeLoginPopUp"/>
-          <include name="openLoginPopUp"/>
+          <include name="navigateToHomePage"/>
           <include name="setup"/>
-          <include name="Test_Login_With_Invalid_Google_Account"/>
+          <include name="Test_PopularCarModels_Chennai"/>
+          <include name="navigateToUsedCarPage"/>
         </methods>
-      </class> <!-- testCases.TS_Login -->
+      </class> <!-- testCases.TS_UsedCar -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

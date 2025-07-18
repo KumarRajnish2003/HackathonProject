@@ -22,7 +22,7 @@ public class TS_Login extends BaseClass {
 		auth.clickOnGoogleLogin();
 		BaseClass.SwitchWindow();
 		String InvalidMail = data.get(0);
-		auth.sendEmailorPhone(InvalidMail);
+		auth.sendEmailorPhone("123");
 		auth.clickOnNext();
 		logger.info("taking the screenshot of invalid google account");
 		String InvalidScreenshotpath = BaseClass.takeScreenShot("LoginWithInvalidEmail");

@@ -5,16 +5,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomePage extends BasePage {
 
-    public Actions action;
+	public Actions action;
+	private JavascriptExecutor js;
+
 	public HomePage(WebDriver driver) {
 		super(driver);
 		action = new Actions(driver);
+		js = (JavascriptExecutor) driver;
 	}
-
-	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	@FindBy(id = "forum_login_title_lg")
 	WebElement LoginAndMore;
@@ -32,17 +34,28 @@ public class HomePage extends BasePage {
 	WebElement allUpcomingBikes;
 
 	public void ClickLoginAndMore() {
-		LoginAndMore.click();
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(LoginAndMore)).click();
+		} catch (Exception e) {
+			throw e;
+		}
 	}
-	
+
 	public void hoverMore() {
-		action.moveToElement(More);
+		try {
+			wait.until(ExpectedConditions.visibilityOf(More));
+			action.moveToElement(More).perform();
+
+		} catch (Exception e) {
+			throw e;
+		}
 	}
 
 	public void clickUsedCars() {
 
 		action.moveToElement(More).perform();
-		usedCar.click();
+		wait.until(ExpectedConditions.elementToBeClickable(usedCar)).click();
+//		usedCar.click();
 	}
 
 	public void clickonUpcomingBike() {

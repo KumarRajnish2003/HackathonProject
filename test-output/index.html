@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS_UsedCar" class="method navigator-link" hash-for-method="Test_PopularCarModels_Chennai">Test_PopularCarModels_Chennai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +115,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS_UsedCar" class="method navigator-link" hash-for-method="Test_InvalidCitySelection">Test_InvalidCitySelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TS_Login" class="method navigator-link" hash-for-method="Test_Login_With_Invalid_Google_Account">Test_Login_With_Invalid_Google_Account</a> <!-- method navigator-link -->
@@ -113,7 +132,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TS_UsedCar" class="method navigator-link" hash-for-method="Test_PopularCarModels_Chennai">Test_PopularCarModels_Chennai</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TS_UsedCar" class="method navigator-link" hash-for-method="Test_VerifyUsedCarPageTitleAndURL">Test_VerifyUsedCarPageTitleAndURL</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,9 +152,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testCases.TS_UsedCar</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -144,6 +163,33 @@
                   <a name="Test_PopularCarModels_Chennai">
                   </a> <!-- Test_PopularCarModels_Chennai -->
                   <span class="method-name">Test_PopularCarModels_Chennai</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test_PopularCarModels_Chennai failed due to unexpected error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;ui-id-5&quot;]/li/a&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at testCases.TS_UsedCar.Test_PopularCarModels_Chennai(TS_UsedCar.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TS_UsedCar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_InvalidCitySelection">
+                  </a> <!-- Test_InvalidCitySelection -->
+                  <span class="method-name">Test_InvalidCitySelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_VerifyUsedCarPageTitleAndURL">
+                  </a> <!-- Test_VerifyUsedCarPageTitleAndURL -->
+                  <span class="method-name">Test_VerifyUsedCarPageTitleAndURL</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,7 +244,7 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -244,28 +290,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Test_Login_With_valid_Google_Account')
 data.setCell(0, 2, 'testCases.TS_Login')
-data.setCell(0, 3, 27314);
+data.setCell(0, 3, 25757);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Test_PopularCarModels_Chennai')
 data.setCell(1, 2, 'testCases.TS_UsedCar')
-data.setCell(1, 3, 14829);
+data.setCell(1, 3, 20506);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Test_Login_With_Invalid_Google_Account')
-data.setCell(2, 2, 'testCases.TS_Login')
-data.setCell(2, 3, 6089);
+data.setCell(2, 1, 'Test_InvalidCitySelection')
+data.setCell(2, 2, 'testCases.TS_UsedCar')
+data.setCell(2, 3, 10182);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'get_Honda_Upcoming_Bikes_Under_4lac')
-data.setCell(3, 2, 'testCases.TS_UpcomingHondaBike')
-data.setCell(3, 3, 124);
+data.setCell(3, 1, 'Test_Login_With_Invalid_Google_Account')
+data.setCell(3, 2, 'testCases.TS_Login')
+data.setCell(3, 3, 4607);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'get_Honda_Upcoming_Bikes_Under_4lac')
+data.setCell(4, 2, 'testCases.TS_UpcomingHondaBike')
+data.setCell(4, 3, 158);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_VerifyUsedCarPageTitleAndURL')
+data.setCell(5, 2, 'testCases.TS_UsedCar')
+data.setCell(5, 3, 28);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -298,77 +352,103 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">openLoginPopUp</span>
-                <span class="method-start">48843 ms</span>
+                <span class="method-start">8005 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Test_Login_With_Invalid_Google_Account</span>
-                <span class="method-start">49099 ms</span>
+                <span class="method-start">8337 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeLoginPopUp</span>
-                <span class="method-start">55199 ms</span>
+                <span class="method-start">12952 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openLoginPopUp</span>
-                <span class="method-start">55366 ms</span>
+                <span class="method-start">13120 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Test_Login_With_valid_Google_Account</span>
-                <span class="method-start">55495 ms</span>
+                <span class="method-start">13358 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeLoginPopUp</span>
-                <span class="method-start">82810 ms</span>
+                <span class="method-start">39116 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">82985 ms</span>
+                <span class="method-start">39271 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TS_UpcomingHondaBike</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome, Windows)</span>
-                <span class="method-start">86554 ms</span>
+                <span class="method-start">42328 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">goToUpcomingHondaBikes</span>
-                <span class="method-start">98473 ms</span>
+                <span class="method-start">47285 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">get_Honda_Upcoming_Bikes_Under_4lac</span>
-                <span class="method-start">102616 ms</span>
+                <span class="method-start">49983 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">102741 ms</span>
+                <span class="method-start">50143 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">107967 ms</span>
+                <span class="method-start">50608 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TS_UsedCar</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome, Windows)</span>
-                <span class="method-start">111619 ms</span>
+                <span class="method-start">53197 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToUsedCarPage</span>
-                <span class="method-start">115973 ms</span>
+                <span class="method-start">101597 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Test_PopularCarModels_Chennai</span>
-                <span class="method-start">120711 ms</span>
+                <span class="method-start">112231 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">135541 ms</span>
+                <span class="method-start">132908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUsedCarPage</span>
+                <span class="method-start">133663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_VerifyUsedCarPageTitleAndURL</span>
+                <span class="method-start">136103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">navigateToHomePage</span>
+                <span class="method-start">136132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUsedCarPage</span>
+                <span class="method-start">136408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_InvalidCitySelection</span>
+                <span class="method-start">138550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">navigateToHomePage</span>
+                <span class="method-start">148733 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">135542 ms</span>
+                <span class="method-start">193444 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

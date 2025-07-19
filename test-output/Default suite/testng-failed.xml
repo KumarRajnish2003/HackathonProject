@@ -5,11 +5,11 @@
     <classes>
       <class name="testCases.TS_Login">
         <methods>
-          <include name="Test_Login_With_valid_Google_Account"/>
           <include name="closeLoginPopUp"/>
           <include name="tearDown"/>
           <include name="openLoginPopUp"/>
           <include name="setup"/>
+          <include name="Test_Login_With_Registered_Google_Account"/>
         </methods>
       </class> <!-- testCases.TS_Login -->
     </classes>

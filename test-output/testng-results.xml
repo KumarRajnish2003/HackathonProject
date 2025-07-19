@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="7" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-16T10:58:30 IST" name="Suite" finished-at="2025-07-16T10:59:03 IST" duration-ms="32584">
+  <suite started-at="2025-07-19T23:22:05 IST" name="Suite" finished-at="2025-07-19T23:28:00 IST" duration-ms="354933">
     <groups>
+      <group name="smoke">
+        <method signature="TS_Login.Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@906d29b]" name="Test_Login_With_Invalid_Google_Account" class="testCases.TS_Login"/>
+        <method signature="TS_UpcomingHondaBike.get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" name="get_Honda_Upcoming_Bikes_Under_4lac" class="testCases.TS_UpcomingHondaBike"/>
+        <method signature="TS_UsedCar.Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@52851b44]" name="Test_PopularCarModels" class="testCases.TS_UsedCar"/>
+        <method signature="TS_Login.Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@3a3e78f]" name="Test_Login_With_Invalid_Google_Account" class="testCases.TS_Login"/>
+        <method signature="TS_UpcomingHondaBike.get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" name="get_Honda_Upcoming_Bikes_Under_4lac" class="testCases.TS_UpcomingHondaBike"/>
+        <method signature="TS_UsedCar.Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" name="Test_PopularCarModels" class="testCases.TS_UsedCar"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TS_Login.Test_Login_With_Empty_Email()[pri:0, instance:testCases.TS_Login@906d29b]" name="Test_Login_With_Empty_Email" class="testCases.TS_Login"/>
+        <method signature="TS_Login.Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@906d29b]" name="Test_Login_With_Invalid_Google_Account" class="testCases.TS_Login"/>
+        <method signature="TS_UpcomingHondaBike.get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" name="get_Honda_Upcoming_Bikes_Under_4lac" class="testCases.TS_UpcomingHondaBike"/>
+        <method signature="TS_Login.Test_Login_With_Empty_Email()[pri:0, instance:testCases.TS_Login@3a3e78f]" name="Test_Login_With_Empty_Email" class="testCases.TS_Login"/>
+        <method signature="TS_Login.Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@3a3e78f]" name="Test_Login_With_Invalid_Google_Account" class="testCases.TS_Login"/>
+        <method signature="TS_UpcomingHondaBike.get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" name="get_Honda_Upcoming_Bikes_Under_4lac" class="testCases.TS_UpcomingHondaBike"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TS_Login.Test_Login_With_Empty_Email()[pri:0, instance:testCases.TS_Login@906d29b]" name="Test_Login_With_Empty_Email" class="testCases.TS_Login"/>
+        <method signature="TS_Login.Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@906d29b]" name="Test_Login_With_valid_Google_Account" class="testCases.TS_Login"/>
+        <method signature="TS_UsedCar.Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@52851b44]" name="Test_PopularCarModels" class="testCases.TS_UsedCar"/>
+        <method signature="TS_Login.Test_Login_With_Empty_Email()[pri:0, instance:testCases.TS_Login@3a3e78f]" name="Test_Login_With_Empty_Email" class="testCases.TS_Login"/>
+        <method signature="TS_Login.Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@3a3e78f]" name="Test_Login_With_valid_Google_Account" class="testCases.TS_Login"/>
+        <method signature="TS_UsedCar.Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" name="Test_PopularCarModels" class="testCases.TS_UsedCar"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2025-07-16T10:58:30 IST" name="ChromeTest" finished-at="2025-07-16T10:59:03 IST" duration-ms="32584">
+    <test started-at="2025-07-19T23:22:05 IST" name="ChromeTest" finished-at="2025-07-19T23:25:10 IST" duration-ms="185577">
       <class name="testCases.TS_UsedCar">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@5443d039]" started-at="2025-07-16T10:58:31 IST" name="setup" finished-at="2025-07-16T10:58:42 IST" duration-ms="11803" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@52851b44]" started-at="2025-07-19T23:23:54 IST" name="setup" finished-at="2025-07-19T23:24:02 IST" duration-ms="7784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,23 +47,444 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@5443d039]" started-at="2025-07-16T10:58:42 IST" name="navigateToUsedCarPage" finished-at="2025-07-16T10:58:47 IST" duration-ms="4462" status="PASS">
+        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@52851b44]" started-at="2025-07-19T23:24:02 IST" name="navigateToUsedCarPage" finished-at="2025-07-19T23:24:50 IST" duration-ms="48830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToUsedCarPage -->
-        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@5443d039]" started-at="2025-07-16T10:58:47 IST" name="Test_PopularCarModels" finished-at="2025-07-16T10:59:00 IST" duration-ms="12816" status="PASS">
+        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@52851b44]" started-at="2025-07-19T23:24:50 IST" name="Test_PopularCarModels" finished-at="2025-07-19T23:25:05 IST" duration-ms="14862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_PopularCarModels -->
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@5443d039]" started-at="2025-07-16T10:59:00 IST" name="navigateToHomePage" finished-at="2025-07-16T10:59:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@52851b44]" started-at="2025-07-19T23:25:05 IST" name="navigateToHomePage" finished-at="2025-07-19T23:25:05 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@5443d039]" started-at="2025-07-16T10:59:00 IST" name="tearDown" finished-at="2025-07-16T10:59:03 IST" duration-ms="3305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@52851b44]" started-at="2025-07-19T23:25:05 IST" name="tearDown" finished-at="2025-07-19T23:25:10 IST" duration-ms="4912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_UsedCar -->
+      <class name="testCases.TS_UpcomingHondaBike">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" started-at="2025-07-19T23:23:29 IST" name="setup" finished-at="2025-07-19T23:23:45 IST" duration-ms="16387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToUpcomingHondaBikes()[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" started-at="2025-07-19T23:23:45 IST" name="goToUpcomingHondaBikes" finished-at="2025-07-19T23:23:49 IST" duration-ms="3494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUpcomingHondaBikes -->
+        <test-method signature="get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" started-at="2025-07-19T23:23:49 IST" name="get_Honda_Upcoming_Bikes_Under_4lac" finished-at="2025-07-19T23:23:49 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Honda_Upcoming_Bikes_Under_4lac -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" started-at="2025-07-19T23:23:49 IST" name="navigateToHomePage" finished-at="2025-07-19T23:23:50 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UpcomingHondaBike@2a640157]" started-at="2025-07-19T23:23:50 IST" name="tearDown" finished-at="2025-07-19T23:23:54 IST" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TS_UpcomingHondaBike -->
+      <class name="testCases.TS_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:22:05 IST" name="setup" finished-at="2025-07-19T23:22:57 IST" duration-ms="52310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:22:57 IST" name="openLoginPopUp" finished-at="2025-07-19T23:22:58 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPopUp -->
+        <test-method signature="Test_Login_With_Empty_Email()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:22:58 IST" name="Test_Login_With_Empty_Email" finished-at="2025-07-19T23:23:28 IST" duration-ms="30255" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="myModal3-modal-content"]/div[1]/div/div[3]/div[6]/div' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="myModal3-modal-content"]/div[1]/div/div[3]/div[6]/div' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.GoogleAuthenticationPage.clickOnGoogleLogin(GoogleAuthenticationPage.java:35)
+at testCases.TS_Login.Test_Login_With_Empty_Email(TS_Login.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="myModal3-modal-content"]/div[1]/div/div[3]/div[6]/div"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22abd370a725ee6d87f7f813eed5b232, findElement {value=//*[@id="myModal3-modal-content"]/div[1]/div/div[3]/div[6]/div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59509/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22abd370a725ee6d87f7f813eed5b232
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_With_Empty_Email -->
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="closeLoginPopUp" finished-at="2025-07-19T23:23:29 IST" duration-ms="64" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1365)
+at org.openqa.selenium.remote.DriverCommand.SWITCH_TO_WINDOW(DriverCommand.java:251)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1126)
+at testCases.TS_Login.closeLoginPopUp(TS_Login.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPopUp -->
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="openLoginPopUp" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPopUp -->
+        <test-method signature="Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="Test_Login_With_Invalid_Google_Account" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1365)
+at org.openqa.selenium.remote.DriverCommand.SWITCH_TO_WINDOW(DriverCommand.java:251)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1126)
+at testCases.TS_Login.closeLoginPopUp(TS_Login.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_With_Invalid_Google_Account -->
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="openLoginPopUp" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPopUp -->
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="closeLoginPopUp" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPopUp -->
+        <test-method signature="Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="Test_Login_With_valid_Google_Account" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1365)
+at org.openqa.selenium.remote.DriverCommand.SWITCH_TO_WINDOW(DriverCommand.java:251)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1126)
+at testCases.TS_Login.closeLoginPopUp(TS_Login.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_With_valid_Google_Account -->
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="closeLoginPopUp" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPopUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_Login@906d29b]" started-at="2025-07-19T23:23:29 IST" name="tearDown" finished-at="2025-07-19T23:23:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TS_Login -->
     </test> <!-- ChromeTest -->
+    <test started-at="2025-07-19T23:25:13 IST" name="EdgeTest" finished-at="2025-07-19T23:28:00 IST" duration-ms="166075">
+      <class name="testCases.TS_UsedCar">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" started-at="2025-07-19T23:27:21 IST" name="setup" finished-at="2025-07-19T23:27:34 IST" duration-ms="12780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToUsedCarPage()[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" started-at="2025-07-19T23:27:34 IST" name="navigateToUsedCarPage" finished-at="2025-07-19T23:27:40 IST" duration-ms="5735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUsedCarPage -->
+        <test-method signature="Test_PopularCarModels()[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" started-at="2025-07-19T23:27:40 IST" name="Test_PopularCarModels" finished-at="2025-07-19T23:27:55 IST" duration-ms="15134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PopularCarModels -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" started-at="2025-07-19T23:27:55 IST" name="navigateToHomePage" finished-at="2025-07-19T23:27:55 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UsedCar@17a1e4ca]" started-at="2025-07-19T23:27:55 IST" name="tearDown" finished-at="2025-07-19T23:28:00 IST" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TS_UsedCar -->
+      <class name="testCases.TS_UpcomingHondaBike">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" started-at="2025-07-19T23:26:57 IST" name="setup" finished-at="2025-07-19T23:27:06 IST" duration-ms="8634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToUpcomingHondaBikes()[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" started-at="2025-07-19T23:27:06 IST" name="goToUpcomingHondaBikes" finished-at="2025-07-19T23:27:11 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUpcomingHondaBikes -->
+        <test-method signature="get_Honda_Upcoming_Bikes_Under_4lac()[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" started-at="2025-07-19T23:27:11 IST" name="get_Honda_Upcoming_Bikes_Under_4lac" finished-at="2025-07-19T23:27:12 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Honda_Upcoming_Bikes_Under_4lac -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" started-at="2025-07-19T23:27:12 IST" name="navigateToHomePage" finished-at="2025-07-19T23:27:17 IST" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_UpcomingHondaBike@301ec38b]" started-at="2025-07-19T23:27:17 IST" name="tearDown" finished-at="2025-07-19T23:27:21 IST" duration-ms="4810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TS_UpcomingHondaBike -->
+      <class name="testCases.TS_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:25:13 IST" name="setup" finished-at="2025-07-19T23:26:08 IST" duration-ms="54549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:08 IST" name="openLoginPopUp" finished-at="2025-07-19T23:26:09 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPopUp -->
+        <test-method signature="Test_Login_With_Empty_Email()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:09 IST" name="Test_Login_With_Empty_Email" finished-at="2025-07-19T23:26:13 IST" duration-ms="4420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_With_Empty_Email -->
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:13 IST" name="closeLoginPopUp" finished-at="2025-07-19T23:26:13 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPopUp -->
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:13 IST" name="openLoginPopUp" finished-at="2025-07-19T23:26:14 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPopUp -->
+        <test-method signature="Test_Login_With_Invalid_Google_Account()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:14 IST" name="Test_Login_With_Invalid_Google_Account" finished-at="2025-07-19T23:26:17 IST" duration-ms="3141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_With_Invalid_Google_Account -->
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:17 IST" name="closeLoginPopUp" finished-at="2025-07-19T23:26:17 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPopUp -->
+        <test-method is-config="true" signature="openLoginPopUp()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:17 IST" name="openLoginPopUp" finished-at="2025-07-19T23:26:18 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPopUp -->
+        <test-method signature="Test_Login_With_valid_Google_Account()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:18 IST" name="Test_Login_With_valid_Google_Account" finished-at="2025-07-19T23:26:52 IST" duration-ms="33653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_With_valid_Google_Account -->
+        <test-method is-config="true" signature="closeLoginPopUp()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:52 IST" name="closeLoginPopUp" finished-at="2025-07-19T23:26:52 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPopUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_Login@3a3e78f]" started-at="2025-07-19T23:26:52 IST" name="tearDown" finished-at="2025-07-19T23:26:57 IST" duration-ms="5019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TS_Login -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

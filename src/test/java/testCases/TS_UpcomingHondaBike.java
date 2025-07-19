@@ -18,7 +18,7 @@ public class TS_UpcomingHondaBike extends BaseClass {
 	HondaUpcomingBikePage HUbike;
 	WebDriverWait wait;
 
-	@BeforeMethod
+	@BeforeMethod(groups= {"smoke","sanity"})
 	public void goToUpcomingHondaBikes() {
 		logger.info("Clicking on Upcoming Bikes");
 		home = new HomePage(driver);
@@ -30,7 +30,7 @@ public class TS_UpcomingHondaBike extends BaseClass {
 		Ubike.clickOnHonda();
 	}
 
-	@Test
+	@Test(groups={"sanity","smoke"})
 	public void get_Honda_Upcoming_Bikes_Under_4lac() {
 		logger.info("Starting to test Honda upcoming bikes under 4lac");
 		HUbike = new HondaUpcomingBikePage(driver);
@@ -45,7 +45,7 @@ public class TS_UpcomingHondaBike extends BaseClass {
 
 	}
 
-	@AfterMethod
+	@AfterMethod(groups= {"smoke","sanity"})
 	public void navigateToHomePage() {
 		logger.info("Navigating back to homepage");
 		driver.navigate().back();

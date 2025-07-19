@@ -1,228 +1,956 @@
-2025-07-16 10:17:39 INFO  Utils:112 -
+2025-07-19 12:44:20 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
 
-2025-07-16 10:17:41 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:17:41 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:17:43 INFO  TS_Login:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-16 10:17:44 INFO  TS_Login:19 -
+2025-07-19 12:44:25 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 12:44:27 INFO  TS_Login:17 -
 			opening the login popup window
-2025-07-16 10:17:45 INFO  TS_Login:26 -
-			started the login test with invalid google account
-2025-07-16 10:17:48 INFO  TS_Login:32 -
+2025-07-19 12:44:28 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 12:44:31 INFO  TS_Login:65 -
 			taking the screenshot of invalid google account
-2025-07-16 10:17:48 INFO  TS_Login:34 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithInvalidEmail_.png
-2025-07-16 10:17:48 INFO  TS_Login:60 -
+2025-07-19 12:44:31 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719124431.png
+2025-07-19 12:44:31 INFO  TS_Login:74 -
 			switching back to main window
-2025-07-16 10:17:48 INFO  TS_Login:19 -
+2025-07-19 12:44:32 INFO  TS_Login:17 -
 			opening the login popup window
-2025-07-16 10:17:49 INFO  TS_Login:39 -
-			started the login test with valid google account and invalid password
-2025-07-16 10:18:04 INFO  TS_Login:49 -
-			password textfeild is blocked
-2025-07-16 10:18:04 INFO  TS_Login:53 -
-			taking the screenshot of valid google account
-2025-07-16 10:18:04 INFO  TS_Login:55 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\LoginWithvalidEmail_.png
-2025-07-16 10:18:04 INFO  TS_Login:60 -
+2025-07-19 12:44:32 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 12:44:33 INFO  TS_Login:74 -
 			switching back to main window
-2025-07-16 10:18:07 INFO  WebDriverManager:1220 -
+2025-07-19 12:44:33 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:44:34 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 12:44:35 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:47:22 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 12:47:27 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 12:47:29 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:47:29 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 12:47:32 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 12:47:32 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719124732.png
+2025-07-19 12:47:32 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:47:33 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:47:33 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 12:47:34 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:47:34 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:47:35 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 12:47:36 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:52:36 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 12:52:40 INFO  TS_Login:93 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 12:52:42 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:52:43 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 12:52:46 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 12:52:46 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719125246.png
+2025-07-19 12:52:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:52:47 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:52:47 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 12:52:48 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:52:49 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:52:49 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 12:52:50 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:57:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 12:57:10 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 12:57:12 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:57:13 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 12:57:16 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 12:57:16 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719125716.png
+2025-07-19 12:57:16 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:57:17 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:57:17 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 12:57:18 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:57:19 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:57:19 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 12:57:19 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:57:57 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 12:58:01 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 12:58:47 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:58:49 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 12:58:52 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 12:58:52 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719125852.png
+2025-07-19 12:58:52 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:58:52 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:58:52 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 12:58:54 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 12:58:54 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 12:58:54 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 12:58:55 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:04:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:04:05 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:04:08 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:04:09 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:04:13 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:04:13 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719010413.png
+2025-07-19 13:04:13 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:04:13 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:04:13 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:04:15 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:04:15 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:04:15 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:04:16 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:09:29 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:09:34 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:09:42 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:09:43 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:09:45 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:09:45 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719010945.png
+2025-07-19 13:09:45 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:09:45 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:09:46 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:09:48 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:09:48 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719010948.png
+2025-07-19 13:09:48 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:09:49 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:09:49 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:10:11 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:10:11 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:10:11 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719011011.png
+2025-07-19 13:10:11 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:13:24 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:13:29 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:13:32 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:13:33 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:13:35 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:13:35 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719011335.png
+2025-07-19 13:13:35 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:13:35 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:13:35 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:13:57 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:13:57 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:13:57 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719011357.png
+2025-07-19 13:13:57 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:13:57 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:13:57 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:13:59 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:13:59 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719011359.png
+2025-07-19 13:13:59 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:14:36 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:14:40 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:14:43 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:14:44 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:14:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:14:46 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:14:46 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:14:48 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:14:48 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:14:48 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:14:48 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:15:17 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:15:21 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:15:23 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:15:23 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:15:25 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:15:26 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:15:26 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:15:27 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:15:27 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:15:27 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:15:29 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:15:29 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719011529.png
+2025-07-19 13:15:29 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:19:12 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:19:16 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:19:18 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:19:19 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:19:21 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:19:21 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:19:21 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:19:22 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:19:23 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:19:23 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:19:24 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:19:25 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719011924.png
+2025-07-19 13:19:25 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:20:10 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:20:13 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:20:16 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:20:17 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:20:19 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:20:19 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719012019.png
+2025-07-19 13:20:19 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:20:19 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:20:20 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:20:41 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:20:41 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:20:41 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719012041.png
+2025-07-19 13:20:41 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:20:42 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:20:42 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:20:42 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:21:53 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:21:57 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:22:01 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:22:01 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:22:03 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:22:03 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719012203.png
+2025-07-19 13:22:03 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:22:03 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:22:04 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:22:25 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:22:25 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:22:25 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719012225.png
+2025-07-19 13:22:25 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:22:26 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:22:26 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:22:26 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:23:06 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:23:10 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:23:57 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:23:57 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:24:00 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:24:00 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719012400.png
+2025-07-19 13:24:00 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:24:00 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:24:00 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:24:02 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:24:02 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719012402.png
+2025-07-19 13:24:02 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:24:02 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:24:03 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:24:24 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:24:24 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:24:24 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719012424.png
+2025-07-19 13:24:24 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:27:33 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:27:38 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:27:42 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:27:43 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:28:06 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:28:06 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:28:06 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719012806.png
+2025-07-19 13:28:06 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:28:06 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:28:07 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:28:08 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:28:08 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719012808.png
+2025-07-19 13:28:08 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:28:08 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:28:09 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:28:09 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:28:54 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:28:58 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:29:01 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:29:01 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:29:03 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:29:03 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719012903.png
+2025-07-19 13:29:04 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:29:04 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:29:04 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:29:06 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:29:06 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719012906.png
+2025-07-19 13:29:06 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:29:06 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:29:06 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:29:06 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:30:39 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:30:43 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:30:47 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:30:47 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:30:49 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:30:49 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719013049.png
+2025-07-19 13:30:49 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:30:49 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:30:50 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:30:51 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:30:51 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719013051.png
+2025-07-19 13:30:51 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:30:51 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:30:52 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:30:52 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:32:53 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:32:57 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:33:00 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:33:00 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:33:41 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:33:41 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:33:42 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:34:23 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:35:11 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:35:15 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:35:18 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:35:19 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:35:20 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:35:21 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719013520.png
+2025-07-19 13:35:21 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:35:21 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:35:21 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:35:21 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:35:21 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:35:22 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:35:22 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:37:50 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:37:54 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:38:04 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:38:05 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:38:06 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:38:07 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719013806.png
+2025-07-19 13:38:07 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:38:07 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:38:07 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:38:09 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:38:09 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719013809.png
+2025-07-19 13:38:09 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:38:09 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:38:09 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:38:31 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:38:31 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:38:31 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719013831.png
+2025-07-19 13:38:31 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:39:58 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:40:03 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:40:50 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:40:50 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:41:11 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:42:17 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:42:21 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:42:24 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:42:25 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:42:27 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:42:27 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719014227.png
+2025-07-19 13:42:27 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:42:27 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:42:27 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:42:30 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:42:30 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719014230.png
+2025-07-19 13:42:30 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:42:31 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:42:32 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:43:06 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:43:06 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:43:06 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719014306.png
+2025-07-19 13:43:06 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:46:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 13:46:02 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:18:07 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:18:08 INFO  TS_UpcomingHondaBike:65 -
+2025-07-19 13:46:02 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 13:46:04 INFO  TS_Login:80 -
 			Chrome browser initialized with notifications allowed.
-2025-07-16 10:18:10 INFO  TS_UpcomingHondaBike:23 -
+2025-07-19 13:46:10 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:46:10 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:46:12 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:46:12 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719014612.png
+2025-07-19 13:46:12 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:46:13 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:46:13 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:46:15 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:46:15 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719014615.png
+2025-07-19 13:46:15 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:46:15 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:46:15 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:46:47 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 13:46:47 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 13:46:47 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719014647.png
+2025-07-19 13:46:47 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:46:51 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 13:46:51 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 13:46:53 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 13:46:55 INFO  TS_UpcomingHondaBike:23 -
 			Clicking on Upcoming Bikes
-2025-07-16 10:18:10 INFO  TS_UpcomingHondaBike:26 -
+2025-07-19 13:46:55 INFO  TS_UpcomingHondaBike:26 -
 			Clicking on all upcoming bikes
-2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:28 -
+2025-07-19 13:46:56 INFO  TS_UpcomingHondaBike:28 -
 			Clicking on Honda in upcoming bikes page
-2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:35 -
+2025-07-19 13:46:57 INFO  TS_UpcomingHondaBike:35 -
 			Starting to test Honda upcoming bikes under 4lac
-2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:40 -
+2025-07-19 13:46:57 INFO  TS_UpcomingHondaBike:40 -
 			Upcomming Honda Bikes under 4lac are
-2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:42 -
+2025-07-19 13:46:57 INFO  TS_UpcomingHondaBike:42 -
 			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
-2025-07-16 10:18:12 INFO  TS_UpcomingHondaBike:50 -
+2025-07-19 13:46:57 INFO  TS_UpcomingHondaBike:50 -
 			Navigating back to homepage
-2025-07-16 10:18:19 INFO  WebDriverManager:1220 -
+2025-07-19 13:47:00 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:18:19 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:18:21 INFO  TS_UsedCar:65 -
+2025-07-19 13:47:00 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 13:47:01 INFO  TS_UsedCar:80 -
 			Chrome browser initialized with notifications allowed.
-2025-07-16 10:18:22 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-16 10:18:23 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-16 10:18:23 ERROR TS_UsedCar:42 -
-			Test failed : org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@id="gs_input5"]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: RemoteWebDriver
-2025-07-16 10:18:23 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-16 10:18:43 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-16 10:18:43 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:18:43 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:18:45 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-16 10:19:30 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-16 10:20:02 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-16 10:20:07 INFO  TS_UsedCar:34 -
-			Popular car models : []
-2025-07-16 10:20:12 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-16 10:20:12 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-16 10:24:09 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-16 10:24:10 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:24:10 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:24:11 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-16 10:24:21 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-16 10:24:52 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-16 10:24:53 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-16 10:24:57 INFO  TS_UsedCar:39 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-16 10:24:57 INFO  TS_UsedCar:51 -
-			closing usedCarPage
-2025-07-16 10:26:44 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-16 10:26:44 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:26:44 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:26:46 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-16 10:26:48 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-16 10:26:51 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-16 10:26:52 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-16 10:26:52 INFO  TS_UsedCar:40 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-16 10:26:52 INFO  TS_UsedCar:52 -
-			closing usedCarPage
-2025-07-16 10:28:49 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-16 10:28:50 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:28:50 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:28:52 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-16 10:28:53 INFO  TS_UsedCar:19 -
-			Navigating to used car page
-2025-07-16 10:29:04 INFO  TS_UsedCar:28 -
-			starting to test popular car models
-2025-07-16 10:29:04 INFO  TS_UsedCar:34 -
-			Popular car models : [Maruti 800, Maruti Swift, Hyundai I10, Hyundai Santro Xing, Honda City, Toyota Innova, Toyota Fortuner, Mahindra XUV500]
-2025-07-16 10:29:05 INFO  TS_UsedCar:40 -
-			C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-16 10:29:05 INFO  TS_UsedCar:52 -
-			closing usedCarPage
-2025-07-16 10:55:05 INFO  Utils:112 -
-			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
-
-2025-07-16 10:55:05 INFO  WebDriverManager:1220 -
-			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:55:05 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:55:07 INFO  TS_UsedCar:65 -
-			Chrome browser initialized with notifications allowed.
-2025-07-16 10:55:09 INFO  TS_UsedCar:28 -
+2025-07-19 13:47:12 INFO  TS_UsedCar:28 -
 			Attempting to hover over 'More' menu.
-2025-07-16 10:55:09 INFO  TS_UsedCar:30 -
+2025-07-19 13:47:12 INFO  TS_UsedCar:30 -
 			'More' menu hovered successfully.
-2025-07-16 10:55:09 INFO  TS_UsedCar:31 -
+2025-07-19 13:47:12 INFO  TS_UsedCar:31 -
 			Attempting to click 'Used Cars' link.
-2025-07-16 10:55:12 INFO  TS_UsedCar:33 -
+2025-07-19 13:47:14 INFO  TS_UsedCar:33 -
 			'Used Cars' link clicked successfully. Navigated to Used Car page.
-2025-07-16 10:55:12 INFO  TS_UsedCar:56 -
+2025-07-19 13:47:14 INFO  TS_UsedCar:44 -
 			Starting Test_PopularCarModels test...
-2025-07-16 10:55:12 INFO  TS_UsedCar:60 -
+2025-07-19 13:47:14 INFO  TS_UsedCar:48 -
 			Attempting to select city: Chennai
-2025-07-16 10:55:12 INFO  TS_UsedCar:62 -
+2025-07-19 13:47:14 INFO  TS_UsedCar:51 -
 			City 'Chennai' selected.
-2025-07-16 10:55:12 INFO  TS_UsedCar:64 -
+2025-07-19 13:47:14 INFO  TS_UsedCar:53 -
 			Attempting to enter city (confirm selection).
-2025-07-16 10:55:12 INFO  TS_UsedCar:66 -
+2025-07-19 13:47:15 INFO  TS_UsedCar:55 -
 			City entered/confirmed.
-2025-07-16 10:55:12 INFO  TS_UsedCar:68 -
+2025-07-19 13:47:15 INFO  TS_UsedCar:57 -
 			Retrieving list of popular car models.
-2025-07-16 10:55:12 INFO  TS_UsedCar:70 -
+2025-07-19 13:47:15 INFO  TS_UsedCar:61 -
 			Popular car models retrieved successfully. Count: 8
-2025-07-16 10:55:12 INFO  TS_UsedCar:74 -
+2025-07-19 13:47:15 INFO  TS_UsedCar:64 -
+			Popular car Models: 
+2025-07-19 13:47:15 INFO  TS_UsedCar:67 -
 			Assertion passed: Popular car models list is not empty.
-2025-07-16 10:55:12 INFO  TS_UsedCar:77 -
+2025-07-19 13:47:17 INFO  TS_UsedCar:69 -
 			Attempting to take screenshot of used car image container.
-2025-07-16 10:55:42 ERROR TS_UsedCar:91 -
-			TEST FAILED - Timeout waiting for element: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=137.0.7151.69)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [70ef2f67e281e9eeb3b11419ac960bb2, elementScreenshot {id=f.69738D69EE5D642F6B40D96A204F6234.d.803FFF3D9A56CE38B4BAB906B0EB4BCF.e.234}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406731\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60613/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (70ef2f67e281e9eeb3b11419ac960bb2)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
-Session ID: 70ef2f67e281e9eeb3b11419ac960bb2
-org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=137.0.7151.69)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [70ef2f67e281e9eeb3b11419ac960bb2, elementScreenshot {id=f.69738D69EE5D642F6B40D96A204F6234.d.803FFF3D9A56CE38B4BAB906B0EB4BCF.e.234}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2406731\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60613/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (70ef2f67e281e9eeb3b11419ac960bb2)] -> xpath: //div[@class='gsc_thin_scroll']/ul]
-Session ID: 70ef2f67e281e9eeb3b11419ac960bb2
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getScreenshotAs(RemoteWebElement.java:360)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy34.getScreenshotAs(Unknown Source)
-	at testBase.BaseClass.takeSpecificScreenShot(BaseClass.java:127)
-	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:78)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+2025-07-19 13:47:28 INFO  TS_UsedCar:73 -
+			Screenshot taken and saved at: C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250719014718.png
+2025-07-19 13:47:28 INFO  TS_UsedCar:78 -
+			Test_PopularCarModels completed successfully.
+2025-07-19 13:47:28 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 13:47:37 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:47:40 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:47:41 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 13:47:43 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 13:47:43 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719014743.png
+2025-07-19 13:47:43 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:47:43 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:47:44 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 13:47:46 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 13:47:46 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719014746.png
+2025-07-19 13:47:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:47:46 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 13:47:46 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 13:47:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 13:47:54 INFO  TS_UpcomingHondaBike:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:47:56 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 13:47:57 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 13:47:59 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 13:47:59 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 13:48:00 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 13:48:00 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 13:48:00 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 13:48:07 INFO  TS_UsedCar:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 13:48:09 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 13:48:10 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 13:48:10 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 13:48:13 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 13:48:13 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 13:48:13 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 13:48:13 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 13:48:13 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 13:48:14 INFO  TS_UsedCar:55 -
+			City entered/confirmed.
+2025-07-19 13:48:14 INFO  TS_UsedCar:57 -
+			Retrieving list of popular car models.
+2025-07-19 13:48:14 INFO  TS_UsedCar:61 -
+			Popular car models retrieved successfully. Count: 8
+2025-07-19 13:48:14 INFO  TS_UsedCar:64 -
+			Popular car Models: 
+2025-07-19 13:48:14 INFO  TS_UsedCar:67 -
+			Assertion passed: Popular car models list is not empty.
+2025-07-19 13:48:16 INFO  TS_UsedCar:69 -
+			Attempting to take screenshot of used car image container.
+2025-07-19 13:48:26 INFO  TS_UsedCar:73 -
+			Screenshot taken and saved at: C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250719014816.png
+2025-07-19 13:48:26 INFO  TS_UsedCar:78 -
+			Test_PopularCarModels completed successfully.
+2025-07-19 13:48:26 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 14:00:15 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:02:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:04:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:06:53 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:11:53 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 14:11:53 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:11:53 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:11:55 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:11:58 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:11:58 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 14:12:02 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 14:12:02 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719021202.png
+2025-07-19 14:12:02 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:12:03 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:12:03 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:12:05 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 14:12:05 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719021205.png
+2025-07-19 14:12:05 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:12:05 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:12:05 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 14:12:37 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 14:12:37 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 14:12:37 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719021237.png
+2025-07-19 14:12:37 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:12:42 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:12:42 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:12:44 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:12:50 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 14:12:51 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 14:12:52 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 14:12:53 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 14:12:53 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 14:12:53 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 14:12:53 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 14:13:01 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:13:01 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:13:03 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:13:06 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 14:13:06 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 14:13:06 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 14:13:08 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 14:13:08 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 14:13:08 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 14:13:08 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 14:13:08 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 14:13:39 ERROR TS_UsedCar:81 -
+			TEST FAILED - An unexpected error occurred: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="ui-id-5"]/li/a' (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="ui-id-5"]/li/a' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.UsedCarPage.enterCity(UsedCarPage.java:35)
+	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
@@ -231,7 +959,7 @@ Session ID: 70ef2f67e281e9eeb3b11419ac960bb2
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
 	at org.testng.TestRunner.run(TestRunner.java:619)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -245,49 +973,1086 @@ Session ID: 70ef2f67e281e9eeb3b11419ac960bb2
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-2025-07-16 10:55:43 INFO  TS_UsedCar:110 -
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [419d37ae2027c887540f9210436fe65f, findElement {using=xpath, value=//*[@id="ui-id-5"]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59321/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 419d37ae2027c887540f9210436fe65f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+2025-07-19 14:13:39 INFO  TS_UsedCar:88 -
 			Execution for current test method finished.
-2025-07-16 10:58:30 INFO  Utils:112 -
+2025-07-19 14:15:02 INFO  Utils:112 -
 			[TestNG] Running:
-  C:\Users\2406731\git\repository\HackathonProject\master.xml
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
 
-2025-07-16 10:58:31 INFO  WebDriverManager:1220 -
+2025-07-19 14:19:59 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:19:59 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:21:42 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:21:42 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:25:55 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:25:55 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:26:24 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:26:24 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:26:35 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 14:26:35 INFO  WebDriverManager:1220 -
 			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-2025-07-16 10:58:31 INFO  WebDriverManager:1282 -
-			Exporting webdriver.chrome.driver as C:\Users\2406731\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
-2025-07-16 10:58:32 INFO  TS_UsedCar:65 -
+2025-07-19 14:26:35 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:26:37 INFO  TS_Login:83 -
 			Chrome browser initialized with notifications allowed.
-2025-07-16 10:58:42 INFO  TS_UsedCar:28 -
+2025-07-19 14:26:41 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:26:41 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 14:26:43 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 14:26:43 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719022643.png
+2025-07-19 14:26:43 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:26:44 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:26:44 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:26:46 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 14:26:46 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719022646.png
+2025-07-19 14:26:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:26:46 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:26:46 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 14:27:18 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 14:27:18 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 14:27:19 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719022718.png
+2025-07-19 14:27:19 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:27:23 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:27:23 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:27:25 INFO  TS_UpcomingHondaBike:83 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:27:27 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 14:27:27 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 14:27:30 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 14:27:31 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 14:27:31 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 14:27:31 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 14:27:31 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 14:27:37 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:27:37 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:27:38 INFO  TS_UsedCar:83 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:27:40 INFO  TS_UsedCar:28 -
 			Attempting to hover over 'More' menu.
-2025-07-16 10:58:42 INFO  TS_UsedCar:30 -
+2025-07-19 14:27:41 INFO  TS_UsedCar:30 -
 			'More' menu hovered successfully.
-2025-07-16 10:58:42 INFO  TS_UsedCar:31 -
+2025-07-19 14:27:41 INFO  TS_UsedCar:31 -
 			Attempting to click 'Used Cars' link.
-2025-07-16 10:58:47 INFO  TS_UsedCar:33 -
+2025-07-19 14:28:27 INFO  TS_UsedCar:33 -
 			'Used Cars' link clicked successfully. Navigated to Used Car page.
-2025-07-16 10:58:47 INFO  TS_UsedCar:56 -
+2025-07-19 14:28:27 INFO  TS_UsedCar:44 -
 			Starting Test_PopularCarModels test...
-2025-07-16 10:58:47 INFO  TS_UsedCar:60 -
+2025-07-19 14:28:27 INFO  TS_UsedCar:48 -
 			Attempting to select city: Chennai
-2025-07-16 10:58:47 INFO  TS_UsedCar:62 -
+2025-07-19 14:28:27 INFO  TS_UsedCar:51 -
 			City 'Chennai' selected.
-2025-07-16 10:58:47 INFO  TS_UsedCar:64 -
+2025-07-19 14:28:27 INFO  TS_UsedCar:53 -
 			Attempting to enter city (confirm selection).
-2025-07-16 10:58:47 INFO  TS_UsedCar:66 -
+2025-07-19 14:28:57 ERROR TS_UsedCar:81 -
+			TEST FAILED - An unexpected error occurred: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="ui-id-5"]/li/a' (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="ui-id-5"]/li/a' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.UsedCarPage.enterCity(UsedCarPage.java:35)
+	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c7e5a153b3133a890cfef478e358f1c, findElement {using=xpath, value=//*[@id="ui-id-5"]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61088/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7e5a153b3133a890cfef478e358f1c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+2025-07-19 14:28:57 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 14:32:33 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 14:32:34 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:32:34 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:32:36 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:32:42 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:32:42 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 14:32:44 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 14:32:44 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719023244.png
+2025-07-19 14:32:44 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:32:45 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:32:45 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:32:48 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 14:32:48 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719023248.png
+2025-07-19 14:32:48 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:32:48 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:32:48 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 14:33:20 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 14:33:20 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 14:33:20 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719023320.png
+2025-07-19 14:33:20 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:33:26 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:33:26 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:33:27 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:33:29 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 14:33:29 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 14:33:31 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 14:33:31 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 14:33:31 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 14:33:31 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 14:33:31 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 14:33:41 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:33:41 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:33:43 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:33:45 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 14:33:46 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 14:33:46 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 14:33:47 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 14:33:47 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 14:33:47 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 14:33:47 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 14:33:47 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 14:34:18 ERROR TS_UsedCar:81 -
+			TEST FAILED - An unexpected error occurred: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="ui-id-5"]/li/a' (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="ui-id-5"]/li/a' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.UsedCarPage.enterCity(UsedCarPage.java:35)
+	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-5"]/li/a"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b25298c3e03b77855574cd6358d7fc3, findElement {value=//*[@id="ui-id-5"]/li/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62114/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b25298c3e03b77855574cd6358d7fc3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+2025-07-19 14:34:18 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 14:35:27 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:37:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 14:37:01 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:37:01 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:37:03 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:37:06 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:37:06 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 14:37:09 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 14:37:09 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719023709.png
+2025-07-19 14:37:09 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:37:10 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:37:10 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 14:37:13 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 14:37:13 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719023713.png
+2025-07-19 14:37:13 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:37:13 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 14:37:14 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 14:37:46 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 14:37:46 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 14:37:46 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719023746.png
+2025-07-19 14:37:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 14:37:52 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:37:52 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:37:54 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:38:00 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 14:38:01 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 14:38:03 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 14:38:04 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 14:38:04 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 14:38:04 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 14:38:04 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 14:38:08 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 14:38:09 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 14:38:11 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 14:38:18 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 14:38:18 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 14:38:18 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 14:39:33 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 14:39:33 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 14:39:33 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 14:39:38 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 14:39:38 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 14:39:39 INFO  TS_UsedCar:55 -
 			City entered/confirmed.
-2025-07-16 10:58:47 INFO  TS_UsedCar:68 -
+2025-07-19 14:39:39 INFO  TS_UsedCar:57 -
 			Retrieving list of popular car models.
-2025-07-16 10:58:47 INFO  TS_UsedCar:70 -
+2025-07-19 14:39:40 INFO  TS_UsedCar:61 -
 			Popular car models retrieved successfully. Count: 8
-2025-07-16 10:58:47 INFO  TS_UsedCar:74 -
+2025-07-19 14:39:40 INFO  TS_UsedCar:64 -
+			Popular car Models: 
+2025-07-19 14:39:40 INFO  TS_UsedCar:67 -
 			Assertion passed: Popular car models list is not empty.
-2025-07-16 10:58:47 INFO  TS_UsedCar:77 -
+2025-07-19 14:39:42 INFO  TS_UsedCar:69 -
 			Attempting to take screenshot of used car image container.
-2025-07-16 10:59:00 INFO  TS_UsedCar:81 -
-			Screenshot taken and saved at: C:\Users\2406731\git\repository\HackathonProject\screenshots\usedcarpage_.png
-2025-07-16 10:59:00 INFO  TS_UsedCar:86 -
+2025-07-19 14:39:53 INFO  TS_UsedCar:73 -
+			Screenshot taken and saved at: C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250719023942.png
+2025-07-19 14:39:53 INFO  TS_UsedCar:78 -
 			Test_PopularCarModels completed successfully.
-2025-07-16 10:59:00 INFO  TS_UsedCar:111 -
+2025-07-19 14:39:53 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 14:43:36 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 14:49:48 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 22:39:49 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 22:39:51 WARN  VersionDetector:359 -
+			Error reading commands.properties, using local instead
+2025-07-19 22:39:53 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:39:53 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:39:57 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:39:59 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:40:00 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:40:03 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:40:04 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:40:04 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:40:08 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:42:31 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 22:42:33 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:42:33 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:42:38 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:44:25 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 22:45:00 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:45:00 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:45:03 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:46:00 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 22:46:00 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 22:46:07 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:46:07 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:46:10 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:48:55 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 22:48:56 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:48:56 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:49:01 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:49:50 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 22:50:27 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:50:27 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:50:30 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:50:36 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 22:50:36 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 22:50:40 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:50:40 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:50:42 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:50:56 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 22:50:56 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 22:51:27 ERROR TS_UsedCar:81 -
+			TEST FAILED - An unexpected error occurred: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="gs_input5"]' (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="gs_input5"]' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.UsedCarPage.selectCity(UsedCarPage.java:30)
+	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="gs_input5"]"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87d3f30e140162f442f2ebd686720790, findElement {using=xpath, value=//*[@id="gs_input5"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54094/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87d3f30e140162f442f2ebd686720790
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+2025-07-19 22:52:20 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 22:52:23 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:52:23 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:52:28 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:52:42 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 22:52:43 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 22:52:50 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 22:52:51 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719105250.png
+2025-07-19 22:52:51 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 22:53:03 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:53:03 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:53:06 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:53:52 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 22:53:53 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 22:53:56 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 22:53:56 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 22:53:59 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 22:54:05 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 22:54:05 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 22:54:35 ERROR TS_UsedCar:81 -
+			TEST FAILED - An unexpected error occurred: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="gs_input5"]' (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="gs_input5"]' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.UsedCarPage.selectCity(UsedCarPage.java:30)
+	at testCases.TS_UsedCar.Test_PopularCarModels(TS_UsedCar.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="gs_input5"]"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf92c15bbf1a36565c79119d82b37817, findElement {using=xpath, value=//*[@id="gs_input5"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2407433\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54801/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf92c15bbf1a36565c79119d82b37817
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+2025-07-19 23:06:11 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 23:06:12 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:06:12 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:06:16 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:06:35 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:06:36 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 23:06:46 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 23:06:46 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719110646.png
+2025-07-19 23:06:46 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:06:51 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:06:51 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:06:54 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:07:25 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 23:07:54 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 23:07:55 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:07:56 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:07:59 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:08:12 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:08:13 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 23:08:21 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 23:08:22 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719110821.png
+2025-07-19 23:08:22 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:08:27 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:08:27 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:08:29 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:08:42 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 23:08:42 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 23:08:47 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 23:08:48 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 23:08:49 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 23:08:49 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 23:08:49 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 23:10:12 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 23:10:13 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:10:13 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:10:17 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:10:29 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 23:11:00 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:11:00 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:11:00 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:11:03 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:11:33 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 23:11:34 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 23:11:40 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 23:11:41 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 23:11:42 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 23:11:42 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 23:11:42 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 23:18:39 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\group.xml
+
+2025-07-19 23:18:40 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:18:40 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:18:44 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:19:05 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:19:06 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 23:19:12 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 23:19:12 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719111912.png
+2025-07-19 23:19:12 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:19:17 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:19:17 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:19:19 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:19:30 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 23:19:30 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 23:19:35 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 23:19:36 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 23:19:36 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 23:19:36 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 23:19:36 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 23:19:46 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:19:46 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:19:48 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:19:56 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 23:19:56 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 23:19:56 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 23:20:17 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 23:20:17 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 23:20:17 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 23:20:18 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 23:20:18 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 23:20:19 INFO  TS_UsedCar:55 -
+			City entered/confirmed.
+2025-07-19 23:20:19 INFO  TS_UsedCar:57 -
+			Retrieving list of popular car models.
+2025-07-19 23:20:20 INFO  TS_UsedCar:61 -
+			Popular car models retrieved successfully. Count: 8
+2025-07-19 23:20:20 INFO  TS_UsedCar:64 -
+			Popular car Models: 
+2025-07-19 23:20:20 INFO  TS_UsedCar:67 -
+			Assertion passed: Popular car models list is not empty.
+2025-07-19 23:20:22 INFO  TS_UsedCar:69 -
+			Attempting to take screenshot of used car image container.
+2025-07-19 23:20:32 INFO  TS_UsedCar:73 -
+			Screenshot taken and saved at: C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250719112022.png
+2025-07-19 23:20:32 INFO  TS_UsedCar:78 -
+			Test_PopularCarModels completed successfully.
+2025-07-19 23:20:32 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 23:22:05 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\2407433\eclipse-workspace\ZigWhells\master.xml
+
+2025-07-19 23:22:06 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:22:06 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:22:09 INFO  TS_Login:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:22:57 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:22:58 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 23:23:29 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:23:29 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:23:29 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:23:31 INFO  TS_UpcomingHondaBike:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:23:45 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 23:23:45 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 23:23:48 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 23:23:49 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 23:23:49 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 23:23:49 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 23:23:49 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 23:23:54 INFO  WebDriverManager:1220 -
+			Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-19 23:23:54 INFO  WebDriverManager:1282 -
+			Exporting webdriver.chrome.driver as C:\Users\2407433\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-19 23:23:56 INFO  TS_UsedCar:80 -
+			Chrome browser initialized with notifications allowed.
+2025-07-19 23:24:02 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 23:24:02 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 23:24:02 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 23:24:50 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 23:24:50 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 23:24:50 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 23:24:51 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 23:24:51 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 23:24:52 INFO  TS_UsedCar:55 -
+			City entered/confirmed.
+2025-07-19 23:24:52 INFO  TS_UsedCar:57 -
+			Retrieving list of popular car models.
+2025-07-19 23:24:53 INFO  TS_UsedCar:61 -
+			Popular car models retrieved successfully. Count: 8
+2025-07-19 23:24:53 INFO  TS_UsedCar:64 -
+			Popular car Models: 
+2025-07-19 23:24:53 INFO  TS_UsedCar:67 -
+			Assertion passed: Popular car models list is not empty.
+2025-07-19 23:24:55 INFO  TS_UsedCar:69 -
+			Attempting to take screenshot of used car image container.
+2025-07-19 23:25:05 INFO  TS_UsedCar:73 -
+			Screenshot taken and saved at: C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250719112455.png
+2025-07-19 23:25:05 INFO  TS_UsedCar:78 -
+			Test_PopularCarModels completed successfully.
+2025-07-19 23:25:05 INFO  TS_UsedCar:88 -
+			Execution for current test method finished.
+2025-07-19 23:25:20 INFO  TS_Login:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 23:26:08 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:26:09 INFO  TS_Login:59 -
+			started the login test with blank email
+2025-07-19 23:26:13 INFO  TS_Login:65 -
+			taking the screenshot of invalid google account
+2025-07-19 23:26:13 INFO  TS_Login:67 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithBlankEmail_20250719112613.png
+2025-07-19 23:26:13 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:26:13 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:26:14 INFO  TS_Login:24 -
+			started the login test with invalid google account
+2025-07-19 23:26:17 INFO  TS_Login:30 -
+			taking the screenshot of invalid google account
+2025-07-19 23:26:17 INFO  TS_Login:32 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithInvalidEmail_20250719112617.png
+2025-07-19 23:26:17 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:26:17 INFO  TS_Login:17 -
+			opening the login popup window
+2025-07-19 23:26:18 INFO  TS_Login:37 -
+			started the login test with valid google account and invalid password
+2025-07-19 23:26:52 INFO  TS_Login:47 -
+			password textfeild is blocked
+2025-07-19 23:26:52 INFO  TS_Login:51 -
+			taking the screenshot of valid google account
+2025-07-19 23:26:52 INFO  TS_Login:53 -
+			C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\LoginWithvalidEmail_20250719112652.png
+2025-07-19 23:26:52 INFO  TS_Login:74 -
+			switching back to main window
+2025-07-19 23:27:01 INFO  TS_UpcomingHondaBike:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 23:27:06 INFO  TS_UpcomingHondaBike:23 -
+			Clicking on Upcoming Bikes
+2025-07-19 23:27:07 INFO  TS_UpcomingHondaBike:26 -
+			Clicking on all upcoming bikes
+2025-07-19 23:27:10 INFO  TS_UpcomingHondaBike:28 -
+			Clicking on Honda in upcoming bikes page
+2025-07-19 23:27:11 INFO  TS_UpcomingHondaBike:35 -
+			Starting to test Honda upcoming bikes under 4lac
+2025-07-19 23:27:12 INFO  TS_UpcomingHondaBike:40 -
+			Upcomming Honda Bikes under 4lac are
+2025-07-19 23:27:12 INFO  TS_UpcomingHondaBike:42 -
+			[ Honda Activa 7G , Rs. 79,000 , Expected Launch : Oct 2025 ]
+2025-07-19 23:27:12 INFO  TS_UpcomingHondaBike:50 -
+			Navigating back to homepage
+2025-07-19 23:27:27 INFO  TS_UsedCar:92 -
+			Edge browser initialized with notifications allowed.
+2025-07-19 23:27:34 INFO  TS_UsedCar:28 -
+			Attempting to hover over 'More' menu.
+2025-07-19 23:27:35 INFO  TS_UsedCar:30 -
+			'More' menu hovered successfully.
+2025-07-19 23:27:35 INFO  TS_UsedCar:31 -
+			Attempting to click 'Used Cars' link.
+2025-07-19 23:27:40 INFO  TS_UsedCar:33 -
+			'Used Cars' link clicked successfully. Navigated to Used Car page.
+2025-07-19 23:27:40 INFO  TS_UsedCar:44 -
+			Starting Test_PopularCarModels test...
+2025-07-19 23:27:40 INFO  TS_UsedCar:48 -
+			Attempting to select city: Chennai
+2025-07-19 23:27:40 INFO  TS_UsedCar:51 -
+			City 'Chennai' selected.
+2025-07-19 23:27:40 INFO  TS_UsedCar:53 -
+			Attempting to enter city (confirm selection).
+2025-07-19 23:27:42 INFO  TS_UsedCar:55 -
+			City entered/confirmed.
+2025-07-19 23:27:42 INFO  TS_UsedCar:57 -
+			Retrieving list of popular car models.
+2025-07-19 23:27:43 INFO  TS_UsedCar:61 -
+			Popular car models retrieved successfully. Count: 8
+2025-07-19 23:27:43 INFO  TS_UsedCar:64 -
+			Popular car Models: 
+2025-07-19 23:27:43 INFO  TS_UsedCar:67 -
+			Assertion passed: Popular car models list is not empty.
+2025-07-19 23:27:45 INFO  TS_UsedCar:69 -
+			Attempting to take screenshot of used car image container.
+2025-07-19 23:27:55 INFO  TS_UsedCar:73 -
+			Screenshot taken and saved at: C:\Users\2407433\eclipse-workspace\ZigWhells\screenshots\usedcarpage_20250719112745.png
+2025-07-19 23:27:55 INFO  TS_UsedCar:78 -
+			Test_PopularCarModels completed successfully.
+2025-07-19 23:27:55 INFO  TS_UsedCar:88 -
 			Execution for current test method finished.

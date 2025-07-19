@@ -1,8 +1,5 @@
 package testCases;
 
-
-import java.util.Set;
-
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pageObjects.GoogleAuthenticationPage;
@@ -13,7 +10,8 @@ public class TS_Login extends BaseClass {
 
 	GoogleAuthenticationPage auth;
 	HomePage home;
-	@BeforeMethod
+
+	@BeforeMethod(groups= {"smoke","master","sanity"})
 	public void openLoginPopUp() throws InterruptedException {
 
 		logger.info("opening the login popup window");
@@ -21,29 +19,29 @@ public class TS_Login extends BaseClass {
 		home.ClickLoginAndMore();
 	}
 
-	@Test
+	@Test(groups={"smoke","sanity"})
 	public void Test_Login_With_Invalid_Google_Account() throws InterruptedException {
 		logger.info("started the login test with invalid google account");
 		auth = new GoogleAuthenticationPage(driver);
 		auth.clickOnGoogleLogin();
 		BaseClass.SwitchWindow();
-		auth.sendEmailorPhone("xyz@gmail.com");
+		auth.sendEmailorPhone(data.get(0));
 		auth.clickOnNext();
 		logger.info("taking the screenshot of invalid google account");
 		String InvalidScreenshotpath = BaseClass.takeScreenShot("LoginWithInvalidEmail");
 		logger.info(InvalidScreenshotpath);
 	}
 
-	@Test
-	public void Test_Login_With_valid_Google_Account() throws InterruptedException {
+	@Test(groups={"master"})
+	public void Test_Login_With_valid_Google_Account() throws Exception {
 		logger.info("started the login test with valid google account and invalid password");
 		auth = new GoogleAuthenticationPage(driver);
 		auth.clickOnGoogleLogin();
 		BaseClass.SwitchWindow();
-		auth.sendEmailorPhone("merajnish1999@gmail.com");
+		auth.sendEmailorPhone(data.get(1));
 		auth.clickOnNext();
 		try {
-			auth.sendPassword("12345abc");
+			auth.sendPassword(data.get(2));
 			auth.clickOnNext2();
 		} catch (Exception e) {
 			logger.info("password textfeild is blocked");
@@ -54,8 +52,24 @@ public class TS_Login extends BaseClass {
 		String validScreenshotpath = BaseClass.takeScreenShot("LoginWithvalidEmail");
 		logger.info(validScreenshotpath);
 	}
+	
+	@Test(groups={"sanity","master"})
+	public void Test_Login_With_Empty_Email() throws InterruptedException {
+		
+		logger.info("started the login test with blank email");
+		auth = new GoogleAuthenticationPage(driver);
+		auth.clickOnGoogleLogin();
+		BaseClass.SwitchWindow();
+		auth.sendEmailorPhone(" ");
+		auth.clickOnNext();
+		logger.info("taking the screenshot of invalid google account");
+		String BlankScreenshotpath = BaseClass.takeScreenShot("LoginWithBlankEmail");
+		logger.info(BlankScreenshotpath);
+	}
 
-	@AfterMethod
+	
+
+	@AfterMethod(groups= {"smoke","master","sanity"})
 	public void closeLoginPopUp() {
 		logger.info("switching back to main window");
 		driver.switchTo().window(mainWindowHandle);

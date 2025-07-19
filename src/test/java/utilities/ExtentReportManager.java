@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -39,7 +40,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.attachReporter(sparkReporter);
 		extent.setSystemInfo("Application", "ZigWheel");
 		extent.setSystemInfo("Module", "Admin");
-		extent.setSystemInfo("Sub Module", "Customers");
+		extent.setSystemInfo("Sub Module", "user");
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
 
@@ -48,13 +49,18 @@ public class ExtentReportManager implements ITestListener {
 
 		String browser = testContext.getCurrentXmlTest().getParameter("browser");
 		extent.setSystemInfo("Browser", browser);
+		
+		List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
+		if(!includedGroups.isEmpty()) {
+		extent.setSystemInfo("Groups", includedGroups.toString());
+		}
 
 	}
 
 	public void onTestSuccess(ITestResult result) {
 
 		test = extent.createTest(result.getTestClass().getName());
-//		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
+		test.assignCategory(result.getMethod().getGroups()); 
 		test.log(Status.PASS, result.getName() + " got successfully executed");
 
 	}
@@ -62,7 +68,7 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 
-//		test.assignCategory(result.getMethod().getGroups());
+		test.assignCategory(result.getMethod().getGroups());
 
 		test.log(Status.FAIL, result.getName() + " got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
@@ -80,7 +86,7 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 
-//		test.assignCategory(result.getMethod().getGroups());
+		test.assignCategory(result.getMethod().getGroups());
 
 		test.log(Status.SKIP, result.getName() + " got skipped");
 		test.log(Status.INFO, result.getThrowable().getMessage());

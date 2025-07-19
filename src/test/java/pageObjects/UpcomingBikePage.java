@@ -9,7 +9,9 @@ public class UpcomingBikePage extends BasePage {
 	public UpcomingBikePage(WebDriver driver) {
 		super(driver);
 	}
+	
 	JavascriptExecutor js = (JavascriptExecutor) driver;
+	
 	@FindBy(linkText="Honda")
 	WebElement honda;
 	public void clickOnHonda() {
